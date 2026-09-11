@@ -1,0 +1,16 @@
+symbol,Figure_group,baseMean,log2FoldChange,pvalue,BH_FDR_AUDIT,Significance
+Bmp6,Craniofacial / skeletal,473.7480897,-0.726000832,1.99e-08,0.00010810675,BH-FDR < 0.05
+Lama5,Craniofacial / skeletal,1035.438995,-0.729066461,5.42e-06,0.009059738461538461,BH-FDR < 0.05
+Isg15,Craniofacial / skeletal,124.1221253,1.188240342,0.000380028,0.116309978028169,Nominal p < 0.05 only
+Tbx1,Craniofacial / skeletal,150.8097963,-1.283348945,0.000414545,0.12173057905405404,Nominal p < 0.05 only
+Aqp3,Craniofacial / skeletal,302.4306651,-6.02623136,0.000424589,0.12301758626666666,Nominal p < 0.05 only
+Pitx1,Craniofacial / skeletal,81.56621045,-4.331747398,0.000742174,0.16043748990196077,Nominal p < 0.05 only
+Col10a1,Craniofacial / skeletal,49.85880014,-4.100472501,0.000841126,0.16923766648148147,Nominal p < 0.05 only
+Wnt6,Craniofacial / skeletal,58.97905927,-1.629151173,0.001906279,0.2421692269767442,Nominal p < 0.05 only
+Sox10,Craniofacial / skeletal,182.0169892,-1.875262199,0.005649266,0.37771861593846157,Nominal p < 0.05 only
+Lrp2,Craniofacial / skeletal,70.29019835,-5.533903928,0.00609298,0.3828468425648415,Nominal p < 0.05 only
+Tbx20,Craniofacial / skeletal,3.713660756,3.904381697,0.007604429,0.4169589958024691,Nominal p < 0.05 only
+Sox11,Craniofacial / skeletal,388.8769423,-2.941478149,0.011133016,0.49594601643442626,Nominal p < 0.05 only
+Fstl5,Craniofacial / skeletal,800.3359268,-5.733706583,0.014431046,0.5596342276991151,Nominal p < 0.05 only
+Sox5,Craniofacial / skeletal,125.9440303,-0.458085572,0.018229447,0.6051244996335878,Nominal p < 0.05 only
+Ahsg,Craniofacial / skeletal,6.48407807,-5.318757832,0.034413454,0.7440532795328032,Nominal p < 0.05 only

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+
+# Potentially confidential source data
+data/raw/*
+!data/raw/README.md
+
+# Large count/expression matrices
+*.h5
+*.h5ad
+*.rds
+
+# Temporary outputs
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+# Local archived files
+archive_local/
+
+# Test cache
+.pytest_cache/

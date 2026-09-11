@@ -1,0 +1,7 @@
+Domain,GO_terms_selected,GO_genes_total,Genes_detected_in_RNAseq,BH_FDR_lt_0.05,Nominal_p_lt_0.05_only,p_0.05_to_0.10,Median_log2FC
+craniofacial_cranial,1,14,14,0,2,0,0.064424046
+neural_crest,3,53,49,0,8,1,0.002340583
+palate_tooth_jaw,3,50,41,0,4,3,-0.110810351
+skeletal_bone,22,311,286,2,22,22,0.069234663
+cartilage_chondrocyte,10,84,80,0,5,5,0.0486874155
+bmp_developmental,6,133,123,1,9,7,-0.069135349

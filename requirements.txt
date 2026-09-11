@@ -1,0 +1,15 @@
+gseapy
+jupyterlab
+kaleido
+matplotlib
+numpy
+openpyxl
+pandas
+plotly
+pytest
+python-pptx
+pyyaml
+scikit-learn
+scipy
+seaborn
+statsmodels

@@ -1,0 +1,1411 @@
+Gene,Gene_upper,Domain,GO_term,Library
+ACVR2A,ACVR2A,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+ACVR2B,ACVR2B,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+ACVRL1,ACVRL1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+AMHR2,AMHR2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP10,BMP10,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP15,BMP15,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP2,BMP2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP3,BMP3,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP4,BMP4,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP6,BMP6,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMP7,BMP7,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMPR1A,BMPR1A,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMPR1B,BMPR1B,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+BMPR2,BMPR2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+CHRD,CHRD,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+DDX5,DDX5,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+DLX5,DLX5,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+ENG,ENG,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+FAM83G,FAM83G,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GARS1,GARS1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF1,GDF1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF10,GDF10,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF2,GDF2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF3,GDF3,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF5,GDF5,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF6,GDF6,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF7,GDF7,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+GDF9,GDF9,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+HFE,HFE,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+HIVEP1,HIVEP1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+HJV,HJV,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+INHBA,INHBA,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+INHBB,INHBB,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+INHBC,INHBC,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+INHBE,INHBE,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+LEFTY1,LEFTY1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+LEFTY2,LEFTY2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+MAPK3,MAPK3,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+MEGF8,MEGF8,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+NODAL,NODAL,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+NOG,NOG,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+PDCD4,PDCD4,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+PPARG,PPARG,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+RGMA,RGMA,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+RGMB,RGMB,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+RUNX2,RUNX2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SCX,SCX,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SLC39A5,SLC39A5,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SMAD4,SMAD4,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SMAD5,SMAD5,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SMAD6,SMAD6,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SMAD9,SMAD9,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+SMURF1,SMURF1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+TGFB1,TGFB1,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+TGFB2,TGFB2,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+TGFB3,TGFB3,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+TGFBR3,TGFBR3,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+TMEM100,TMEM100,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+USP15,USP15,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+USP9X,USP9X,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+USP9Y,USP9Y,bmp_developmental,BMP Signaling Pathway (GO:0030509),GO_Biological_Process_2023
+ACVR2A,ACVR2A,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+ACVR2B,ACVR2B,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+ACVRL1,ACVRL1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+ADAMTS12,ADAMTS12,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+ADAMTS7,ADAMTS7,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+AMHR2,AMHR2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP10,BMP10,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP15,BMP15,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP2,BMP2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP3,BMP3,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP4,BMP4,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP6,BMP6,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMP7,BMP7,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMPR1A,BMPR1A,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMPR1B,BMPR1B,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMPR2,BMPR2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+DDX5,DDX5,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+DLX1,DLX1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+DLX5,DLX5,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+ENG,ENG,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+FAM83G,FAM83G,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GARS1,GARS1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF1,GDF1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF10,GDF10,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF2,GDF2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF3,GDF3,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF5,GDF5,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF6,GDF6,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF7,GDF7,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+GDF9,GDF9,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+HFE,HFE,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+HIVEP1,HIVEP1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+HJV,HJV,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+INHBA,INHBA,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+INHBB,INHBB,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+INHBC,INHBC,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+INHBE,INHBE,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+LEFTY1,LEFTY1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+LEFTY2,LEFTY2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+MAPK3,MAPK3,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+MEGF8,MEGF8,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+NODAL,NODAL,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+PDCD4,PDCD4,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+PHOX2B,PHOX2B,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+PPARG,PPARG,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+RGMA,RGMA,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+RGMB,RGMB,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+RUNX2,RUNX2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SCX,SCX,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SFRP1,SFRP1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SLC39A5,SLC39A5,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SMAD4,SMAD4,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SMAD5,SMAD5,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SMAD6,SMAD6,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SMAD9,SMAD9,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SMURF1,SMURF1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+SOX9,SOX9,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+TGFB1,TGFB1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+TGFB2,TGFB2,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+TGFB3,TGFB3,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+TGFBR3,TGFBR3,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+TMEM100,TMEM100,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+USP15,USP15,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+USP9X,USP9X,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+USP9Y,USP9Y,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+VSTM2A,VSTM2A,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),GO_Biological_Process_2023
+BMPER,BMPER,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CAPN5,CAPN5,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CER1,CER1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CHRD,CHRD,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CHRDL1,CHRDL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CHRDL2,CHRDL2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+CRIM1,CRIM1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+DAND5,DAND5,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+DLX1,DLX1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+FBN1,FBN1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+FSTL3,FSTL3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+GDF3,GDF3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+GPR155,GPR155,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+GREM1,GREM1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+GREM2,GREM2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+HIPK2,HIPK2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+LEMD3,LEMD3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+LRP2,LRP2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+NBL1,NBL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+NOG,NOG,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+NOTCH1,NOTCH1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+PPARG,PPARG,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+RBPMS2,RBPMS2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SKI,SKI,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SKIL,SKIL,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SKOR1,SKOR1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SKOR2,SKOR2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SMAD6,SMAD6,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SMAD7,SMAD7,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SMURF1,SMURF1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SMURF2,SMURF2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SORL1,SORL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SOST,SOST,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SOSTDC1,SOSTDC1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+SPART,SPART,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+TMEM53,TMEM53,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+TNFAIP6,TNFAIP6,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+TRIM33,TRIM33,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+UBE2D1,UBE2D1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+UBE2D3,UBE2D3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+VWC2,VWC2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+VWC2L,VWC2L,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+WNT1,WNT1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),GO_Biological_Process_2023
+BMP4,BMP4,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+BMPR2,BMPR2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+CCNA2,CCNA2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+CDH5,CDH5,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+CRB2,CRB2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+ELAPOR2,ELAPOR2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+ENG,ENG,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+FBXL15,FBXL15,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+FOXD1,FOXD1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+GDF5,GDF5,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+HES5,HES5,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+KCP,KCP,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+NOTCH1,NOTCH1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+NUMA1,NUMA1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+RBPJ,RBPJ,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+RNF165,RNF165,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+SCUBE3,SCUBE3,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+SMAD2,SMAD2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+SMAD4,SMAD4,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+SOX11,SOX11,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+SULF1,SULF1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+TBX20,TBX20,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+UBE2O,UBE2O,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+ZNF423,ZNF423,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),GO_Biological_Process_2023
+BAMBI,BAMBI,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+BMP4,BMP4,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+BMPER,BMPER,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+BMPR2,BMPR2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CAPN5,CAPN5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CCNA2,CCNA2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CDH5,CDH5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CER1,CER1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CHRD,CHRD,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CHRDL1,CHRDL1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CHRDL2,CHRDL2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CRB2,CRB2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+CRIM1,CRIM1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+DAND5,DAND5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+DLX1,DLX1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+ELAPOR2,ELAPOR2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+ENG,ENG,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FBXL15,FBXL15,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FOXD1,FOXD1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FST,FST,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FSTL1,FSTL1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FSTL3,FSTL3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FSTL4,FSTL4,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+FSTL5,FSTL5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+GDF3,GDF3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+GDF5,GDF5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+GPR155,GPR155,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+GREM1,GREM1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+HES5,HES5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+HIPK2,HIPK2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+ITGA3,ITGA3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+KCP,KCP,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+LEMD3,LEMD3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+LRP2,LRP2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+NBL1,NBL1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+NOG,NOG,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+NOTCH1,NOTCH1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+NUMA1,NUMA1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+PCSK6,PCSK6,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+PPARG,PPARG,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+RBPJ,RBPJ,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+RBPMS2,RBPMS2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+RNF165,RNF165,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SCUBE3,SCUBE3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SFRP4,SFRP4,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SKI,SKI,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SKIL,SKIL,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SKOR1,SKOR1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SKOR2,SKOR2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMAD2,SMAD2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMAD4,SMAD4,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMAD6,SMAD6,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMAD7,SMAD7,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMURF1,SMURF1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SMURF2,SMURF2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SORL1,SORL1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SOST,SOST,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SOSTDC1,SOSTDC1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SOX11,SOX11,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SPART,SPART,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+SULF1,SULF1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TBX20,TBX20,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TFAP2B,TFAP2B,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TMEM53,TMEM53,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TNFAIP6,TNFAIP6,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TRIM33,TRIM33,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+TWSG1,TWSG1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+UBE2D1,UBE2D1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+UBE2D3,UBE2D3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+UBE2O,UBE2O,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+VWC2,VWC2,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+VWC2L,VWC2L,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+WNT1,WNT1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+XIAP,XIAP,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+ZNF423,ZNF423,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),GO_Biological_Process_2023
+ACVR2A,ACVR2A,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+ACVRL1,ACVRL1,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+ADAMTS12,ADAMTS12,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+ADAMTS7,ADAMTS7,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMP2,BMP2,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMP4,BMP4,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMP6,BMP6,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMP7,BMP7,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMPR1A,BMPR1A,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMPR1B,BMPR1B,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+BMPR2,BMPR2,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+DLX1,DLX1,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+DLX5,DLX5,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+GDF2,GDF2,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+HJV,HJV,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+PHOX2B,PHOX2B,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+RUNX2,RUNX2,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+SFRP1,SFRP1,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+SMAD4,SMAD4,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+SMAD9,SMAD9,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+SOX9,SOX9,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+TMEM100,TMEM100,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+VSTM2A,VSTM2A,bmp_developmental,Response To BMP (GO:0071772),GO_Biological_Process_2023
+ATP7A,ATP7A,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+BMP2,BMP2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+BMP4,BMP4,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+CCN3,CCN3,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+CD44,CD44,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+CHI3L1,CHI3L1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+COL11A2,COL11A2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+COL2A1,COL2A1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+CREB3L2,CREB3L2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+DDRGK1,DDRGK1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+EPYC,EPYC,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+FGF2,FGF2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+FGF4,FGF4,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+FGFR3,FGFR3,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+GDF2,GDF2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+GHRL,GHRL,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+GPLD1,GPLD1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HES5,HES5,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HMGA2,HMGA2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HOXA11,HOXA11,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HOXD3,HOXD3,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HYAL1,HYAL1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+HYAL2,HYAL2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+IL17F,IL17F,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+ITGB8,ITGB8,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+MEF2C,MEF2C,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+NFIB,NFIB,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+OGN,OGN,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+OPTC,OPTC,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+OSR2,OSR2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+OXSR1,OXSR1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+PKD1,PKD1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SCX,SCX,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SLC26A2,SLC26A2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SLC39A14,SLC39A14,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SNORC,SNORC,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SNX19,SNX19,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SPAM1,SPAM1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SULF1,SULF1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+SULF2,SULF2,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+TGFB1,TGFB1,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+TRIP11,TRIP11,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+TRPV4,TRPV4,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+WNT10B,WNT10B,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+WNT2B,WNT2B,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+WNT5B,WNT5B,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+WNT7A,WNT7A,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+ZBTB16,ZBTB16,cartilage_chondrocyte,Cartilage Development (GO:0051216),GO_Biological_Process_2023
+BMPR2,BMPR2,cartilage_chondrocyte,Chondrocyte Development (GO:0002063),GO_Biological_Process_2023
+EIF2AK3,EIF2AK3,cartilage_chondrocyte,Chondrocyte Development (GO:0002063),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Chondrocyte Development (GO:0002063),GO_Biological_Process_2023
+SULF1,SULF1,cartilage_chondrocyte,Chondrocyte Development (GO:0002063),GO_Biological_Process_2023
+SULF2,SULF2,cartilage_chondrocyte,Chondrocyte Development (GO:0002063),GO_Biological_Process_2023
+BMP2,BMP2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+BMP4,BMP4,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+BMPR2,BMPR2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+CCN3,CCN3,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+CREB3L2,CREB3L2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+EIF2AK3,EIF2AK3,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+FGFR3,FGFR3,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+GPLD1,GPLD1,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+HES5,HES5,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+HMGA2,HMGA2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+MEF2C,MEF2C,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+NFIB,NFIB,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+OSR2,OSR2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+OXSR1,OXSR1,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SCX,SCX,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SLC26A2,SLC26A2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SLC39A14,SLC39A14,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SNX19,SNX19,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SULF1,SULF1,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+SULF2,SULF2,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+TGFB1,TGFB1,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+WNT10B,WNT10B,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+WNT2B,WNT2B,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+WNT5B,WNT5B,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+WNT7A,WNT7A,cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+BMPR2,BMPR2,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+COL13A1,COL13A1,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+DLX5,DLX5,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+FGFR3,FGFR3,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+FOXC1,FOXC1,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+HOXA11,HOXA11,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+INPPL1,INPPL1,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+MEF2C,MEF2C,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+SCX,SCX,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+TMEM119,TMEM119,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+TRPV4,TRPV4,cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+ADAMTS7,ADAMTS7,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+CHADL,CHADL,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+EFEMP1,EFEMP1,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+GREM1,GREM1,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+NKX3-2,NKX3-2,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+PTHLH,PTHLH,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+PTPN11,PTPN11,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+SNAI2,SNAI2,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+TGFBR1,TGFBR1,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+WNT11,WNT11,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+WNT9A,WNT9A,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),GO_Biological_Process_2023
+ADAMTS7,ADAMTS7,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+CHADL,CHADL,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+EFEMP1,EFEMP1,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+GREM1,GREM1,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+NKX3-2,NKX3-2,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+PTHLH,PTHLH,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+PTPN11,PTPN11,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+RFLNA,RFLNA,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+RFLNB,RFLNB,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+SNAI2,SNAI2,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+TGFBR1,TGFBR1,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+WNT9A,WNT9A,cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),GO_Biological_Process_2023
+BMP1,BMP1,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+BMP2,BMP2,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+BMP4,BMP4,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+BMPR2,BMPR2,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+GDF6,GDF6,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+HOXA11,HOXA11,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+LOXL2,LOXL2,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+MDK,MDK,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+PKDCC,PKDCC,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+SCX,SCX,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+TAPT1,TAPT1,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+ZBTB16,ZBTB16,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+GDF6,GDF6,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+HOXA11,HOXA11,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+LOXL2,LOXL2,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+PKDCC,PKDCC,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+ZBTB16,ZBTB16,cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),GO_Biological_Process_2023
+BMP2,BMP2,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+BMP4,BMP4,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+BMPR2,BMPR2,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+KAT2A,KAT2A,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+MBOAT2,MBOAT2,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+MDK,MDK,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+PTHLH,PTHLH,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+SCIN,SCIN,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+SCX,SCX,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+TAPT1,TAPT1,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+TRPS1,TRPS1,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+WNT11,WNT11,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+ZBTB16,ZBTB16,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),GO_Biological_Process_2023
+ADAMTS12,ADAMTS12,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+ADAMTS7,ADAMTS7,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+BMPR1B,BMPR1B,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+CHADL,CHADL,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+EFEMP1,EFEMP1,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+GDF5,GDF5,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+GDF6,GDF6,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+GREM1,GREM1,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+HOXA11,HOXA11,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+LOXL2,LOXL2,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+MBOAT2,MBOAT2,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+MDK,MDK,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+NKX3-2,NKX3-2,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+PKDCC,PKDCC,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+PTHLH,PTHLH,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+PTPN11,PTPN11,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+SCIN,SCIN,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+SNAI2,SNAI2,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+SOX5,SOX5,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+SOX6,SOX6,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+SOX9,SOX9,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+TGFBR1,TGFBR1,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+TRPS1,TRPS1,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+WNT9A,WNT9A,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+ZBTB16,ZBTB16,cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),GO_Biological_Process_2023
+FGFR2,FGFR2,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+HOXA1,HOXA1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+IRX5,IRX5,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+LHX1,LHX1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+MTHFD1,MTHFD1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+MTHFD1L,MTHFD1L,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+NIPBL,NIPBL,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+PDGFRA,PDGFRA,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+SIX1,SIX1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+TBX1,TBX1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+TFAP2A,TFAP2A,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+TGFBR1,TGFBR1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+TGFBR2,TGFBR2,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+TWIST1,TWIST1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),GO_Biological_Process_2023
+CDH2,CDH2,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+CORO1C,CORO1C,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+CYP26C1,CYP26C1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+ERBB4,ERBB4,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+FAM172A,FAM172A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+GDNF,GDNF,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+HTR2B,HTR2B,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+KBTBD8,KBTBD8,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+KLHL12,KLHL12,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+NELL1,NELL1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+NOLC1,NOLC1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+NRG1,NRG1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+NRTN,NRTN,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+PDCD6,PDCD6,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+PEF1,PEF1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+PHACTR4,PHACTR4,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+RADIL,RADIL,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3A,SEMA3A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3B,SEMA3B,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3C,SEMA3C,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3D,SEMA3D,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3E,SEMA3E,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3F,SEMA3F,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA3G,SEMA3G,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4A,SEMA4A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4B,SEMA4B,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4C,SEMA4C,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4D,SEMA4D,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4F,SEMA4F,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA4G,SEMA4G,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA5A,SEMA5A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA5B,SEMA5B,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA6A,SEMA6A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA6B,SEMA6B,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA6C,SEMA6C,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA6D,SEMA6D,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SEMA7A,SEMA7A,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SHH,SHH,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SNAI2,SNAI2,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SOX10,SOX10,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+SOX8,SOX8,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+TAPT1,TAPT1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+TBX1,TBX1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+TCOF1,TCOF1,neural_crest,Neural Crest Cell Development (GO:0014032),GO_Biological_Process_2023
+CYP26C1,CYP26C1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+FAM172A,FAM172A,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+FBXL17,FBXL17,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+HTR2B,HTR2B,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+KBTBD8,KBTBD8,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+KLHL12,KLHL12,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+LRP6,LRP6,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+MEF2C,MEF2C,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+NOLC1,NOLC1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+NRG1,NRG1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+OTUD5,OTUD5,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+PDCD6,PDCD6,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+PEF1,PEF1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+SNAI2,SNAI2,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+SOX8,SOX8,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+TAPT1,TAPT1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+TCOF1,TCOF1,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+WNT8A,WNT8A,neural_crest,Neural Crest Cell Differentiation (GO:0014033),GO_Biological_Process_2023
+CORO1C,CORO1C,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+ERBB4,ERBB4,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+FN1,FN1,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+FOLR1,FOLR1,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+GDNF,GDNF,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+HTR2B,HTR2B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+NELL1,NELL1,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+NRTN,NRTN,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+PHACTR4,PHACTR4,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+PHOX2B,PHOX2B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+PITX2,PITX2,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+RADIL,RADIL,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3A,SEMA3A,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3B,SEMA3B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3C,SEMA3C,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3D,SEMA3D,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3E,SEMA3E,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3F,SEMA3F,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA3G,SEMA3G,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4A,SEMA4A,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4B,SEMA4B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4C,SEMA4C,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4D,SEMA4D,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4F,SEMA4F,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA4G,SEMA4G,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA5A,SEMA5A,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA5B,SEMA5B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA6A,SEMA6A,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA6B,SEMA6B,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA6C,SEMA6C,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA6D,SEMA6D,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SEMA7A,SEMA7A,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SHH,SHH,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SOX10,SOX10,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+SOX8,SOX8,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+TBX1,TBX1,neural_crest,Neural Crest Cell Migration (GO:0001755),GO_Biological_Process_2023
+AMELX,AMELX,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AMTN,AMTN,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+ANKRD11,ANKRD11,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AQP1,AQP1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AQP3,AQP3,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AQP5,AQP5,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AQP6,AQP6,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AXIN2,AXIN2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+BCOR,BCOR,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+BMP2,BMP2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+BMP4,BMP4,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+CEMP1,CEMP1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+COL1A1,COL1A1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+COL1A2,COL1A2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+EDA,EDA,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+FGF8,FGF8,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+FGFR2,FGFR2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+FOXC1,FOXC1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+GLI2,GLI2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+HDAC1,HDAC1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+HDAC2,HDAC2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+INHBA,INHBA,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+LAMB1,LAMB1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+MSX1,MSX1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+ODAM,ODAM,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+OSR2,OSR2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+OXSR1,OXSR1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+PITX2,PITX2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+ROGDI,ROGDI,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+SCN5A,SCN5A,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+SSUH2,SSUH2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+TBX1,TBX1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+TGFB2,TGFB2,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+TGFB3,TGFB3,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+TSPEAR,TSPEAR,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+TUFT1,TUFT1,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+WNT10A,WNT10A,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+WNT6,WNT6,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+ZNF22,ZNF22,palate_tooth_jaw,Odontogenesis (GO:0042476),GO_Biological_Process_2023
+AMTN,AMTN,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+ANKRD11,ANKRD11,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+BMP2,BMP2,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+EDA,EDA,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+FOXC1,FOXC1,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+GLI2,GLI2,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+HDAC1,HDAC1,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+HDAC2,HDAC2,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+MSX1,MSX1,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+ODAM,ODAM,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+ROGDI,ROGDI,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+SCN5A,SCN5A,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+TBX1,TBX1,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+WNT6,WNT6,palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),GO_Biological_Process_2023
+LEF1,LEF1,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+LRRC32,LRRC32,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+SMAD2,SMAD2,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+SMAD4,SMAD4,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+TGFB2,TGFB2,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+TGFB3,TGFB3,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+TGFBR2,TGFBR2,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+TGFBR3,TGFBR3,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+WNT11,WNT11,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+WNT3A,WNT3A,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+WNT5A,WNT5A,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+WNT7A,WNT7A,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+WNT8A,WNT8A,palate_tooth_jaw,Secondary Palate Development (GO:0062009),GO_Biological_Process_2023
+ATG9A,ATG9A,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+ATG9B,ATG9B,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+BGLAP,BGLAP,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+CYP26B1,CYP26B1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+DYM,DYM,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+EPYC,EPYC,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+FGF8,FGF8,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+GH1,GH1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+GJA1,GJA1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+GNAS,GNAS,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+IFITM5,IFITM5,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+LRRC17,LRRC17,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+MBTPS2,MBTPS2,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+MMP13,MMP13,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+MYOC,MYOC,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+NOTUM,NOTUM,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+OGN,OGN,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+OPTC,OPTC,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+P3H1,P3H1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+PLS3,PLS3,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+PPIB,PPIB,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+PTGER4,PTGER4,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+PTPRC,PTPRC,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+RANBP3L,RANBP3L,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+RPL13,RPL13,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SBDS,SBDS,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SFRP4,SFRP4,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SH3PXD2B,SH3PXD2B,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SKI,SKI,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SLC10A7,SLC10A7,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+STC1,STC1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SULF1,SULF1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+SULF2,SULF2,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+TGM2,TGM2,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+TP53,TP53,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+VKORC1,VKORC1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+WNT1,WNT1,skeletal_bone,Bone Development (GO:0060348),GO_Biological_Process_2023
+ATG9B,ATG9B,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+CYP26B1,CYP26B1,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+IFITM5,IFITM5,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+MMP13,MMP13,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+SFRP4,SFRP4,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+SKI,SKI,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Bone Morphogenesis (GO:0060349),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),GO_Biological_Process_2023
+SLC2A10,SLC2A10,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),GO_Biological_Process_2023
+WNT9A,WNT9A,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),GO_Biological_Process_2023
+COL1A1,COL1A1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+DEAF1,DEAF1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+DSCAML1,DSCAML1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+DYNC2I1,DYNC2I1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+FUZ,FUZ,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXA3,HOXA3,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXA4,HOXA4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXA9,HOXA9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXB3,HOXB3,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXB4,HOXB4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXB9,HOXB9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXC4,HOXC4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXC9,HOXC9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXD3,HOXD3,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXD4,HOXD4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+HOXD9,HOXD9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+KIAA1217,KIAA1217,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+MEGF8,MEGF8,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+PCSK5,PCSK5,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+PDGFRA,PDGFRA,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+POLR2D,POLR2D,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+SIX1,SIX1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+SLC2A10,SLC2A10,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+SULF1,SULF1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+SULF2,SULF2,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+UCMA,UCMA,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+WNT11,WNT11,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+WNT5A,WNT5A,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+WNT9A,WNT9A,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+XYLT1,XYLT1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706),GO_Biological_Process_2023
+COL2A1,COL2A1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+DSCAML1,DSCAML1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+DYNC2I1,DYNC2I1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+EIF4A3,EIF4A3,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+FUZ,FUZ,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXA3,HOXA3,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXA4,HOXA4,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXA9,HOXA9,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXB3,HOXB3,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXB4,HOXB4,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXB9,HOXB9,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXC4,HOXC4,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXC9,HOXC9,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXD3,HOXD3,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXD4,HOXD4,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+HOXD9,HOXD9,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+IRX5,IRX5,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+MEGF8,MEGF8,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+PDGFRA,PDGFRA,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+SIX1,SIX1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+TBX1,TBX1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+TGFBR1,TGFBR1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+TGFBR2,TGFBR2,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+TWIST1,TWIST1,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+COL13A1,COL13A1,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+DLX5,DLX5,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+FOXC1,FOXC1,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+HOXA11,HOXA11,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+INPPL1,INPPL1,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+SCX,SCX,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+TRPV4,TRPV4,skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),GO_Biological_Process_2023
+COL13A1,COL13A1,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+DLX5,DLX5,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+FOXC1,FOXC1,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+INPPL1,INPPL1,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+SCX,SCX,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Endochondral Ossification (GO:0001958),GO_Biological_Process_2023
+BCOR,BCOR,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+CCL3,CCL3,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+CCR1,CCR1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+ECM1,ECM1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+ENPP1,ENPP1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+FGF23,FGF23,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+PTK2B,PTK2B,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+RFLNA,RFLNA,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+RFLNB,RFLNB,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+SRGN,SRGN,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+STATH,STATH,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+TRPM4,TRPM4,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),GO_Biological_Process_2023
+BCOR,BCOR,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+CCL3,CCL3,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+CCR1,CCR1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+CHSY1,CHSY1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+DKK1,DKK1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+ECM1,ECM1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+ENPP1,ENPP1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+FGF23,FGF23,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+KREMEN2,KREMEN2,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+LRP4,LRP4,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+MDK,MDK,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+NOTCH1,NOTCH1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+PTK2B,PTK2B,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+RBPJ,RBPJ,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+SFRP1,SFRP1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+SMAD6,SMAD6,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+SOST,SOST,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+SOX9,SOX9,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+SRGN,SRGN,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+STATH,STATH,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+TMEM53,TMEM53,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+TRPM4,TRPM4,skeletal_bone,Negative Regulation Of Ossification (GO:0030279),GO_Biological_Process_2023
+CDK6,CDK6,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+CHRD,CHRD,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+CITED1,CITED1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+CRIM1,CRIM1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+FGF23,FGF23,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+GDF10,GDF10,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+HDAC9,HDAC9,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+LIMD1,LIMD1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+MEN1,MEN1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+NBR1,NBR1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+NOCT,NOCT,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+NOTCH1,NOTCH1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+PPARG,PPARG,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+PTCH1,PTCH1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+RANBP3L,RANBP3L,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+RIOX1,RIOX1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+RORB,RORB,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+SEMA4D,SEMA4D,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+SKI,SKI,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+SMAD6,SMAD6,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+SOX9,SOX9,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+SUFU,SUFU,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TMEM53,TMEM53,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TMEM64,TMEM64,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TNFAIP6,TNFAIP6,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TNN,TNN,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TRPM4,TRPM4,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TWIST1,TWIST1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+TWIST2,TWIST2,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),GO_Biological_Process_2023
+EIF2AK2,EIF2AK2,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+MN1,MN1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+PLXNB1,PLXNB1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+SFRP1,SFRP1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+TNN,TNN,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),GO_Biological_Process_2023
+CLEC5A,CLEC5A,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+GLI2,GLI2,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+LIMD1,LIMD1,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+MEN1,MEN1,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+PTHLH,PTHLH,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+TNN,TNN,skeletal_bone,Osteoblast Development (GO:0002076),GO_Biological_Process_2023
+ACVR2A,ACVR2A,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ACVR2B,ACVR2B,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ADGRV1,ADGRV1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ALOX5,ALOX5,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ANO6,ANO6,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ATP2B1,ATP2B1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ATRAID,ATRAID,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMPR1A,BMPR1A,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+CYP27B1,CYP27B1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+FZD9,FZD9,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+GPM6B,GPM6B,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ISG15,ISG15,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+KL,KL,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+P2RX7,P2RX7,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+PKDCC,PKDCC,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+PTH,PTH,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+PTN,PTN,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+RXRA,RXRA,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+RXRB,RXRB,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+SLC20A2,SLC20A2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+SLC8A1,SLC8A1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+WNT4,WNT4,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),GO_Biological_Process_2023
+ACVR2A,ACVR2A,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ACVR2B,ACVR2B,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ADGRV1,ADGRV1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ALOX5,ALOX5,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ANO6,ANO6,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ATP2B1,ATP2B1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ATRAID,ATRAID,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMPR1A,BMPR1A,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+CYP27B1,CYP27B1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+FZD9,FZD9,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+GPM6B,GPM6B,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ISG15,ISG15,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+KL,KL,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+P2RX7,P2RX7,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+PKDCC,PKDCC,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+PTH,PTH,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+PTN,PTN,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+PTPN11,PTPN11,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+RXRA,RXRA,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+RXRB,RXRB,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+SLC20A2,SLC20A2,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+SLC8A1,SLC8A1,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+WNT4,WNT4,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+WNT5A,WNT5A,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ZBTB16,ZBTB16,skeletal_bone,Positive Regulation Of Ossification (GO:0045778),GO_Biological_Process_2023
+ACVR2A,ACVR2A,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+ACVR2B,ACVR2B,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+ATRAID,ATRAID,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMPR1A,BMPR1A,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+CCN4,CCN4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+CTNNBIP1,CTNNBIP1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+DDR2,DDR2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+DNAI3,DNAI3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+FBXO5,FBXO5,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+FERMT2,FERMT2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+FFAR4,FFAR4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+HGF,HGF,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+IFITM1,IFITM1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+IGF1,IGF1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+IL6,IL6,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+IL6R,IL6R,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+IL6ST,IL6ST,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+LRP3,LRP3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+NPNT,NPNT,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+PPP3CA,PPP3CA,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+PRKD1,PRKD1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+RUNX2,RUNX2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+SCUBE3,SCUBE3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+SUCO,SUCO,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+TP63,TP63,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+WNT4,WNT4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+WNT7B,WNT7B,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+WWTR1,WWTR1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+YAP1,YAP1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+ZHX3,ZHX3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),GO_Biological_Process_2023
+HPSE,HPSE,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),GO_Biological_Process_2023
+SOX8,SOX8,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),GO_Biological_Process_2023
+ACVR2A,ACVR2A,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ACVR2B,ACVR2B,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ADGRV1,ADGRV1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+AHSG,AHSG,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ALOX5,ALOX5,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ANKH,ANKH,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ANO6,ANO6,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ATP2B1,ATP2B1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ATRAID,ATRAID,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BCOR,BCOR,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMP2K,BMP2K,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMPR1A,BMPR1A,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+CCL3,CCL3,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+CCR1,CCR1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+CYP27B1,CYP27B1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+DDR2,DDR2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ECM1,ECM1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ENPP1,ENPP1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+FGF23,FGF23,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+FZD9,FZD9,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+GPM6B,GPM6B,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+ISG15,ISG15,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+KL,KL,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+NBR1,NBR1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+NOTUM,NOTUM,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+OXSR1,OXSR1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+P2RX7,P2RX7,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+PKDCC,PKDCC,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+PTH,PTH,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+PTK2B,PTK2B,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+PTN,PTN,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+RXRA,RXRA,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+RXRB,RXRB,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+S1PR1,S1PR1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+SGMS2,SGMS2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+SLC20A2,SLC20A2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+SLC8A1,SLC8A1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+SRGN,SRGN,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+STATH,STATH,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TRPM4,TRPM4,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TWIST1,TWIST1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+TXLNG,TXLNG,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+WNT4,WNT4,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),GO_Biological_Process_2023
+AHSG,AHSG,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+ANKH,ANKH,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+BMP2K,BMP2K,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+CCDC134,CCDC134,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+CHSY1,CHSY1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+CYP27B1,CYP27B1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+DDR2,DDR2,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+DKK1,DKK1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+ECM1,ECM1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+ENPP1,ENPP1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+KREMEN2,KREMEN2,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+LRP4,LRP4,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+MDK,MDK,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+NBR1,NBR1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+NOTCH1,NOTCH1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+NOTUM,NOTUM,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+PTN,PTN,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+PTPN11,PTPN11,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+RBPJ,RBPJ,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+S1PR1,S1PR1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SFRP1,SFRP1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SGMS2,SGMS2,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SMAD6,SMAD6,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SOST,SOST,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+SOX9,SOX9,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+TMEM53,TMEM53,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+TWIST1,TWIST1,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+TXLNG,TXLNG,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+WNT5A,WNT5A,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+ZBTB16,ZBTB16,skeletal_bone,Regulation Of Ossification (GO:0030278),GO_Biological_Process_2023
+ACVR2A,ACVR2A,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+ACVR2B,ACVR2B,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+ATF4,ATF4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+ATRAID,ATRAID,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BAMBI,BAMBI,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMP4,BMP4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMPR1A,BMPR1A,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMPR1B,BMPR1B,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMPR2,BMPR2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CCN4,CCN4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CDK6,CDK6,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CHRD,CHRD,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CITED1,CITED1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CRIM1,CRIM1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+CTNNBIP1,CTNNBIP1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+DDR2,DDR2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+DDX5,DDX5,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+DNAI3,DNAI3,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FBXO5,FBXO5,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FERMT2,FERMT2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FFAR4,FFAR4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FGF23,FGF23,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+GDF10,GDF10,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+HDAC9,HDAC9,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+HEMGN,HEMGN,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+HGF,HGF,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+IFITM1,IFITM1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+IGF1,IGF1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+IL6,IL6,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+IL6R,IL6R,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+IL6ST,IL6ST,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+LIMD1,LIMD1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+LRP3,LRP3,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+MEF2C,MEF2C,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+MEN1,MEN1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NBR1,NBR1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NOCT,NOCT,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NOTCH1,NOTCH1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+NPNT,NPNT,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PPARG,PPARG,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PPP3CA,PPP3CA,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PRKACA,PRKACA,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PRKD1,PRKD1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PTCH1,PTCH1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+PTK2,PTK2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+RANBP3L,RANBP3L,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+REST,REST,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+RIOX1,RIOX1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+RORB,RORB,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+RUNX2,RUNX2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SCUBE3,SCUBE3,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SEMA4D,SEMA4D,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SKI,SKI,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SMAD6,SMAD6,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SMOC1,SMOC1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SNAI2,SNAI2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SOX9,SOX9,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SUCO,SUCO,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+SUFU,SUFU,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TENT5A,TENT5A,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TMEM53,TMEM53,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TMEM64,TMEM64,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TNFAIP6,TNFAIP6,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TNN,TNN,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TP63,TP63,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TRPM4,TRPM4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TWIST1,TWIST1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+TWIST2,TWIST2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+WNT4,WNT4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+WNT7B,WNT7B,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+WWTR1,WWTR1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+YAP1,YAP1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+ZHX3,ZHX3,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+CCNA2,CCNA2,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+EIF2AK2,EIF2AK2,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+GREM1,GREM1,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+HPSE,HPSE,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+MN1,MN1,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+NELL1,NELL1,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+NPR3,NPR3,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+PLXNB1,PLXNB1,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+RHOA,RHOA,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+SFRP1,SFRP1,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+SOX8,SOX8,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+TMEM119,TMEM119,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+TNN,TNN,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),GO_Biological_Process_2023
+ADAMTS4,ADAMTS4,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+AHSG,AHSG,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+AKAP13,AKAP13,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ALPL,ALPL,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ALX4,ALX4,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ANKH,ANKH,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ANKRD11,ANKRD11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ARSL,ARSL,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ATP7A,ATP7A,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BGLAP,BGLAP,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP1,BMP1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP2,BMP2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP3,BMP3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP5,BMP5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP6,BMP6,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP7,BMP7,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BMP8B,BMP8B,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BPNT2,BPNT2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+BTF3P11,BTF3P11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CD44,CD44,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CDH11,CDH11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CHD7,CHD7,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CHI3L1,CHI3L1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CHRD,CHRD,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CLEC3A,CLEC3A,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CMKLR1,CMKLR1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CNMD,CNMD,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL10A1,COL10A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL11A2,COL11A2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL13A1,COL13A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL18A1,COL18A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL19A1,COL19A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL1A1,COL1A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL1A2,COL1A2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL27A1,COL27A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL2A1,COL2A1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COL9A2,COL9A2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+COMP,COMP,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+CREB3L2,CREB3L2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DDRGK1,DDRGK1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DEAF1,DEAF1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DLL3,DLL3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DLX5,DLX5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DLX6,DLX6,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+DYM,DYM,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EIF2AK3,EIF2AK3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EN1,EN1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EPYC,EPYC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ETS2,ETS2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EVC,EVC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EXT1,EXT1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+EXTL1,EXTL1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FBN1,FBN1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FGF8,FGF8,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FGFR1,FGFR1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+FRZB,FRZB,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GDF10,GDF10,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GDF11,GDF11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GDF2,GDF2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GDF3,GDF3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GHRL,GHRL,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GJA1,GJA1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GLI2,GLI2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GNAS,GNAS,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+GUSBP3,GUSBP3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HES5,HES5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HHIP,HHIP,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HOXA11,HOXA11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HOXA13,HOXA13,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HOXD3,HOXD3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HYAL1,HYAL1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+HYAL2,HYAL2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+IGF1,IGF1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+IHH,IHH,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+IL17F,IL17F,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+INHA,INHA,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ITGB8,ITGB8,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+KIAA1217,KIAA1217,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+LAMA5,LAMA5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+LECT2,LECT2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+MATN3,MATN3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+MEPE,MEPE,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+MMP14,MMP14,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+MMP16,MMP16,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+MYOC,MYOC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+NKX3-2,NKX3-2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+NOG,NOG,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+NOTUM,NOTUM,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+NPR3,NPR3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+OGN,OGN,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+OPTC,OPTC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+P3H1,P3H1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PAPSS1,PAPSS1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PAX1,PAX1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PCSK5,PCSK5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PHEX,PHEX,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PITX1,PITX1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PKD1,PKD1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PKDCC,PKDCC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PLS3,PLS3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+POLR2D,POLR2D,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PPIB,PPIB,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PRDX1,PRDX1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PRELP,PRELP,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PTGER4,PTGER4,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PTH,PTH,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PTH1R,PTH1R,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+PTHLH,PTHLH,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+RAB33B,RAB33B,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+RFLNA,RFLNA,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+RFLNB,RFLNB,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+RPL13,RPL13,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+RPS6KA3,RPS6KA3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SH3PXD2B,SH3PXD2B,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SHOX,SHOX,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SHOX2,SHOX2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SLC10A7,SLC10A7,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SNORC,SNORC,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SOX5,SOX5,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SOX6,SOX6,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SOX9,SOX9,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SPAM1,SPAM1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SPEF2,SPEF2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SPP2,SPP2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+STC1,STC1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SULF1,SULF1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+SULF2,SULF2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TBX3,TBX3,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TBX4,TBX4,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TCOF1,TCOF1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TEAD4,TEAD4,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TGFB2,TGFB2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TGFBR1,TGFBR1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TGM2,TGM2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TLL1,TLL1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TRAPPC2,TRAPPC2,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TRIP11,TRIP11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+TRPS1,TRPS1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+UCMA,UCMA,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+UFD1,UFD1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+VKORC1,VKORC1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+WNT1,WNT1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+WNT11,WNT11,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+WNT5A,WNT5A,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+WWOX,WWOX,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+XYLT1,XYLT1,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ZBTB16,ZBTB16,skeletal_bone,Skeletal System Development (GO:0001501),GO_Biological_Process_2023
+ANKRD11,ANKRD11,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+ATG9A,ATG9A,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+ATG9B,ATG9B,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+CYP26B1,CYP26B1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+DSCAML1,DSCAML1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+DYNC2I1,DYNC2I1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+FBN2,FBN2,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+FGFR1,FGFR1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+FGFR2,FGFR2,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+FGFR3,FGFR3,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+FUZ,FUZ,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HHIP,HHIP,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXA3,HOXA3,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXA4,HOXA4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXA9,HOXA9,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXB3,HOXB3,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXB4,HOXB4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXB9,HOXB9,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXC4,HOXC4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXC9,HOXC9,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXD3,HOXD3,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXD4,HOXD4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+HOXD9,HOXD9,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+IFITM5,IFITM5,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+LAMA5,LAMA5,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+LRP5,LRP5,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+LTF,LTF,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+MEGF8,MEGF8,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+MMP13,MMP13,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+OSR2,OSR2,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+PDGFRA,PDGFRA,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+RAB33B,RAB33B,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+RFLNA,RFLNA,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+RFLNB,RFLNB,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+SFRP4,SFRP4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+SIX1,SIX1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+SKI,SKI,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+SOX11,SOX11,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+SPEF2,SPEF2,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+TBX4,TBX4,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+TFAP2A,TFAP2A,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+TGFBR1,TGFBR1,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023
+WWOX,WWOX,skeletal_bone,Skeletal System Morphogenesis (GO:0048705),GO_Biological_Process_2023

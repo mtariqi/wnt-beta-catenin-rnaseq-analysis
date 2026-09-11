@@ -1,0 +1,46 @@
+Domain,GO_term,Gene_set_size,Library
+bmp_developmental,BMP Signaling Pathway (GO:0030509),61,GO_Biological_Process_2023
+bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773),66,GO_Biological_Process_2023
+bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),43,GO_Biological_Process_2023
+bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513),24,GO_Biological_Process_2023
+bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),75,GO_Biological_Process_2023
+bmp_developmental,Response To BMP (GO:0071772),23,GO_Biological_Process_2023
+cartilage_chondrocyte,Cartilage Development (GO:0051216),52,GO_Biological_Process_2023
+cartilage_chondrocyte,Chondrocyte Development (GO:0002063),5,GO_Biological_Process_2023
+cartilage_chondrocyte,Chondrocyte Differentiation (GO:0002062),29,GO_Biological_Process_2023
+cartilage_chondrocyte,Endochondral Bone Morphogenesis (GO:0060350),12,GO_Biological_Process_2023
+cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037),13,GO_Biological_Process_2023
+cartilage_chondrocyte,Negative Regulation Of Chondrocyte Differentiation (GO:0032331),14,GO_Biological_Process_2023
+cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036),17,GO_Biological_Process_2023
+cartilage_chondrocyte,Positive Regulation Of Chondrocyte Differentiation (GO:0032332),10,GO_Biological_Process_2023
+cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),17,GO_Biological_Process_2023
+cartilage_chondrocyte,Regulation Of Chondrocyte Differentiation (GO:0032330),25,GO_Biological_Process_2023
+craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),14,GO_Biological_Process_2023
+neural_crest,Neural Crest Cell Development (GO:0014032),44,GO_Biological_Process_2023
+neural_crest,Neural Crest Cell Differentiation (GO:0014033),18,GO_Biological_Process_2023
+neural_crest,Neural Crest Cell Migration (GO:0001755),36,GO_Biological_Process_2023
+palate_tooth_jaw,Odontogenesis (GO:0042476),39,GO_Biological_Process_2023
+palate_tooth_jaw,Odontogenesis Of Dentin-Containing Tooth (GO:0042475),14,GO_Biological_Process_2023
+palate_tooth_jaw,Secondary Palate Development (GO:0062009),13,GO_Biological_Process_2023
+skeletal_bone,Bone Development (GO:0060348),44,GO_Biological_Process_2023
+skeletal_bone,Bone Morphogenesis (GO:0060349),14,GO_Biological_Process_2023
+skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498),5,GO_Biological_Process_2023
+skeletal_bone,Embryonic Skeletal System Development (GO:0048706),34,GO_Biological_Process_2023
+skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),30,GO_Biological_Process_2023
+skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350),12,GO_Biological_Process_2023
+skeletal_bone,Endochondral Ossification (GO:0001958),8,GO_Biological_Process_2023
+skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502),13,GO_Biological_Process_2023
+skeletal_bone,Negative Regulation Of Ossification (GO:0030279),24,GO_Biological_Process_2023
+skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668),32,GO_Biological_Process_2023
+skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689),7,GO_Biological_Process_2023
+skeletal_bone,Osteoblast Development (GO:0002076),7,GO_Biological_Process_2023
+skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501),38,GO_Biological_Process_2023
+skeletal_bone,Positive Regulation Of Ossification (GO:0045778),41,GO_Biological_Process_2023
+skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669),44,GO_Biological_Process_2023
+skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690),5,GO_Biological_Process_2023
+skeletal_bone,Regulation Of Bone Mineralization (GO:0030500),58,GO_Biological_Process_2023
+skeletal_bone,Regulation Of Ossification (GO:0030278),37,GO_Biological_Process_2023
+skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),85,GO_Biological_Process_2023
+skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),16,GO_Biological_Process_2023
+skeletal_bone,Skeletal System Development (GO:0001501),149,GO_Biological_Process_2023
+skeletal_bone,Skeletal System Morphogenesis (GO:0048705),43,GO_Biological_Process_2023

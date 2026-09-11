@@ -1,0 +1,497 @@
+Gene_upper,GO_symbol,Domains,GO_terms,Domain_count,GO_term_count
+BMP4,BMP4,bmp_developmental;cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Differentiation (GO:0002062) | Odontogenesis (GO:0042476) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),4,16
+BMP2,BMP2,bmp_developmental;cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Differentiation (GO:0002062) | Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Proliferation (GO:0033688) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),4,15
+TBX1,TBX1,craniofacial_cranial;neural_crest;palate_tooth_jaw;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755) | Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),4,6
+BMPR2,BMPR2,bmp_developmental;cartilage_chondrocyte;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Bone Morphogenesis (GO:0060349) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Development (GO:0002063) | Chondrocyte Differentiation (GO:0002062) | Endochondral Bone Morphogenesis (GO:0060350) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),3,17
+SOX9,SOX9,bmp_developmental;cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Development (GO:0002063) | Chondrocyte Differentiation (GO:0002062) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),3,16
+BMPR1B,BMPR1B,bmp_developmental;cartilage_chondrocyte;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Bone Morphogenesis (GO:0060349) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Differentiation (GO:0002062) | Endochondral Bone Morphogenesis (GO:0060350) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),3,15
+GREM1,GREM1,bmp_developmental;cartilage_chondrocyte;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688),3,12
+MEF2C,MEF2C,cartilage_chondrocyte;neural_crest;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Negative Regulation Of Ossification (GO:0030279) | Neural Crest Cell Differentiation (GO:0014033) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),3,12
+OSR2,OSR2,cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Embryonic Skeletal Joint Development (GO:0072498) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Odontogenesis (GO:0042476) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Skeletal System Morphogenesis (GO:0048705),3,12
+FGFR2,FGFR2,craniofacial_cranial;palate_tooth_jaw;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Odontogenesis (GO:0042476) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),3,9
+OXSR1,OXSR1,cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Embryonic Skeletal Joint Development (GO:0072498) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Odontogenesis (GO:0042476) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),3,9
+SCX,SCX,bmp_developmental;cartilage_chondrocyte;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Differentiation (GO:0002062) | Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Positive Regulation Of Cartilage Development (GO:0061036) | Regulation Of Cartilage Development (GO:0061035),3,8
+SULF1,SULF1,bmp_developmental;cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Cartilage Development (GO:0051216) | Chondrocyte Development (GO:0002063) | Chondrocyte Differentiation (GO:0002062) | Embryonic Skeletal System Development (GO:0048706) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Skeletal System Development (GO:0001501),3,8
+TGFBR1,TGFBR1,cartilage_chondrocyte;craniofacial_cranial;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),3,7
+DLX5,DLX5,bmp_developmental;cartilage_chondrocyte;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),3,6
+SNAI2,SNAI2,cartilage_chondrocyte;neural_crest;skeletal_bone,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Osteoblast Differentiation (GO:0045667),3,6
+GDF2,GDF2,bmp_developmental;cartilage_chondrocyte;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),3,5
+HES5,HES5,bmp_developmental;cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Skeletal System Development (GO:0001501),3,5
+TGFB2,TGFB2,bmp_developmental;palate_tooth_jaw;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Odontogenesis (GO:0042476) | Secondary Palate Development (GO:0062009) | Skeletal System Development (GO:0001501),3,5
+WNT11,WNT11,cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Negative Regulation Of Cartilage Development (GO:0061037) | Regulation Of Cartilage Development (GO:0061035) | Secondary Palate Development (GO:0062009) | Skeletal System Development (GO:0001501),3,5
+FOXC1,FOXC1,cartilage_chondrocyte;palate_tooth_jaw;skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),3,4
+TGFBR2,TGFBR2,craniofacial_cranial;palate_tooth_jaw;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Secondary Palate Development (GO:0062009),3,3
+BMP6,BMP6,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Bone Development (GO:0060348) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),2,10
+GDF5,GDF5,bmp_developmental;cartilage_chondrocyte,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Chondrocyte Differentiation (GO:0032330),2,10
+NELL1,NELL1,neural_crest;skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688),2,10
+BMP7,BMP7,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772) | Skeletal System Development (GO:0001501),2,9
+CCNA2,CCNA2,bmp_developmental;skeletal_bone,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Positive Regulation Of Osteoblast Proliferation (GO:0033690) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688),2,9
+NOG,NOG,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Embryonic Skeletal Joint Development (GO:0072498) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Development (GO:0001501),2,9
+SOX11,SOX11,bmp_developmental;skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Morphogenesis (GO:0048705),2,9
+TMEM119,TMEM119,cartilage_chondrocyte;skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Positive Regulation Of Osteoblast Proliferation (GO:0033690) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688),2,9
+ACVR2A,ACVR2A,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),2,8
+BMPR1A,BMPR1A,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),2,8
+FGFR3,FGFR3,cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),2,8
+SMAD6,SMAD6,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),2,8
+TFAP2A,TFAP2A,craniofacial_cranial;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Skeletal System Morphogenesis (GO:0048705),2,8
+ZBTB16,ZBTB16,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Ossification (GO:0030278) | Skeletal System Development (GO:0001501),2,8
+ACVR2B,ACVR2B,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667),2,7
+NOTCH1,NOTCH1,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),2,7
+PKDCC,PKDCC,cartilage_chondrocyte;skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,7
+SKI,SKI,bmp_developmental;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Morphogenesis (GO:0048705),2,7
+SOX5,SOX5,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,7
+SOX6,SOX6,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,7
+CHRD,CHRD,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Development (GO:0001501),2,6
+HOXA11,HOXA11,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Endochondral Bone Morphogenesis (GO:0060350) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,6
+PPARG,PPARG,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667),2,6
+PTHLH,PTHLH,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Osteoblast Development (GO:0002076) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,6
+SFRP1,SFRP1,bmp_developmental;skeletal_bone,Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Proliferation (GO:0033688) | Response To BMP (GO:0071772),2,6
+SMAD4,SMAD4,bmp_developmental;palate_tooth_jaw,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Response To BMP (GO:0071772) | Secondary Palate Development (GO:0062009),2,6
+SULF2,SULF2,cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Cartilage Development (GO:0051216) | Chondrocyte Development (GO:0002063) | Chondrocyte Differentiation (GO:0002062) | Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),2,6
+TMEM53,TMEM53,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),2,6
+TWIST1,TWIST1,craniofacial_cranial;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),2,6
+ADAMTS7,ADAMTS7,bmp_developmental;cartilage_chondrocyte,Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Response To BMP (GO:0071772),2,5
+GDF10,GDF10,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Development (GO:0001501),2,5
+GDF3,GDF3,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510) | Skeletal System Development (GO:0001501),2,5
+GDF6,GDF6,bmp_developmental;cartilage_chondrocyte,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Chondrocyte Differentiation (GO:0032330),2,5
+HOXD3,HOXD3,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),2,5
+MDK,MDK,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Positive Regulation Of Cartilage Development (GO:0061036) | Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Ossification (GO:0030278),2,5
+MEGF8,MEGF8,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),2,5
+PTPN11,PTPN11,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Regulation Of Ossification (GO:0030278),2,5
+RUNX2,RUNX2,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667) | Response To BMP (GO:0071772),2,5
+SOX8,SOX8,neural_crest;skeletal_bone,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033) | Neural Crest Cell Migration (GO:0001755) | Positive Regulation Of Osteoblast Proliferation (GO:0033690) | Regulation Of Osteoblast Proliferation (GO:0033688),2,5
+WNT5A,WNT5A,palate_tooth_jaw;skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Ossification (GO:0030278) | Secondary Palate Development (GO:0062009) | Skeletal System Development (GO:0001501),2,5
+WNT9A,WNT9A,cartilage_chondrocyte;skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498) | Embryonic Skeletal System Development (GO:0048706) | Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330),2,5
+ANKRD11,ANKRD11,palate_tooth_jaw;skeletal_bone,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),2,4
+BCOR,BCOR,palate_tooth_jaw;skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Odontogenesis (GO:0042476) | Regulation Of Bone Mineralization (GO:0030500),2,4
+CRIM1,CRIM1,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667),2,4
+GLI2,GLI2,palate_tooth_jaw;skeletal_bone,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475) | Osteoblast Development (GO:0002076) | Skeletal System Development (GO:0001501),2,4
+NKX3-2,NKX3-2,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,4
+PDGFRA,PDGFRA,craniofacial_cranial;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),2,4
+RBPJ,RBPJ,bmp_developmental;skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278),2,4
+RFLNA,RFLNA,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),2,4
+RFLNB,RFLNB,cartilage_chondrocyte;skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),2,4
+SCUBE3,SCUBE3,bmp_developmental;skeletal_bone,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667),2,4
+SEMA4D,SEMA4D,neural_crest;skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755) | Regulation Of Osteoblast Differentiation (GO:0045667),2,4
+SFRP4,SFRP4,bmp_developmental;skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Regulation Of BMP Signaling Pathway (GO:0030510) | Skeletal System Morphogenesis (GO:0048705),2,4
+SIX1,SIX1,craniofacial_cranial;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),2,4
+SOST,SOST,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Ossification (GO:0030278),2,4
+TAPT1,TAPT1,cartilage_chondrocyte;neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033) | Positive Regulation Of Cartilage Development (GO:0061036) | Regulation Of Cartilage Development (GO:0061035),2,4
+TGFB1,TGFB1,bmp_developmental;cartilage_chondrocyte,BMP Signaling Pathway (GO:0030509) | Cartilage Development (GO:0051216) | Cellular Response To BMP Stimulus (GO:0071773) | Chondrocyte Differentiation (GO:0002062),2,4
+TGFB3,TGFB3,bmp_developmental;palate_tooth_jaw,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Odontogenesis (GO:0042476) | Secondary Palate Development (GO:0062009),2,4
+TNFAIP6,TNFAIP6,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667),2,4
+WNT1,WNT1,bmp_developmental;skeletal_bone,Bone Development (GO:0060348) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510) | Skeletal System Development (GO:0001501),2,4
+ADAMTS12,ADAMTS12,bmp_developmental;cartilage_chondrocyte,Cellular Response To BMP Stimulus (GO:0071773) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Response To BMP (GO:0071772),2,3
+BMP3,BMP3,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Skeletal System Development (GO:0001501),2,3
+COL13A1,COL13A1,cartilage_chondrocyte;skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958) | Skeletal System Development (GO:0001501),2,3
+COL1A1,COL1A1,palate_tooth_jaw;skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Odontogenesis (GO:0042476) | Skeletal System Development (GO:0001501),2,3
+COL2A1,COL2A1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Development (GO:0001501),2,3
+CREB3L2,CREB3L2,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Skeletal System Development (GO:0001501),2,3
+DDX5,DDX5,bmp_developmental;skeletal_bone,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Regulation Of Osteoblast Differentiation (GO:0045667),2,3
+EIF2AK3,EIF2AK3,cartilage_chondrocyte;skeletal_bone,Chondrocyte Development (GO:0002063) | Chondrocyte Differentiation (GO:0002062) | Skeletal System Development (GO:0001501),2,3
+EPYC,EPYC,cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,3
+FGF8,FGF8,palate_tooth_jaw;skeletal_bone,Bone Development (GO:0060348) | Odontogenesis (GO:0042476) | Skeletal System Development (GO:0001501),2,3
+INHBA,INHBA,bmp_developmental;palate_tooth_jaw,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Odontogenesis (GO:0042476),2,3
+OGN,OGN,cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,3
+OPTC,OPTC,cartilage_chondrocyte;skeletal_bone,Bone Development (GO:0060348) | Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,3
+PHOX2B,PHOX2B,bmp_developmental;neural_crest,Cellular Response To BMP Stimulus (GO:0071773) | Neural Crest Cell Migration (GO:0001755) | Response To BMP (GO:0071772),2,3
+SMAD2,SMAD2,bmp_developmental;palate_tooth_jaw,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510) | Secondary Palate Development (GO:0062009),2,3
+TCOF1,TCOF1,neural_crest;skeletal_bone,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033) | Skeletal System Development (GO:0001501),2,3
+TGFBR3,TGFBR3,bmp_developmental;palate_tooth_jaw,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Secondary Palate Development (GO:0062009),2,3
+TRPS1,TRPS1,cartilage_chondrocyte;skeletal_bone,Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330) | Skeletal System Development (GO:0001501),2,3
+WNT7A,WNT7A,cartilage_chondrocyte;palate_tooth_jaw,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062) | Secondary Palate Development (GO:0062009),2,3
+ATP7A,ATP7A,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+BAMBI,BAMBI,bmp_developmental;skeletal_bone,Regulation Of BMP Signaling Pathway (GO:0030510) | Regulation Of Osteoblast Differentiation (GO:0045667),2,2
+BMP1,BMP1,cartilage_chondrocyte;skeletal_bone,Positive Regulation Of Cartilage Development (GO:0061036) | Skeletal System Development (GO:0001501),2,2
+CD44,CD44,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+CHI3L1,CHI3L1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+COL11A2,COL11A2,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+COL1A2,COL1A2,palate_tooth_jaw;skeletal_bone,Odontogenesis (GO:0042476) | Skeletal System Development (GO:0001501),2,2
+DDRGK1,DDRGK1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+FBN1,FBN1,bmp_developmental;skeletal_bone,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Skeletal System Development (GO:0001501),2,2
+GHRL,GHRL,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+HYAL1,HYAL1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+HYAL2,HYAL2,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+IL17F,IL17F,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+INPPL1,INPPL1,cartilage_chondrocyte;skeletal_bone,Endochondral Bone Morphogenesis (GO:0060350) | Endochondral Ossification (GO:0001958),2,2
+IRX5,IRX5,craniofacial_cranial;skeletal_bone,Embryonic Cranial Skeleton Morphogenesis (GO:0048701) | Embryonic Skeletal System Morphogenesis (GO:0048704),2,2
+ITGB8,ITGB8,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+PITX2,PITX2,neural_crest;palate_tooth_jaw,Neural Crest Cell Migration (GO:0001755) | Odontogenesis (GO:0042476),2,2
+PKD1,PKD1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+SNORC,SNORC,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+SPAM1,SPAM1,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+TRIP11,TRIP11,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Skeletal System Development (GO:0001501),2,2
+TRPV4,TRPV4,cartilage_chondrocyte;skeletal_bone,Cartilage Development (GO:0051216) | Endochondral Bone Morphogenesis (GO:0060350),2,2
+WNT8A,WNT8A,neural_crest;palate_tooth_jaw,Neural Crest Cell Differentiation (GO:0014033) | Secondary Palate Development (GO:0062009),2,2
+LTF,LTF,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Positive Regulation Of Osteoblast Proliferation (GO:0033690) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688) | Skeletal System Morphogenesis (GO:0048705),1,8
+LRP5,LRP5,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Osteoblast Development (GO:0002076) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Morphogenesis (GO:0048705),1,7
+FBN2,FBN2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Morphogenesis (GO:0048705),1,6
+TENT5A,TENT5A,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),1,6
+ATRAID,ATRAID,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667),1,5
+FGF23,FGF23,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667),1,5
+TNN,TNN,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Osteoblast Development (GO:0002076) | Regulation Of Osteoblast Differentiation (GO:0045667) | Regulation Of Osteoblast Proliferation (GO:0033688),1,5
+TRPM4,TRPM4,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667),1,5
+WNT4,WNT4,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Osteoblast Differentiation (GO:0045667),1,5
+CYP27B1,CYP27B1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,4
+DDR2,DDR2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),1,4
+DLX1,DLX1,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510) | Response To BMP (GO:0071772),1,4
+ECM1,ECM1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,4
+ENG,ENG,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,4
+ENPP1,ENPP1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,4
+NBR1,NBR1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Regulation Of Osteoblast Differentiation (GO:0045667),1,4
+NOTUM,NOTUM,skeletal_bone,Bone Development (GO:0060348) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Skeletal System Development (GO:0001501),1,4
+PTH,PTH,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Skeletal System Development (GO:0001501),1,4
+PTN,PTN,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,4
+SMURF1,SMURF1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,4
+ACVRL1,ACVRL1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772),1,3
+ADGRV1,ADGRV1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+AHSG,AHSG,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Skeletal System Development (GO:0001501),1,3
+ALOX5,ALOX5,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+ANKH,ANKH,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278) | Skeletal System Development (GO:0001501),1,3
+ANO6,ANO6,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+ATG9B,ATG9B,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Skeletal System Morphogenesis (GO:0048705),1,3
+ATP2B1,ATP2B1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+CCL3,CCL3,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500),1,3
+CCR1,CCR1,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500),1,3
+CHADL,CHADL,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330),1,3
+CYP26B1,CYP26B1,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Skeletal System Morphogenesis (GO:0048705),1,3
+DSCAML1,DSCAML1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+DYNC2I1,DYNC2I1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+EFEMP1,EFEMP1,cartilage_chondrocyte,Negative Regulation Of Cartilage Development (GO:0061037) | Negative Regulation Of Chondrocyte Differentiation (GO:0032331) | Regulation Of Chondrocyte Differentiation (GO:0032330),1,3
+FUZ,FUZ,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+FZD9,FZD9,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+GPM6B,GPM6B,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+HJV,HJV,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772),1,3
+HOXA3,HOXA3,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXA4,HOXA4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXA9,HOXA9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXB3,HOXB3,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXB4,HOXB4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXB9,HOXB9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXC4,HOXC4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXC9,HOXC9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXD4,HOXD4,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HOXD9,HOXD9,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Embryonic Skeletal System Morphogenesis (GO:0048704) | Skeletal System Morphogenesis (GO:0048705),1,3
+HTR2B,HTR2B,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033) | Neural Crest Cell Migration (GO:0001755),1,3
+IFITM5,IFITM5,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Skeletal System Morphogenesis (GO:0048705),1,3
+IGF1,IGF1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667) | Skeletal System Development (GO:0001501),1,3
+ISG15,ISG15,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+KL,KL,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+LIMD1,LIMD1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Osteoblast Development (GO:0002076) | Regulation Of Osteoblast Differentiation (GO:0045667),1,3
+LOXL2,LOXL2,cartilage_chondrocyte,Positive Regulation Of Cartilage Development (GO:0061036) | Positive Regulation Of Chondrocyte Differentiation (GO:0032332) | Regulation Of Chondrocyte Differentiation (GO:0032330),1,3
+MEN1,MEN1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Osteoblast Development (GO:0002076) | Regulation Of Osteoblast Differentiation (GO:0045667),1,3
+MMP13,MMP13,skeletal_bone,Bone Development (GO:0060348) | Bone Morphogenesis (GO:0060349) | Skeletal System Morphogenesis (GO:0048705),1,3
+P2RX7,P2RX7,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+PTK2B,PTK2B,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500),1,3
+RANBP3L,RANBP3L,skeletal_bone,Bone Development (GO:0060348) | Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,3
+RXRA,RXRA,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+RXRB,RXRB,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+SLC20A2,SLC20A2,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+SLC8A1,SLC8A1,skeletal_bone,Positive Regulation Of Bone Mineralization (GO:0030501) | Positive Regulation Of Ossification (GO:0045778) | Regulation Of Bone Mineralization (GO:0030500),1,3
+SMAD9,SMAD9,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772),1,3
+SRGN,SRGN,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500),1,3
+STATH,STATH,skeletal_bone,Negative Regulation Of Bone Mineralization (GO:0030502) | Negative Regulation Of Ossification (GO:0030279) | Regulation Of Bone Mineralization (GO:0030500),1,3
+TMEM100,TMEM100,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772),1,3
+AMHR2,AMHR2,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+AMTN,AMTN,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+ATG9A,ATG9A,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Morphogenesis (GO:0048705),1,2
+BGLAP,BGLAP,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+BMP10,BMP10,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+BMP15,BMP15,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+BMP2K,BMP2K,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,2
+BMPER,BMPER,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CAPN5,CAPN5,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CCN3,CCN3,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+CCN4,CCN4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+CDH5,CDH5,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CDK6,CDK6,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+CER1,CER1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CHRDL1,CHRDL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CHRDL2,CHRDL2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CHSY1,CHSY1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Regulation Of Ossification (GO:0030278),1,2
+CITED1,CITED1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+CORO1C,CORO1C,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+CRB2,CRB2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+CTNNBIP1,CTNNBIP1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+CYP26C1,CYP26C1,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+DAND5,DAND5,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+DEAF1,DEAF1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+DKK1,DKK1,skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Regulation Of Ossification (GO:0030278),1,2
+DNAI3,DNAI3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+DYM,DYM,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+EDA,EDA,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+EIF2AK2,EIF2AK2,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Regulation Of Osteoblast Proliferation (GO:0033688),1,2
+ELAPOR2,ELAPOR2,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+ERBB4,ERBB4,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+FAM172A,FAM172A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+FAM83G,FAM83G,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+FBXL15,FBXL15,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+FBXO5,FBXO5,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+FERMT2,FERMT2,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+FFAR4,FFAR4,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+FGFR1,FGFR1,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+FOXD1,FOXD1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+FSTL3,FSTL3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+GARS1,GARS1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+GDF1,GDF1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+GDF7,GDF7,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+GDF9,GDF9,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+GDNF,GDNF,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+GJA1,GJA1,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+GNAS,GNAS,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+GPLD1,GPLD1,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+GPR155,GPR155,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+HDAC1,HDAC1,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+HDAC2,HDAC2,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+HDAC9,HDAC9,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+HFE,HFE,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+HGF,HGF,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+HHIP,HHIP,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+HIPK2,HIPK2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+HIVEP1,HIVEP1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+HMGA2,HMGA2,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+HPSE,HPSE,skeletal_bone,Positive Regulation Of Osteoblast Proliferation (GO:0033690) | Regulation Of Osteoblast Proliferation (GO:0033688),1,2
+IFITM1,IFITM1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+IL6,IL6,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+IL6R,IL6R,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+IL6ST,IL6ST,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+INHBB,INHBB,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+INHBC,INHBC,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+INHBE,INHBE,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+KBTBD8,KBTBD8,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+KCP,KCP,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+KIAA1217,KIAA1217,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+KLHL12,KLHL12,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+KREMEN2,KREMEN2,skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Regulation Of Ossification (GO:0030278),1,2
+LAMA5,LAMA5,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+LEFTY1,LEFTY1,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+LEFTY2,LEFTY2,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+LEMD3,LEMD3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+LRP2,LRP2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+LRP3,LRP3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+LRP4,LRP4,skeletal_bone,Negative Regulation Of Ossification (GO:0030279) | Regulation Of Ossification (GO:0030278),1,2
+MAPK3,MAPK3,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+MBOAT2,MBOAT2,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330),1,2
+MN1,MN1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Regulation Of Osteoblast Proliferation (GO:0033688),1,2
+MSX1,MSX1,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+MYOC,MYOC,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+NBL1,NBL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+NFIB,NFIB,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+NOCT,NOCT,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+NODAL,NODAL,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+NOLC1,NOLC1,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+NPNT,NPNT,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+NPR3,NPR3,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688) | Skeletal System Development (GO:0001501),1,2
+NRG1,NRG1,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+NRTN,NRTN,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+NUMA1,NUMA1,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+ODAM,ODAM,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+P3H1,P3H1,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+PCSK5,PCSK5,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+PDCD4,PDCD4,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+PDCD6,PDCD6,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+PEF1,PEF1,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Differentiation (GO:0014033),1,2
+PHACTR4,PHACTR4,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+PLS3,PLS3,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+PLXNB1,PLXNB1,skeletal_bone,Negative Regulation Of Osteoblast Proliferation (GO:0033689) | Regulation Of Osteoblast Proliferation (GO:0033688),1,2
+POLR2D,POLR2D,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+PPIB,PPIB,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+PPP3CA,PPP3CA,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+PRKD1,PRKD1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+PTCH1,PTCH1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+PTGER4,PTGER4,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+RAB33B,RAB33B,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+RADIL,RADIL,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+RBPMS2,RBPMS2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+RGMA,RGMA,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+RGMB,RGMB,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+RIOX1,RIOX1,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+RNF165,RNF165,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+ROGDI,ROGDI,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+RORB,RORB,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+RPL13,RPL13,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+S1PR1,S1PR1,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,2
+SCIN,SCIN,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035) | Regulation Of Chondrocyte Differentiation (GO:0032330),1,2
+SCN5A,SCN5A,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+SEMA3A,SEMA3A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3B,SEMA3B,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3C,SEMA3C,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3D,SEMA3D,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3E,SEMA3E,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3F,SEMA3F,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA3G,SEMA3G,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA4A,SEMA4A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA4B,SEMA4B,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA4C,SEMA4C,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA4F,SEMA4F,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA4G,SEMA4G,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA5A,SEMA5A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA5B,SEMA5B,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA6A,SEMA6A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA6B,SEMA6B,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA6C,SEMA6C,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA6D,SEMA6D,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SEMA7A,SEMA7A,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SGMS2,SGMS2,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,2
+SH3PXD2B,SH3PXD2B,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+SHH,SHH,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SKIL,SKIL,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SKOR1,SKOR1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SKOR2,SKOR2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SLC10A7,SLC10A7,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+SLC26A2,SLC26A2,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+SLC2A10,SLC2A10,skeletal_bone,Embryonic Skeletal Joint Development (GO:0072498) | Embryonic Skeletal System Development (GO:0048706),1,2
+SLC39A14,SLC39A14,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+SLC39A5,SLC39A5,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+SMAD5,SMAD5,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+SMAD7,SMAD7,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SMURF2,SMURF2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SNX19,SNX19,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+SORL1,SORL1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SOSTDC1,SOSTDC1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SOX10,SOX10,neural_crest,Neural Crest Cell Development (GO:0014032) | Neural Crest Cell Migration (GO:0001755),1,2
+SPART,SPART,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+SPEF2,SPEF2,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+STC1,STC1,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+SUCO,SUCO,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+SUFU,SUFU,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+TBX20,TBX20,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+TBX4,TBX4,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+TGM2,TGM2,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+TMEM64,TMEM64,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+TP63,TP63,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+TRIM33,TRIM33,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+TWIST2,TWIST2,skeletal_bone,Negative Regulation Of Osteoblast Differentiation (GO:0045668) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+TXLNG,TXLNG,skeletal_bone,Regulation Of Bone Mineralization (GO:0030500) | Regulation Of Ossification (GO:0030278),1,2
+UBE2D1,UBE2D1,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+UBE2D3,UBE2D3,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+UBE2O,UBE2O,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+UCMA,UCMA,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+USP15,USP15,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+USP9X,USP9X,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+USP9Y,USP9Y,bmp_developmental,BMP Signaling Pathway (GO:0030509) | Cellular Response To BMP Stimulus (GO:0071773),1,2
+VKORC1,VKORC1,skeletal_bone,Bone Development (GO:0060348) | Skeletal System Development (GO:0001501),1,2
+VSTM2A,VSTM2A,bmp_developmental,Cellular Response To BMP Stimulus (GO:0071773) | Response To BMP (GO:0071772),1,2
+VWC2,VWC2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+VWC2L,VWC2L,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+WNT10B,WNT10B,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+WNT2B,WNT2B,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+WNT5B,WNT5B,cartilage_chondrocyte,Cartilage Development (GO:0051216) | Chondrocyte Differentiation (GO:0002062),1,2
+WNT6,WNT6,palate_tooth_jaw,Odontogenesis (GO:0042476) | Odontogenesis Of Dentin-Containing Tooth (GO:0042475),1,2
+WNT7B,WNT7B,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+WWOX,WWOX,skeletal_bone,Skeletal System Development (GO:0001501) | Skeletal System Morphogenesis (GO:0048705),1,2
+WWTR1,WWTR1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+XYLT1,XYLT1,skeletal_bone,Embryonic Skeletal System Development (GO:0048706) | Skeletal System Development (GO:0001501),1,2
+YAP1,YAP1,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+ZHX3,ZHX3,skeletal_bone,Positive Regulation Of Osteoblast Differentiation (GO:0045669) | Regulation Of Osteoblast Differentiation (GO:0045667),1,2
+ZNF423,ZNF423,bmp_developmental,Positive Regulation Of BMP Signaling Pathway (GO:0030513) | Regulation Of BMP Signaling Pathway (GO:0030510),1,2
+ADAMTS4,ADAMTS4,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+AKAP13,AKAP13,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+ALPL,ALPL,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+ALX4,ALX4,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+AMELX,AMELX,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+AQP1,AQP1,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+AQP3,AQP3,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+AQP5,AQP5,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+AQP6,AQP6,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+ARSL,ARSL,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+ATF4,ATF4,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+AXIN2,AXIN2,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+BMP5,BMP5,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+BMP8B,BMP8B,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+BPNT2,BPNT2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+BTF3P11,BTF3P11,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+CCDC134,CCDC134,skeletal_bone,Regulation Of Ossification (GO:0030278),1,1
+CDH11,CDH11,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+CDH2,CDH2,neural_crest,Neural Crest Cell Development (GO:0014032),1,1
+CEMP1,CEMP1,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+CHD7,CHD7,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+CLEC3A,CLEC3A,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+CLEC5A,CLEC5A,skeletal_bone,Osteoblast Development (GO:0002076),1,1
+CMKLR1,CMKLR1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+CNMD,CNMD,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COL10A1,COL10A1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COL18A1,COL18A1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COL19A1,COL19A1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COL27A1,COL27A1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COL9A2,COL9A2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+COMP,COMP,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+DLL3,DLL3,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+DLX6,DLX6,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+EIF4A3,EIF4A3,skeletal_bone,Embryonic Skeletal System Morphogenesis (GO:0048704),1,1
+EN1,EN1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+ETS2,ETS2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+EVC,EVC,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+EXT1,EXT1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+EXTL1,EXTL1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+FBXL17,FBXL17,neural_crest,Neural Crest Cell Differentiation (GO:0014033),1,1
+FGF2,FGF2,cartilage_chondrocyte,Cartilage Development (GO:0051216),1,1
+FGF4,FGF4,cartilage_chondrocyte,Cartilage Development (GO:0051216),1,1
+FN1,FN1,neural_crest,Neural Crest Cell Migration (GO:0001755),1,1
+FOLR1,FOLR1,neural_crest,Neural Crest Cell Migration (GO:0001755),1,1
+FRZB,FRZB,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+FST,FST,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+FSTL1,FSTL1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+FSTL4,FSTL4,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+FSTL5,FSTL5,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+GDF11,GDF11,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+GH1,GH1,skeletal_bone,Bone Development (GO:0060348),1,1
+GREM2,GREM2,bmp_developmental,Negative Regulation Of BMP Signaling Pathway (GO:0030514),1,1
+GUSBP3,GUSBP3,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+HEMGN,HEMGN,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+HOXA1,HOXA1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),1,1
+HOXA13,HOXA13,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+IHH,IHH,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+INHA,INHA,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+ITGA3,ITGA3,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+KAT2A,KAT2A,cartilage_chondrocyte,Regulation Of Cartilage Development (GO:0061035),1,1
+LAMB1,LAMB1,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+LECT2,LECT2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+LEF1,LEF1,palate_tooth_jaw,Secondary Palate Development (GO:0062009),1,1
+LHX1,LHX1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),1,1
+LRP6,LRP6,neural_crest,Neural Crest Cell Differentiation (GO:0014033),1,1
+LRRC17,LRRC17,skeletal_bone,Bone Development (GO:0060348),1,1
+LRRC32,LRRC32,palate_tooth_jaw,Secondary Palate Development (GO:0062009),1,1
+MATN3,MATN3,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+MBTPS2,MBTPS2,skeletal_bone,Bone Development (GO:0060348),1,1
+MEPE,MEPE,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+MMP14,MMP14,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+MMP16,MMP16,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+MTHFD1,MTHFD1,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),1,1
+MTHFD1L,MTHFD1L,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),1,1
+NIPBL,NIPBL,craniofacial_cranial,Embryonic Cranial Skeleton Morphogenesis (GO:0048701),1,1
+OTUD5,OTUD5,neural_crest,Neural Crest Cell Differentiation (GO:0014033),1,1
+PAPSS1,PAPSS1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PAX1,PAX1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PCSK6,PCSK6,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+PHEX,PHEX,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PITX1,PITX1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PRDX1,PRDX1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PRELP,PRELP,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PRKACA,PRKACA,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+PTH1R,PTH1R,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+PTK2,PTK2,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+PTPRC,PTPRC,skeletal_bone,Bone Development (GO:0060348),1,1
+REST,REST,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+RHOA,RHOA,skeletal_bone,Regulation Of Osteoblast Proliferation (GO:0033688),1,1
+RPS6KA3,RPS6KA3,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+SBDS,SBDS,skeletal_bone,Bone Development (GO:0060348),1,1
+SHOX,SHOX,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+SHOX2,SHOX2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+SMOC1,SMOC1,skeletal_bone,Regulation Of Osteoblast Differentiation (GO:0045667),1,1
+SPP2,SPP2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+SSUH2,SSUH2,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+TBX3,TBX3,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+TEAD4,TEAD4,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+TFAP2B,TFAP2B,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+TLL1,TLL1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+TP53,TP53,skeletal_bone,Bone Development (GO:0060348),1,1
+TRAPPC2,TRAPPC2,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+TSPEAR,TSPEAR,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+TUFT1,TUFT1,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+TWSG1,TWSG1,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+UFD1,UFD1,skeletal_bone,Skeletal System Development (GO:0001501),1,1
+WNT10A,WNT10A,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1
+WNT3A,WNT3A,palate_tooth_jaw,Secondary Palate Development (GO:0062009),1,1
+XIAP,XIAP,bmp_developmental,Regulation Of BMP Signaling Pathway (GO:0030510),1,1
+ZNF22,ZNF22,palate_tooth_jaw,Odontogenesis (GO:0042476),1,1

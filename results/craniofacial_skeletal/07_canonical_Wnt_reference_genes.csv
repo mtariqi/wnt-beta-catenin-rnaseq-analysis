@@ -1,0 +1,7 @@
+symbol,baseMean,log2FoldChange,pvalue,BH_FDR_AUDIT,Significance,Panel
+Axin2,440.9460943,-0.296370032,0.13245275,0.9773473258763932,Not significant,Canonical Wnt reference
+Tcf7,846.6807475,0.584544098,0.142629183,0.9791178233008296,Not significant,Canonical Wnt reference
+Apcdd1,646.2751895,-0.652134933,0.156891848,0.9791178233008296,Not significant,Canonical Wnt reference
+Dkk1,238.9788469,0.500589028,0.26333982,0.9791178233008296,Not significant,Canonical Wnt reference
+Nkd1,331.0996473,-0.323863189,0.293911423,0.9791178233008296,Not significant,Canonical Wnt reference
+Sp5,2.870925668,0.224483493,0.870083066,0.9881364220372302,Not significant,Canonical Wnt reference
