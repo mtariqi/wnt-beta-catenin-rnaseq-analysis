@@ -207,23 +207,31 @@ thread, and random seed 42.
 
 ## Repository structure
 
-```text
-.
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ processed/
-â”‚   â””â”€â”€ signatures/
-â”œâ”€â”€ figures/
-â”‚   â”œâ”€â”€ gsea/
-â”‚   â”œâ”€â”€ mechanistic/
-â”‚   â”œâ”€â”€ nature_volcano_craniofacial/
-â”‚   â””â”€â”€ volcano/
-â”œâ”€â”€ reports/
-â”‚   â”œâ”€â”€ manuscripts/
-â”‚   â””â”€â”€ presentations/
-â”œâ”€â”€ results/
-â”œâ”€â”€ scripts/
-â””â”€â”€ requirements.txt
-```
+- `data/`
+  - `processed/` — canonical differential-expression input
+  - `signatures/` — Wnt/TCF reference gene sets
+- `figures/`
+  - `gsea/`
+  - `mechanistic/`
+  - `nature_volcano_craniofacial/`
+  - `volcano/`
+- `reports/`
+  - `manuscripts/`
+  - `presentations/`
+- `results/`
+  - `craniofacial_skeletal/`
+  - `deg/`
+  - `enrichment/`
+  - `gsea/`
+  - `mechanistic_drivers/`
+  - `pathway_enrichment/`
+  - `pathway_gsea/`
+  - `wnt_pcp_mechanistic/`
+  - `wnt_signatures/`
+- `scripts/` — numbered reproducible analysis scripts
+- `tests/` — validation tests
+- `requirements.txt` — direct Python dependencies
+- `requirements-lock.txt` — frozen analysis environment
 
 ## Key figures
 
