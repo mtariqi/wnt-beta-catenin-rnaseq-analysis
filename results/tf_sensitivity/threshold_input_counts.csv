@@ -1,0 +1,9 @@
+scenario,scenario_label,selection_mode,selection_value,direction,gene_count
+p005,Nominal p < 0.05,p,0.05,downregulated,994
+p005,Nominal p < 0.05,p,0.05,upregulated,340
+p010,Nominal p < 0.10,p,0.1,downregulated,1608
+p010,Nominal p < 0.10,p,0.1,upregulated,689
+top2000,"Top 2,000 by nominal p",top,2000.0,downregulated,1428
+top2000,"Top 2,000 by nominal p",top,2000.0,upregulated,572
+top5000,"Top 5,000 by nominal p",top,5000.0,downregulated,3250
+top5000,"Top 5,000 by nominal p",top,5000.0,upregulated,1750
