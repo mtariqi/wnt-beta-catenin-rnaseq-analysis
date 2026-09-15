@@ -65,8 +65,8 @@ and other junction-associated genes.
 
 Four gene sets from the supplied Wnt/TCF signature workbook were analyzed:
 
-- Î²-catenin dependent
-- Î²-catenin independent
+- β-catenin dependent
+- β-catenin independent
 - TCF/LEF dependent
 - TCF/LEF independent
 
