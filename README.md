@@ -1,4 +1,4 @@
-# Wnt/Î²-Catenin Transcriptomic Analysis in Mouse Mutant Tissue
+# Wnt/β-Catenin Transcriptomic Analysis in Mouse Mutant Tissue
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![RNA-seq](https://img.shields.io/badge/RNA--seq-DESeq2-green.svg)](https://bioconductor.org/packages/DESeq2/)
