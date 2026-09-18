@@ -50,3 +50,34 @@ archive_local/
 
 # Test cache
 .pytest_cache/
+
+# Python-generated files
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+
+# API and database caches
+results/**/cache/
+results/**/ensembl_cache/
+
+# Incomplete orthology sensitivity run
+results/wnt_signature_ranked_validation_94_orthologs/
+
+# Redundant bundles and temporary files
+*.zip
+~$*
+.DS_Store
+
+# Duplicate signature workbooks
+data/processed/*LEFTCF*.xlsx
+# Binary reports and presentations shared separately
+*.docx
+ppt/
+
+# Duplicate root-level evidence table
+/tf_edge_evidence_table.csv

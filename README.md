@@ -33,6 +33,14 @@ The supplied table contains `gene_id`, `symbol`, `baseMean`,
 `log2FoldChange`, and nominal `pvalue`. It does not contain the original
 DESeq2 `padj` column.
 
+
+## Testing
+
+Install development dependencies:
+
+```bash
+python -m pip install -r requirements-dev.txt
+
 ## Principal validated results
 
 ### Differential expression
