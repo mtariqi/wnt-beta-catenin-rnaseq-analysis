@@ -81,3 +81,4 @@ ppt/
 
 # Duplicate root-level evidence table
 /tf_edge_evidence_table.csv
+results/wnt_signature_ranked_validation/

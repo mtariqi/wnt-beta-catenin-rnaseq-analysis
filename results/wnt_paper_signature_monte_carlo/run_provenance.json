@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-17T14:47:43.937935+00:00",
+  "deseq2": "data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv",
+  "signatures": "data/processed/wnt_beta_catenin_LEFTCF_signatures.xlsx",
+  "paper_reference": "Doumpas et al., EMBO J 2019, doi:10.15252/embj.201798873",
+  "n_sim": 10000,
+  "seed": 20260917,
+  "matching": "baseMean deciles",
+  "limitations": [
+    "No sample-level counts were available.",
+    "No sample bootstrap, leave-one-out DESeq2, or phenotype permutation was performed.",
+    "Paper signatures are human HEK293T reference sets applied contextually to mouse data."
+  ]
+}

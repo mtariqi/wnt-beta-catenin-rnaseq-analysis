@@ -17,23 +17,22 @@ One-to-many, many-to-many, missing, discordant, and query-unresolved mappings ar
 ## Final mapping outcome
 
 - Unique human genes evaluated: 231
-- Consensus one-to-one mappings accepted: 162 (70.1%)
-- Excluded or unresolved: 69
-- Signature retention: 66.2%–71.9%
-- Three genes (`FERMT3`, `PLAT`, and `CALCOCO1`) remained unresolved because Ensembl REST timed out; MGI-only assignments were deliberately not accepted.
+- Consensus one-to-one mappings accepted: **163** (70.6%)
+- Excluded or unresolved: 68
+- Signature retention: 66.2%–72.7%
+- Two genes (`PLAT` and `CALCOCO1`) remained query-unresolved because Ensembl REST timed out; MGI-only assignments were conservatively excluded.
+- `FERMT3`, which was unresolved in the earlier run, was recovered after a successful Ensembl retry and passed the Ensembl–MGI consensus one-to-one acceptance rule.
 
 ## Validation result after verified mapping
 
-All four signatures had negative normalized enrichment scores, consistent with a broad tendency toward lower expression in the current study. The effects were modest and not statistically significant after Benjamini–Hochberg correction:
+All four signatures had negative normalized enrichment scores, indicating a shared directional tendency toward lower expression in the current study. However, none was statistically significant after Benjamini–Hochberg correction (minimum empirical two-sided P = 0.233; minimum FDR = 0.491). Therefore, these findings provide exploratory directional evidence rather than statistically confirmed signature enrichment.
 
 | Signature | Detected genes | NES | Empirical two-sided P | BH FDR |
 |---|---:|---:|---:|---:|
-| TCF/LEF independent | 19 | -1.154 | 0.232 | 0.393 |
-| β-catenin dependent | 115 | -1.179 | 0.234 | 0.393 |
-| β-catenin independent | 42 | -0.853 | 0.377 | 0.393 |
-| TCF/LEF dependent | 96 | -0.830 | 0.393 | 0.393 |
-
-The strongest threshold-based exploratory signals were enrichment of TCF/LEF-dependent and β-catenin-dependent genes among the top 5,000 downregulated genes (nominal P = 0.013 and 0.019), but both had BH FDR = 0.449. Therefore, the defensible conclusion is a reproducible directional tendency, not formal statistical confirmation.
+| TCF/LEF independent | 19 | -1.149 | 0.233 | 0.491 |
+| β-catenin dependent | 116 | -1.090 | 0.276 | 0.491 |
+| β-catenin independent | 42 | -0.853 | 0.368 | 0.491 |
+| TCF/LEF dependent | 97 | -0.660 | 0.502 | 0.502 |
 
 ## Reproduction
 

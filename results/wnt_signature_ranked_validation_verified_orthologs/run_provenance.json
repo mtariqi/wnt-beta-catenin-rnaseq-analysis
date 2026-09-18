@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-18T19:18:42.641720+00:00",
+  "reference": "Doumpas et al. (2019), EMBO Journal 38:e98873",
+  "doi": "https://doi.org/10.15252/embj.201798873",
+  "paper_data_used": "four gene lists plus published WT logFC and pValue columns",
+  "paper_raw_data_reanalysed": false,
+  "deseq2": "data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv",
+  "signatures": "data/reference/Wnt_beta_catenin_LEFTCF_signatures.xlsx",
+  "ortholog_map": "data/reference/human_mouse_consensus_one2one.csv",
+  "mapping_interpretation": "curated map supplied",
+  "n_sim": 10000,
+  "seed": 20260917,
+  "rank_metric": "sign(log2FoldChange) * -log10(nominal pvalue), capped at 300",
+  "monte_carlo_matching": "baseMean deciles",
+  "multiplicity": "Benjamini-Hochberg within each output family"
+}

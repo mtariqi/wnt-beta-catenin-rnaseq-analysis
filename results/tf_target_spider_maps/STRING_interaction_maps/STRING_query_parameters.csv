@@ -1,0 +1,10 @@
+parameter,value
+STRING_API_BASE,https://version-12-0.string-db.org/api
+species,10090
+required_score,400
+network_type,functional
+add_nodes,0
+caller_identity,wnt-beta-catenin-rnaseq-analysis
+input_file,results/tf_target_spider_maps/top2000_tf_target_evidence_table.csv
+paper_reference,"Doumpas et al., EMBO J 2019, doi:10.15252/embj.201798873"
+paper_annotation_scope,"Context-only flags for selected examples; human HEK293T paper, not validation of mouse RNA-seq or STRING edges"

@@ -1,0 +1,398 @@
+human_symbol,paper_logfc_wt,paper_pvalue_wt,mouse_symbol,mapping_status,signature,current_log2fc,current_pvalue,baseMean,detected_current,direction_concordant
+HMOX1,1.49998936,1.64e-29,HMOX1,curated ortholog map,beta-catenin independent,0.174713569,0.517555594,450.8066385,True,1.0
+CALCOCO1,-1.132180889,7.71e-28,,unmapped,beta-catenin independent,,,,False,
+PBXIP1,-1.341741213,9.47e-28,PBXIP1,curated ortholog map,beta-catenin independent,-0.135304163,0.577197574,3707.028085,True,1.0
+SLC7A11,1.561618615,2.69e-25,SLC7A11,curated ortholog map,beta-catenin independent,-0.487379699,0.319947161,225.8191766,True,0.0
+ABAT,-1.381145043,1.41e-16,ABAT,curated ortholog map,beta-catenin independent,-0.396300132,0.132051159,382.462511,True,1.0
+BMF,-1.484419512,2.53e-22,BMF,curated ortholog map,beta-catenin independent,0.019419217,0.93000717,834.6061267,True,0.0
+LMO2,1.863721376,1.49e-20,LMO2,curated ortholog map,beta-catenin independent,-0.060737535,0.802216576,592.7594842,True,0.0
+TLCD1,-1.066957934,5.09e-12,TLCD1,curated ortholog map,beta-catenin independent,0.112174041,0.592376381,606.5515106,True,0.0
+FRAT1,-1.759041225,1.59e-17,,unmapped,beta-catenin independent,,,,False,
+ZNF503-AS1,4.100399987,7.93e-17,,unmapped,beta-catenin independent,,,,False,
+NUPR1,1.426573425,2.67e-15,NUPR1,curated ortholog map,beta-catenin independent,0.374645522,0.236088016,2942.173649,True,1.0
+FUT1,2.581952241,4e-16,FUT1,curated ortholog map,beta-catenin independent,-4.474117449,0.002826319,29.93810938,True,0.0
+AHNAK2,-1.413067151,3.72e-15,AHNAK2,curated ortholog map,beta-catenin independent,-0.081720317,0.823212532,898.4504877,True,1.0
+PLCL1,-1.31928178,7.86e-14,PLCL1,curated ortholog map,beta-catenin independent,-0.339468454,0.353084031,244.3385586,True,1.0
+LMOD1,-1.074243148,1.04e-13,LMOD1,curated ortholog map,beta-catenin independent,-1.070319066,0.001190582,147.7965967,True,1.0
+REPS2,-1.497317074,9.61e-13,REPS2,curated ortholog map,beta-catenin independent,-0.397317139,0.181618919,165.8069875,True,1.0
+LY6G6D,5.650442889,3.08e-13,LY6G6D,curated ortholog map,beta-catenin independent,-0.083700876,0.872524337,13.23855826,True,0.0
+RTN4RL1,-1.292192428,4.9e-13,RTN4RL1,curated ortholog map,beta-catenin independent,-0.468602189,0.29161921,265.1055516,True,1.0
+C1ORF233,-1.113366532,7.14e-12,,unmapped,beta-catenin independent,,,,False,
+LINC01547,-1.236857441,5.26e-09,,unmapped,beta-catenin independent,,,,False,
+ZBTB42,-1.306827237,2.84e-10,ZBTB42,curated ortholog map,beta-catenin independent,-0.238786507,0.35169328,103.3085173,True,1.0
+TCP11L2,-1.28182382,1.79e-09,TCP11L2,curated ortholog map,beta-catenin independent,0.016346808,0.934944162,1058.36486,True,0.0
+EXOC3-AS1,-1.00113499,5.02e-05,,unmapped,beta-catenin independent,,,,False,
+GEMIN8P4,-1.095359456,4.73e-09,,unmapped,beta-catenin independent,,,,False,
+YPEL3,-1.144941279,7.05e-09,YPEL3,curated ortholog map,beta-catenin independent,-0.171319872,0.049830499,2343.63133,True,1.0
+ORAI3,-1.061135376,2.36e-06,ORAI3,curated ortholog map,beta-catenin independent,0.080058211,0.587572358,396.2005438,True,0.0
+TMEM86A,-1.080897086,1.93e-05,TMEM86A,curated ortholog map,beta-catenin independent,0.338450355,0.155698383,1046.511736,True,0.0
+TLCD2,-1.09018145,2.99e-08,TLCD2,curated ortholog map,beta-catenin independent,0.012120582,0.964993989,317.3410837,True,0.0
+ANK1,-1.36793062,3.23e-08,ANK1,curated ortholog map,beta-catenin independent,-0.212985733,0.657654246,2167.588211,True,1.0
+ELFN1,-1.607019647,3.75e-08,ELFN1,curated ortholog map,beta-catenin independent,-0.502242527,0.552421611,16.79576257,True,1.0
+CIRBP-AS1,-1.271759797,7.94e-08,,unmapped,beta-catenin independent,,,,False,
+PRRT2,-1.281056484,8.77e-08,PRRT2,curated ortholog map,beta-catenin independent,0.491736684,0.079282921,357.6218102,True,0.0
+CEBPA-AS1,-1.058908349,1.25e-06,,unmapped,beta-catenin independent,,,,False,
+KCNN3,-2.166396345,1.71e-07,KCNN3,curated ortholog map,beta-catenin independent,-0.386153445,0.383062226,196.4016702,True,1.0
+OPRL1,-1.637822465,4.47e-07,OPRL1,curated ortholog map,beta-catenin independent,0.444086847,0.603231524,4.457163781,True,0.0
+LOC100130238,-1.231766233,6.26e-07,,unmapped,beta-catenin independent,,,,False,
+SMIM10L2A,-1.035256638,9.11e-07,,unmapped,beta-catenin independent,,,,False,
+VIPR1,-1.009477528,1.24e-06,VIPR1,curated ortholog map,beta-catenin independent,-1.366278304,0.115816159,44.78488251,True,1.0
+COL6A5,2.383942761,4.32e-06,COL6A5,curated ortholog map,beta-catenin independent,-0.788688596,0.062171471,158.9111647,True,0.0
+C5,-1.142223351,0.000826124,,unmapped,beta-catenin independent,,,,False,
+LPP-AS2,-2.218867101,1.36e-05,,unmapped,beta-catenin independent,,,,False,
+ARHGAP30,-1.272193681,0.006881152,ARHGAP30,curated ortholog map,beta-catenin independent,0.506228166,0.148861936,420.3371104,True,0.0
+TMEM132B,-2.248152004,2.91e-05,TMEM132B,curated ortholog map,beta-catenin independent,-1.502323461,0.045400959,41.16433031,True,1.0
+SECTM1,-1.407544199,8.07e-05,,unmapped,beta-catenin independent,,,,False,
+SSPO,-1.483194312,0.000196693,,unmapped,beta-catenin independent,,,,False,
+DCT,1.643523357,0.00118008,DCT,curated ortholog map,beta-catenin independent,0.089301919,0.841610099,24.28973012,True,1.0
+ACPP,-1.12195708,0.000207424,,unmapped,beta-catenin independent,,,,False,
+EXOC3L1,-2.210965069,0.000353476,EXOC3L,curated ortholog map,beta-catenin independent,-0.079537878,0.7239462,215.8084075,True,1.0
+FRMPD4,-1.532022891,0.001711956,FRMPD4,curated ortholog map,beta-catenin independent,-0.514749907,0.409155307,39.20326451,True,1.0
+ZBTB16,-1.256005931,0.000586808,ZBTB16,curated ortholog map,beta-catenin independent,0.48616353,0.18955694,668.9853928,True,0.0
+LINC00341,-1.027530618,0.000822584,,unmapped,beta-catenin independent,,,,False,
+NIM1K,-1.309004373,0.001517501,NIM1K,curated ortholog map,beta-catenin independent,0.099831824,0.790868929,88.47586856,True,0.0
+DGKK,-2.612519699,0.002079087,DGKK,curated ortholog map,beta-catenin independent,-2.029085685,0.21706014,2.000866783,True,1.0
+VWA5A,-1.744025144,0.002334705,,unmapped,beta-catenin independent,,,,False,
+HCN4,-1.049097413,0.003119165,HCN4,curated ortholog map,beta-catenin independent,,,,False,
+RIMBP3,-1.386774416,0.003241212,,unmapped,beta-catenin independent,,,,False,
+PAK7,-1.531843187,0.006346244,,unmapped,beta-catenin independent,,,,False,
+ITGB1BP2,1.48190646,0.006853186,ITGB1BP2,curated ortholog map,beta-catenin independent,-0.291932016,0.582569873,960.4261354,True,0.0
+MTUS2,-1.303904602,0.007077359,MTUS2,curated ortholog map,beta-catenin independent,-0.389197562,0.566995161,37.06229597,True,1.0
+TCHH,-1.213781385,0.029264953,TCHH,curated ortholog map,beta-catenin independent,0.659132445,0.071395491,40.0441586,True,0.0
+KLHDC8A,-1.440468526,0.009847226,KLHDC8A,curated ortholog map,beta-catenin independent,-0.655551919,0.259821295,34.14290852,True,1.0
+NTNG2,-1.230498357,0.018424846,NTNG2,curated ortholog map,beta-catenin independent,-0.233824274,0.664499785,309.7447562,True,1.0
+APOBEC3G,-1.268857972,0.01614771,,unmapped,beta-catenin independent,,,,False,
+KLF14,-1.394903302,0.023887323,,unmapped,beta-catenin independent,,,,False,
+TMEM92,-1.200458867,0.039746284,TMEM92,curated ortholog map,beta-catenin independent,0.249673691,0.798410221,13.54645957,True,0.0
+CDH11,-3.20214179,0.000401854,CDH11,curated ortholog map,beta-catenin dependent,0.447044707,0.07148346,9082.029329,True,0.0
+EBF2,-2.318554166,1.25e-11,EBF2,curated ortholog map,beta-catenin dependent,-3.322084702,0.003062391,490.2793894,True,1.0
+PLXNA4,-2.239164636,0.000229992,PLXNA4,curated ortholog map,beta-catenin dependent,-0.313438178,0.420465431,585.8333377,True,1.0
+LCMT1-AS2,-1.960209888,0.006247135,,unmapped,beta-catenin dependent,,,,False,
+FAM65B,-1.944506359,1.36e-07,,unmapped,beta-catenin dependent,,,,False,
+UNCX,-1.940118515,5.46e-06,UNCX,curated ortholog map,beta-catenin dependent,,,,False,
+NCAN,-1.850857827,0.002151109,NCAN,curated ortholog map,beta-catenin dependent,-0.929035387,0.349257323,59.08059675,True,1.0
+CCDC85A,-1.810554514,0.004593945,CCDC85A,curated ortholog map,beta-catenin dependent,-0.539885794,0.294973446,196.6045494,True,1.0
+TSPY26P,-1.760566619,0.003914048,TSPYL3,curated ortholog map,beta-catenin dependent,0.105642089,0.671864559,161.3166053,True,0.0
+MYLK3,-1.736033512,0.001511542,MYLK3,curated ortholog map,beta-catenin dependent,0.364148598,0.530129658,75.83899279,True,0.0
+ADCY5,-1.680203279,3.36e-11,ADCY5,curated ortholog map,beta-catenin dependent,0.053659283,0.841998577,472.5578117,True,0.0
+CBLN3,-1.611258126,0.010907563,CBLN3,curated ortholog map,beta-catenin dependent,-0.178838431,0.643526,23.61223784,True,1.0
+IGFBP5,-1.604938977,4.77e-49,IGFBP5,curated ortholog map,beta-catenin dependent,0.163523786,0.417158499,26192.40674,True,0.0
+UNC5C,-1.580865601,1.5e-38,UNC5C,curated ortholog map,beta-catenin dependent,0.361866703,0.125303227,428.3589162,True,0.0
+P2RX5,-1.569967162,0.009985434,P2RX5,curated ortholog map,beta-catenin dependent,-0.651619736,0.209067642,139.7418428,True,1.0
+B3GNT3,-1.564952693,0.0306928,B3GNT3,curated ortholog map,beta-catenin dependent,-0.393176767,0.102895531,164.6689408,True,1.0
+MATN1-AS1,-1.511735278,0.005290741,,unmapped,beta-catenin dependent,,,,False,
+CCDC64B,-1.487809963,0.040838774,,unmapped,beta-catenin dependent,,,,False,
+NTN4,-1.445228992,1.87e-12,NTN4,curated ortholog map,beta-catenin dependent,-0.078612747,0.783825924,257.7176452,True,1.0
+PLXNA2,-1.432650099,6.65e-16,PLXNA2,curated ortholog map,beta-catenin dependent,0.105196118,0.640737332,1630.991235,True,0.0
+INSM1,-1.424442025,6.46e-09,INSM1,curated ortholog map,beta-catenin dependent,,,,False,
+FLT1,-1.396218417,1.12e-26,FLT1,curated ortholog map,beta-catenin dependent,-0.084070006,0.767536803,1556.340183,True,1.0
+TPI1P2,-1.390476925,0.00059581,,unmapped,beta-catenin dependent,,,,False,
+GPR83,-1.389829427,0.013132847,GPR83,curated ortholog map,beta-catenin dependent,0.028731864,0.97199173,8.058441521,True,0.0
+B3GNT7,-1.376613786,0.041563949,B3GNT7,curated ortholog map,beta-catenin dependent,0.421816697,0.197283891,33.33021252,True,0.0
+LRRC32,-1.358969048,0.002576525,LRRC32,curated ortholog map,beta-catenin dependent,-0.174152598,0.594617837,353.3080296,True,1.0
+PRPH,-1.354473357,0.000930016,PRPH,curated ortholog map,beta-catenin dependent,-3.41459669,0.000230045,98.75091143,True,1.0
+ST8SIA2,-1.353772738,0.001180396,ST8SIA2,curated ortholog map,beta-catenin dependent,-0.20731758,0.677056683,76.92949336,True,1.0
+ETV1,-1.303522056,5.75e-06,ETV1,curated ortholog map,beta-catenin dependent,-0.015446301,0.948388454,207.2569616,True,1.0
+PTENP1,-1.301979776,7.2e-07,,unmapped,beta-catenin dependent,,,,False,
+TNFAIP8L3,-1.301579296,4.39e-05,,unmapped,beta-catenin dependent,,,,False,
+RASGEF1B,-1.271451513,7.52e-14,RASGEF1B,curated ortholog map,beta-catenin dependent,0.342628831,0.167144022,133.5875697,True,0.0
+ANKRD63,-1.26153762,0.005002501,ANKRD63,curated ortholog map,beta-catenin dependent,0.296610648,0.844556957,4.346050516,True,0.0
+MSTN,-1.256370566,0.036008483,MSTN,curated ortholog map,beta-catenin dependent,-0.302101477,0.63491196,172.732948,True,1.0
+KLLN,-1.255077683,0.00082516,,unmapped,beta-catenin dependent,,,,False,
+NAP1L3,-1.254963662,1.29e-10,NAP1L3,curated ortholog map,beta-catenin dependent,-0.334840441,0.597104415,31.73987912,True,1.0
+SEMA6D,-1.252881636,4.25e-16,SEMA6D,curated ortholog map,beta-catenin dependent,0.085979452,0.563701966,1458.953844,True,0.0
+CACNA1G,-1.251401315,1.94e-06,CACNA1G,curated ortholog map,beta-catenin dependent,0.225672454,0.317840066,3127.094716,True,0.0
+MYOM2,-1.249464998,1.93e-08,MYOM2,curated ortholog map,beta-catenin dependent,-0.691873996,0.159344224,1115.973029,True,1.0
+PDK4,-1.245845497,1.7e-05,PDK4,curated ortholog map,beta-catenin dependent,-0.168832032,0.660671689,4771.511551,True,1.0
+TEX19,-1.237312389,0.042666892,,unmapped,beta-catenin dependent,,,,False,
+CACNA1D,-1.235765335,0.000262519,CACNA1D,curated ortholog map,beta-catenin dependent,-1.085678061,0.1517967,272.8592152,True,1.0
+SYNDIG1,-1.232539142,1.91e-07,SYNDIG1,curated ortholog map,beta-catenin dependent,0.060606501,0.927670924,12.8451077,True,0.0
+C1QL1,-1.217866244,5.2e-08,C1QL1,curated ortholog map,beta-catenin dependent,-0.612223727,0.467571861,5.084161919,True,1.0
+C19ORF73,-1.217083882,0.018070086,,unmapped,beta-catenin dependent,,,,False,
+RCN3,-1.214507602,0.000187262,RCN3,curated ortholog map,beta-catenin dependent,0.264779223,0.341990553,12306.10719,True,0.0
+SMOC1,-1.205050283,4.28e-19,SMOC1,curated ortholog map,beta-catenin dependent,0.586146983,0.165704945,780.6801741,True,0.0
+CREBRF,-1.192654131,4.9e-13,CREBRF,curated ortholog map,beta-catenin dependent,-0.267739127,0.104776905,651.3013399,True,1.0
+FIBIN,-1.187233829,0.000589605,FIBIN,curated ortholog map,beta-catenin dependent,-0.25905726,0.378841594,746.4793232,True,1.0
+BMPER,-1.186822813,0.000236574,BMPER,curated ortholog map,beta-catenin dependent,-0.034044917,0.888643908,357.9977782,True,1.0
+IGSF21,-1.18454279,0.007721782,IGSF21,curated ortholog map,beta-catenin dependent,1.060793556,0.330743295,48.2221267,True,0.0
+CCDC87,-1.167224685,5.43e-05,CCDC87,curated ortholog map,beta-catenin dependent,-4.412233706,0.006377375,11.30357717,True,1.0
+GRM4,-1.167184931,0.041592518,GRM4,curated ortholog map,beta-catenin dependent,0.237357238,0.60008652,29.85143734,True,0.0
+NAP1L2,-1.161320568,8.76e-06,NAP1L2,curated ortholog map,beta-catenin dependent,-1.197800621,0.346046893,13.82814437,True,1.0
+DNAH2,-1.156537078,0.045510859,DNAH2,curated ortholog map,beta-catenin dependent,-0.188896588,0.676072315,146.6173987,True,1.0
+CYP4X1,-1.155012126,0.006445232,CYP4X1,curated ortholog map,beta-catenin dependent,-0.290671381,0.405412671,35.35749969,True,1.0
+THRB,-1.153995268,1.32e-24,THRB,curated ortholog map,beta-catenin dependent,-0.351237213,0.355253797,224.0627841,True,1.0
+FENDRR,-1.151014488,5.9e-13,,unmapped,beta-catenin dependent,,,,False,
+THSD7A,-1.148136267,0.036809421,THSD7A,curated ortholog map,beta-catenin dependent,-0.535895013,0.110427739,151.499093,True,1.0
+EYA1,-1.131441837,9.04e-08,EYA1,curated ortholog map,beta-catenin dependent,-0.754072894,0.070967748,740.4994855,True,1.0
+SYTL2,-1.124805473,7.4e-07,SYTL2,curated ortholog map,beta-catenin dependent,0.114451233,0.739291807,1412.709333,True,0.0
+ADGRA2,-1.118882657,1.24e-17,ADGRA2,curated ortholog map,beta-catenin dependent,0.007006661,0.967741546,2618.961912,True,0.0
+PLAT,-1.115901859,1.54e-11,,unmapped,beta-catenin dependent,,,,False,
+ARHGAP28,-1.10896608,5.27e-12,ARHGAP28,curated ortholog map,beta-catenin dependent,0.061943351,0.80230324,414.6493972,True,0.0
+JAK3,-1.09566406,0.00106841,JAK3,curated ortholog map,beta-catenin dependent,0.106835736,0.588834793,691.7551727,True,0.0
+PLA2G6,-1.095418626,3.22e-07,PLA2G6,curated ortholog map,beta-catenin dependent,-0.086109833,0.539728048,305.982632,True,1.0
+MN1,-1.093679628,5.96e-08,MN1,curated ortholog map,beta-catenin dependent,-0.461136765,0.253369615,1143.49631,True,1.0
+PAX2,-1.091750833,0.007194367,PAX2,curated ortholog map,beta-catenin dependent,,,,False,
+MAFB,-1.085644044,4e-16,MAFB,curated ortholog map,beta-catenin dependent,0.113935855,0.713805763,2279.405848,True,0.0
+NEDD9,-1.082958875,4.29e-06,NEDD9,curated ortholog map,beta-catenin dependent,-0.016022189,0.954092933,1688.551091,True,1.0
+SNAI3,-1.082351185,0.001511542,SNAI3,curated ortholog map,beta-catenin dependent,-1.314569014,0.12879605,22.64163073,True,1.0
+CFAP70,-1.079991215,7.02e-05,CFAP70,curated ortholog map,beta-catenin dependent,-1.961150686,0.052148327,46.34298905,True,1.0
+SLC9A9,-1.075432796,4.05e-08,SLC9A9,curated ortholog map,beta-catenin dependent,-0.03357685,0.849564481,310.9089805,True,1.0
+KCNB2,-1.075146593,0.000243541,,unmapped,beta-catenin dependent,,,,False,
+HMX2,-1.074634765,0.027880282,HMX2,curated ortholog map,beta-catenin dependent,-0.811945275,0.817223888,0.399441978,True,1.0
+DLL1,-1.073000186,5.85e-15,DLL1,curated ortholog map,beta-catenin dependent,0.223602506,0.497031828,233.4495964,True,0.0
+NKX2-3,-1.062036655,0.001678621,NKX2-3,curated ortholog map,beta-catenin dependent,2.299726466,0.508228315,0.43809973,True,0.0
+TMEM255A,-1.060267845,5.93e-16,TMEM255A,curated ortholog map,beta-catenin dependent,-0.412636642,0.196977998,65.60843457,True,1.0
+HBP1,-1.059794758,6.67e-15,HBP1,curated ortholog map,beta-catenin dependent,-0.095379854,0.574614253,1874.746058,True,1.0
+CCNG2,-1.057116096,1.94e-26,CCNG2,curated ortholog map,beta-catenin dependent,-0.089739822,0.300483962,700.8458569,True,1.0
+ANKRA2,-1.056456172,2.61e-14,ANKRA2,curated ortholog map,beta-catenin dependent,0.068244433,0.671031651,383.216467,True,0.0
+PIK3IP1,-1.055269869,6.82e-05,PIK3IP1,curated ortholog map,beta-catenin dependent,-0.04824199,0.810931395,1688.398124,True,1.0
+MYH11,-1.051480206,0.040647684,MYH11,curated ortholog map,beta-catenin dependent,-0.900158781,0.00789145,997.2723377,True,1.0
+ANKRD24,-1.048390723,0.024180384,ANKRD24,curated ortholog map,beta-catenin dependent,-0.58220076,0.025583807,431.8175658,True,1.0
+SOX5,-1.047438327,1.38e-08,SOX5,curated ortholog map,beta-catenin dependent,-0.458085572,0.018229447,125.9440303,True,1.0
+SYTL5,-1.046496734,1.14e-13,SYTL5,curated ortholog map,beta-catenin dependent,2.217326763,0.321485492,2.140146765,True,0.0
+LYNX1,-1.040685548,0.035218056,,unmapped,beta-catenin dependent,,,,False,
+FAM150A,-1.038306856,0.004723467,,unmapped,beta-catenin dependent,,,,False,
+TTC30A,-1.037411105,5.43e-09,,unmapped,beta-catenin dependent,,,,False,
+BCL11B,-1.030367343,8.95e-06,BCL11B,curated ortholog map,beta-catenin dependent,-0.703304874,0.060255002,457.3046815,True,1.0
+KIAA1107,-1.024838362,2.3e-06,,unmapped,beta-catenin dependent,,,,False,
+SCUBE1,-1.021853109,0.003107765,SCUBE1,curated ortholog map,beta-catenin dependent,0.260645698,0.368296762,361.0920331,True,0.0
+HRH1,-1.007298105,0.013153529,HRH1,curated ortholog map,beta-catenin dependent,-1.409063058,0.087011691,9.3722135,True,1.0
+DDX60,-1.006356066,0.028229245,DDX60,curated ortholog map,beta-catenin dependent,-0.137035608,0.796949993,69.74495789,True,1.0
+DEPTOR,-1.000527853,2.09e-05,DEPTOR,curated ortholog map,beta-catenin dependent,0.091499749,0.665332158,1657.93997,True,0.0
+PIP5KL1,1.001587583,0.031252896,PIP5KL1,curated ortholog map,beta-catenin dependent,-0.005269205,0.995537749,3.447701596,True,0.0
+ITGA10,1.007717685,0.020744814,ITGA10,curated ortholog map,beta-catenin dependent,0.474886708,0.146796845,3373.952552,True,1.0
+FAM86HP,1.008336782,0.020447014,,unmapped,beta-catenin dependent,,,,False,
+BAG1,1.01143419,1.43e-22,BAG1,curated ortholog map,beta-catenin dependent,0.06127807,0.752981539,2191.532446,True,1.0
+ZNF582-AS1,1.015767697,0.00038008,,unmapped,beta-catenin dependent,,,,False,
+NTMT1,1.020248097,2.03e-17,NTMT1,curated ortholog map,beta-catenin dependent,-0.14007331,0.338777543,368.1243381,True,0.0
+CYP2D7,1.021359511,0.041759324,,unmapped,beta-catenin dependent,,,,False,
+SLC7A8,1.025311464,5.62e-19,SLC7A8,curated ortholog map,beta-catenin dependent,0.341909653,0.269429031,436.3398183,True,1.0
+IFI44L,1.026709941,0.000924148,IFI44L,curated ortholog map,beta-catenin dependent,,,,False,
+ZNF229,1.037417484,0.03378695,,unmapped,beta-catenin dependent,,,,False,
+SLC7A5P1,1.039257417,0.002974052,,unmapped,beta-catenin dependent,,,,False,
+HOXA9,1.047169815,3.94e-28,HOXA9,curated ortholog map,beta-catenin dependent,1.678262372,0.371578061,3.913700235,True,1.0
+UQCRHL,1.056077359,3.31e-06,,unmapped,beta-catenin dependent,,,,False,
+SNORD32A,1.069216817,0.036199053,,unmapped,beta-catenin dependent,,,,False,
+SNHG6,1.073435457,1.64e-18,,unmapped,beta-catenin dependent,,,,False,
+LOC100130987,1.075819937,0.001267296,,unmapped,beta-catenin dependent,,,,False,
+LRIT3,1.077273321,0.01395866,LRIT3,curated ortholog map,beta-catenin dependent,1.305930541,0.55394748,12.59046593,True,1.0
+RGS4,1.084960438,0.000689204,RGS4,curated ortholog map,beta-catenin dependent,-0.030574144,0.940479677,251.9338243,True,0.0
+ANKLE1,1.085356618,0.004126018,ANKLE1,curated ortholog map,beta-catenin dependent,0.008307403,0.984146505,171.8671484,True,1.0
+TSHZ1,1.090059584,1.19e-25,TSHZ1,curated ortholog map,beta-catenin dependent,-0.666263798,0.08624702,1049.991152,True,0.0
+HIST1H2BN,1.091331758,0.011150278,,unmapped,beta-catenin dependent,,,,False,
+RRH,1.095014059,0.03594254,RRH,curated ortholog map,beta-catenin dependent,-0.136633563,0.942503015,2.55503489,True,0.0
+RPL41,1.10314232,1.81e-05,,unmapped,beta-catenin dependent,,,,False,
+COL7A1,1.115263913,2.23e-06,,unmapped,beta-catenin dependent,,,,False,
+SERINC4,1.118797524,0.022192737,SERINC4,curated ortholog map,beta-catenin dependent,0.474149247,0.576316061,16.03807301,True,1.0
+ZFAND2A,1.121394279,1.16e-12,ZFAND2A,curated ortholog map,beta-catenin dependent,-0.485973693,0.130603723,581.3955027,True,0.0
+ZNF503,1.123056431,5.27e-23,ZFP503,curated ortholog map,beta-catenin dependent,0.048343014,0.797692508,592.1723521,True,1.0
+PYGM,1.123561874,0.004510613,PYGM,curated ortholog map,beta-catenin dependent,-0.933008034,0.167717595,9559.110286,True,0.0
+HIST1H2BJ,1.142820229,0.003665774,,unmapped,beta-catenin dependent,,,,False,
+LINC00312,1.147408315,0.026796297,,unmapped,beta-catenin dependent,,,,False,
+CCND1,1.152351843,4.32e-19,CCND1,curated ortholog map,beta-catenin dependent,-0.042646746,0.846188119,1384.600498,True,0.0
+CHAC1,1.184712785,7.67e-09,CHAC1,curated ortholog map,beta-catenin dependent,-0.851783335,0.022331252,144.0289876,True,0.0
+SOCS2-AS1,1.189953027,0.005184602,,unmapped,beta-catenin dependent,,,,False,
+RNF19B,1.204783732,7.41e-54,RNF19B,curated ortholog map,beta-catenin dependent,0.340687261,0.094835278,1324.475983,True,1.0
+TCF7,1.207399452,5.33e-11,TCF7,curated ortholog map,beta-catenin dependent,0.584544098,0.142629183,846.6807475,True,1.0
+SNHG7,1.219263038,1.05e-27,,unmapped,beta-catenin dependent,,,,False,
+LOC100506990,1.234520103,2.46e-07,,unmapped,beta-catenin dependent,,,,False,
+BHLHE22,1.234655355,0.000181159,BHLHE22,curated ortholog map,beta-catenin dependent,0.160284385,0.786189583,10.47627122,True,1.0
+MSX1,1.257287995,4.7e-24,MSX1,curated ortholog map,beta-catenin dependent,0.13450558,0.659083398,712.3672547,True,1.0
+SNORA26,1.257976762,0.00870687,,unmapped,beta-catenin dependent,,,,False,
+LOC100240735,1.264744476,0.01322283,,unmapped,beta-catenin dependent,,,,False,
+BZRAP1-AS1,1.284469853,2.52e-05,,unmapped,beta-catenin dependent,,,,False,
+ZNF503-AS2,1.291584312,6.73e-22,,unmapped,beta-catenin dependent,,,,False,
+CLDN1,1.30436825,3.45e-05,CLDN1,curated ortholog map,beta-catenin dependent,-0.215680207,0.598142247,124.1152991,True,0.0
+DDX11-AS1,1.313308147,0.000288279,,unmapped,beta-catenin dependent,,,,False,
+FERMT3,1.324916138,0.027329223,FERMT3,curated ortholog map,beta-catenin dependent,0.56903627,0.109470975,573.913208,True,1.0
+TLL1,1.332995898,1.11e-16,TLL1,curated ortholog map,beta-catenin dependent,0.099496909,0.838056047,76.44213203,True,1.0
+ELMO3,1.334998345,3.18e-05,ELMO3,curated ortholog map,beta-catenin dependent,-0.206895932,0.491902236,135.3153342,True,0.0
+SNORD88B,1.393385966,0.024362382,,unmapped,beta-catenin dependent,,,,False,
+MSX2,1.413261774,5.85e-66,MSX2,curated ortholog map,beta-catenin dependent,-0.230962865,0.379484821,131.7956379,True,0.0
+NMNAT3,1.421359846,0.000136506,NMNAT3,curated ortholog map,beta-catenin dependent,0.025555103,0.931287433,150.3397031,True,1.0
+ENTPD3,1.425031871,0.01832633,ENTPD3,curated ortholog map,beta-catenin dependent,0.666265685,0.036751557,875.3177123,True,1.0
+LOC654342,1.433341632,0.001173631,,unmapped,beta-catenin dependent,,,,False,
+TERC,1.458729444,0.036386838,,unmapped,beta-catenin dependent,,,,False,
+APCDD1,1.517704295,6.68e-16,APCDD1,curated ortholog map,beta-catenin dependent,-0.652134933,0.156891848,646.2751895,True,0.0
+INSC,1.525563987,3.07e-07,INSC,curated ortholog map,beta-catenin dependent,0.363140023,0.273438973,912.4809461,True,1.0
+ADAMTS5,1.541920986,2.89e-20,ADAMTS5,curated ortholog map,beta-catenin dependent,0.091287839,0.784662791,1515.778504,True,1.0
+C10ORF131,1.581621942,0.000248583,,unmapped,beta-catenin dependent,,,,False,
+HIST1H2AC,1.643623875,1.48e-05,,unmapped,beta-catenin dependent,,,,False,
+SNORD45A,1.654514433,0.000161355,,unmapped,beta-catenin dependent,,,,False,
+DOCK11,1.670104151,7.72e-82,DOCK11,curated ortholog map,beta-catenin dependent,-0.22002533,0.462334281,344.2287307,True,0.0
+RASSF6,2.025862463,6.41e-07,RASSF6,curated ortholog map,beta-catenin dependent,-2.28440445,0.155425707,10.56645623,True,0.0
+CCBE1,2.043708755,7.25e-34,CCBE1,curated ortholog map,beta-catenin dependent,0.264744887,0.41625316,61.54982936,True,1.0
+CALCB,2.068044188,2.05e-52,CALCB,curated ortholog map,beta-catenin dependent,-1.288026878,0.270773424,7.138998698,True,0.0
+SP5,2.435053334,1.19e-06,SP5,curated ortholog map,beta-catenin dependent,0.224483493,0.870083066,2.870925668,True,1.0
+KRTAP19-1,2.505817278,1.52e-07,,unmapped,beta-catenin dependent,,,,False,
+NKD1,2.798113766,5.08e-83,NKD1,curated ortholog map,beta-catenin dependent,-0.323863189,0.293911423,331.0996473,True,0.0
+ADAMTS18,3.242626273,1.29e-17,ADAMTS18,curated ortholog map,beta-catenin dependent,-0.480843318,0.400847011,141.1667878,True,0.0
+AXIN2,3.285841142,0.0,AXIN2,curated ortholog map,beta-catenin dependent,-0.296370032,0.13245275,440.9460943,True,0.0
+DKK1,3.289472188,1.93e-98,DKK1,curated ortholog map,beta-catenin dependent,0.500589028,0.26333982,238.9788469,True,1.0
+ASCL4,10.22306054,1.45e-62,ASCL4,curated ortholog map,beta-catenin dependent,-3.813221633,0.158057927,1.362936536,True,0.0
+IGFBP5,-1.604938977,4.77e-49,IGFBP5,curated ortholog map,TCF/LEF independent,0.163523786,0.417158499,26192.40674,True,0.0
+SNHG7,1.219263038,1.05e-27,,unmapped,TCF/LEF independent,,,,False,
+FLT1,-1.396218417,1.12e-26,FLT1,curated ortholog map,TCF/LEF independent,-0.084070006,0.767536803,1556.340183,True,1.0
+ADAMTS18,3.242626273,1.29e-17,ADAMTS18,curated ortholog map,TCF/LEF independent,-0.480843318,0.400847011,141.1667878,True,0.0
+FENDRR,-1.151014488,5.9e-13,,unmapped,TCF/LEF independent,,,,False,
+NTN4,-1.445228992,1.87e-12,NTN4,curated ortholog map,TCF/LEF independent,-0.078612747,0.783825924,257.7176452,True,1.0
+TTC30A,-1.037411105,5.43e-09,,unmapped,TCF/LEF independent,,,,False,
+EBF2,-2.318554166,1.25e-11,EBF2,curated ortholog map,TCF/LEF independent,-3.322084702,0.003062391,490.2793894,True,1.0
+TNFAIP8L3,-1.301579296,4.39e-05,,unmapped,TCF/LEF independent,,,,False,
+CHAC1,1.184712785,7.67e-09,CHAC1,curated ortholog map,TCF/LEF independent,-0.851783335,0.022331252,144.0289876,True,0.0
+MN1,-1.093679628,5.96e-08,MN1,curated ortholog map,TCF/LEF independent,-0.461136765,0.253369615,1143.49631,True,1.0
+FAM65B,-1.944506359,1.36e-07,,unmapped,TCF/LEF independent,,,,False,
+PLA2G6,-1.095418626,3.22e-07,PLA2G6,curated ortholog map,TCF/LEF independent,-0.086109833,0.539728048,305.982632,True,1.0
+KIAA1107,-1.024838362,2.3e-06,,unmapped,TCF/LEF independent,,,,False,
+CFAP70,-1.079991215,7.02e-05,CFAP70,curated ortholog map,TCF/LEF independent,-1.961150686,0.052148327,46.34298905,True,1.0
+DEPTOR,-1.000527853,2.09e-05,DEPTOR,curated ortholog map,TCF/LEF independent,0.091499749,0.665332158,1657.93997,True,0.0
+CACNA1G,-1.251401315,1.94e-06,CACNA1G,curated ortholog map,TCF/LEF independent,0.225672454,0.317840066,3127.094716,True,0.0
+CDH11,-3.20214179,0.000401854,CDH11,curated ortholog map,TCF/LEF independent,0.447044707,0.07148346,9082.029329,True,0.0
+PDK4,-1.245845497,1.7e-05,PDK4,curated ortholog map,TCF/LEF independent,-0.168832032,0.660671689,4771.511551,True,1.0
+RCN3,-1.214507602,0.000187262,RCN3,curated ortholog map,TCF/LEF independent,0.264779223,0.341990553,12306.10719,True,0.0
+PLXNA4,-2.239164636,0.000229992,PLXNA4,curated ortholog map,TCF/LEF independent,-0.313438178,0.420465431,585.8333377,True,1.0
+NCAN,-1.850857827,0.002151109,NCAN,curated ortholog map,TCF/LEF independent,-0.929035387,0.349257323,59.08059675,True,1.0
+LRRC32,-1.358969048,0.002576525,LRRC32,curated ortholog map,TCF/LEF independent,-0.174152598,0.594617837,353.3080296,True,1.0
+FAM150A,-1.038306856,0.004723467,,unmapped,TCF/LEF independent,,,,False,
+ANKRD63,-1.26153762,0.005002501,ANKRD63,curated ortholog map,TCF/LEF independent,0.296610648,0.844556957,4.346050516,True,0.0
+TERC,1.458729444,0.036386838,,unmapped,TCF/LEF independent,,,,False,
+HMX2,-1.074634765,0.027880282,HMX2,curated ortholog map,TCF/LEF independent,-0.811945275,0.817223888,0.399441978,True,1.0
+AXIN2,3.285841142,0.0,AXIN2,curated ortholog map,TCF/LEF dependent,-0.296370032,0.13245275,440.9460943,True,0.0
+DKK1,3.289472188,1.93e-98,DKK1,curated ortholog map,TCF/LEF dependent,0.500589028,0.26333982,238.9788469,True,1.0
+NKD1,2.798113766,5.08e-83,NKD1,curated ortholog map,TCF/LEF dependent,-0.323863189,0.293911423,331.0996473,True,0.0
+DOCK11,1.670104151,7.72e-82,DOCK11,curated ortholog map,TCF/LEF dependent,-0.22002533,0.462334281,344.2287307,True,0.0
+MSX2,1.413261774,5.85e-66,MSX2,curated ortholog map,TCF/LEF dependent,-0.230962865,0.379484821,131.7956379,True,0.0
+ASCL4,10.22306054,1.45e-62,ASCL4,curated ortholog map,TCF/LEF dependent,-3.813221633,0.158057927,1.362936536,True,0.0
+RNF19B,1.204783732,7.41e-54,RNF19B,curated ortholog map,TCF/LEF dependent,0.340687261,0.094835278,1324.475983,True,1.0
+CALCB,2.068044188,2.05e-52,CALCB,curated ortholog map,TCF/LEF dependent,-1.288026878,0.270773424,7.138998698,True,0.0
+UNC5C,-1.580865601,1.5e-38,UNC5C,curated ortholog map,TCF/LEF dependent,0.361866703,0.125303227,428.3589162,True,0.0
+CCBE1,2.043708755,7.25e-34,CCBE1,curated ortholog map,TCF/LEF dependent,0.264744887,0.41625316,61.54982936,True,1.0
+HOXA9,1.047169815,3.94e-28,HOXA9,curated ortholog map,TCF/LEF dependent,1.678262372,0.371578061,3.913700235,True,1.0
+CCNG2,-1.057116096,1.94e-26,CCNG2,curated ortholog map,TCF/LEF dependent,-0.089739822,0.300483962,700.8458569,True,1.0
+TSHZ1,1.090059584,1.19e-25,TSHZ1,curated ortholog map,TCF/LEF dependent,-0.666263798,0.08624702,1049.991152,True,0.0
+THRB,-1.153995268,1.32e-24,THRB,curated ortholog map,TCF/LEF dependent,-0.351237213,0.355253797,224.0627841,True,1.0
+MSX1,1.257287995,4.7e-24,MSX1,curated ortholog map,TCF/LEF dependent,0.13450558,0.659083398,712.3672547,True,1.0
+ZNF503,1.123056431,5.27e-23,ZFP503,curated ortholog map,TCF/LEF dependent,0.048343014,0.797692508,592.1723521,True,1.0
+BAG1,1.01143419,1.43e-22,BAG1,curated ortholog map,TCF/LEF dependent,0.06127807,0.752981539,2191.532446,True,1.0
+ZNF503-AS2,1.291584312,6.73e-22,,unmapped,TCF/LEF dependent,,,,False,
+ADAMTS5,1.541920986,2.89e-20,ADAMTS5,curated ortholog map,TCF/LEF dependent,0.091287839,0.784662791,1515.778504,True,1.0
+SLC7A8,1.025311464,5.62e-19,SLC7A8,curated ortholog map,TCF/LEF dependent,0.341909653,0.269429031,436.3398183,True,1.0
+SMOC1,-1.205050283,4.28e-19,SMOC1,curated ortholog map,TCF/LEF dependent,0.586146983,0.165704945,780.6801741,True,0.0
+CCND1,1.152351843,4.32e-19,CCND1,curated ortholog map,TCF/LEF dependent,-0.042646746,0.846188119,1384.600498,True,0.0
+SNHG6,1.073435457,1.64e-18,,unmapped,TCF/LEF dependent,,,,False,
+ADGRA2,-1.118882657,1.24e-17,ADGRA2,curated ortholog map,TCF/LEF dependent,0.007006661,0.967741546,2618.961912,True,0.0
+NTMT1,1.020248097,2.03e-17,NTMT1,curated ortholog map,TCF/LEF dependent,-0.14007331,0.338777543,368.1243381,True,0.0
+TLL1,1.332995898,1.11e-16,TLL1,curated ortholog map,TCF/LEF dependent,0.099496909,0.838056047,76.44213203,True,1.0
+MAFB,-1.085644044,4e-16,MAFB,curated ortholog map,TCF/LEF dependent,0.113935855,0.713805763,2279.405848,True,0.0
+SEMA6D,-1.252881636,4.25e-16,SEMA6D,curated ortholog map,TCF/LEF dependent,0.085979452,0.563701966,1458.953844,True,0.0
+TMEM255A,-1.060267845,5.93e-16,TMEM255A,curated ortholog map,TCF/LEF dependent,-0.412636642,0.196977998,65.60843457,True,1.0
+PLXNA2,-1.432650099,6.65e-16,PLXNA2,curated ortholog map,TCF/LEF dependent,0.105196118,0.640737332,1630.991235,True,0.0
+DLL1,-1.073000186,5.85e-15,DLL1,curated ortholog map,TCF/LEF dependent,0.223602506,0.497031828,233.4495964,True,0.0
+HBP1,-1.059794758,6.67e-15,HBP1,curated ortholog map,TCF/LEF dependent,-0.095379854,0.574614253,1874.746058,True,1.0
+ANKRA2,-1.056456172,2.61e-14,ANKRA2,curated ortholog map,TCF/LEF dependent,0.068244433,0.671031651,383.216467,True,0.0
+PLAT,-1.115901859,1.54e-11,,unmapped,TCF/LEF dependent,,,,False,
+RASGEF1B,-1.271451513,7.52e-14,RASGEF1B,curated ortholog map,TCF/LEF dependent,0.342628831,0.167144022,133.5875697,True,0.0
+NAP1L3,-1.254963662,1.29e-10,NAP1L3,curated ortholog map,TCF/LEF dependent,-0.334840441,0.597104415,31.73987912,True,1.0
+SYTL5,-1.046496734,1.14e-13,SYTL5,curated ortholog map,TCF/LEF dependent,2.217326763,0.321485492,2.140146765,True,0.0
+CREBRF,-1.192654131,4.9e-13,CREBRF,curated ortholog map,TCF/LEF dependent,-0.267739127,0.104776905,651.3013399,True,1.0
+ZFAND2A,1.121394279,1.16e-12,ZFAND2A,curated ortholog map,TCF/LEF dependent,-0.485973693,0.130603723,581.3955027,True,0.0
+ARHGAP28,-1.10896608,5.27e-12,ARHGAP28,curated ortholog map,TCF/LEF dependent,0.061943351,0.80230324,414.6493972,True,0.0
+ADCY5,-1.680203279,3.36e-11,ADCY5,curated ortholog map,TCF/LEF dependent,0.053659283,0.841998577,472.5578117,True,0.0
+TCF7,1.207399452,5.33e-11,TCF7,curated ortholog map,TCF/LEF dependent,0.584544098,0.142629183,846.6807475,True,1.0
+KRTAP19-1,2.505817278,1.52e-07,,unmapped,TCF/LEF dependent,,,,False,
+INSM1,-1.424442025,6.46e-09,INSM1,curated ortholog map,TCF/LEF dependent,,,,False,
+SOX5,-1.047438327,1.38e-08,SOX5,curated ortholog map,TCF/LEF dependent,-0.458085572,0.018229447,125.9440303,True,1.0
+MYOM2,-1.249464998,1.93e-08,MYOM2,curated ortholog map,TCF/LEF dependent,-0.691873996,0.159344224,1115.973029,True,1.0
+SLC9A9,-1.075432796,4.05e-08,SLC9A9,curated ortholog map,TCF/LEF dependent,-0.03357685,0.849564481,310.9089805,True,1.0
+C1QL1,-1.217866244,5.2e-08,C1QL1,curated ortholog map,TCF/LEF dependent,-0.612223727,0.467571861,5.084161919,True,1.0
+EYA1,-1.131441837,9.04e-08,EYA1,curated ortholog map,TCF/LEF dependent,-0.754072894,0.070967748,740.4994855,True,1.0
+BZRAP1-AS1,1.284469853,2.52e-05,,unmapped,TCF/LEF dependent,,,,False,
+SYNDIG1,-1.232539142,1.91e-07,SYNDIG1,curated ortholog map,TCF/LEF dependent,0.060606501,0.927670924,12.8451077,True,0.0
+LOC100506990,1.234520103,2.46e-07,,unmapped,TCF/LEF dependent,,,,False,
+INSC,1.525563987,3.07e-07,INSC,curated ortholog map,TCF/LEF dependent,0.363140023,0.273438973,912.4809461,True,1.0
+RASSF6,2.025862463,6.41e-07,RASSF6,curated ortholog map,TCF/LEF dependent,-2.28440445,0.155425707,10.56645623,True,0.0
+PTENP1,-1.301979776,7.2e-07,,unmapped,TCF/LEF dependent,,,,False,
+SYTL2,-1.124805473,7.4e-07,SYTL2,curated ortholog map,TCF/LEF dependent,0.114451233,0.739291807,1412.709333,True,0.0
+NAP1L2,-1.161320568,8.76e-06,NAP1L2,curated ortholog map,TCF/LEF dependent,-1.197800621,0.346046893,13.82814437,True,1.0
+SP5,2.435053334,1.19e-06,SP5,curated ortholog map,TCF/LEF dependent,0.224483493,0.870083066,2.870925668,True,1.0
+UNCX,-1.940118515,5.46e-06,UNCX,curated ortholog map,TCF/LEF dependent,,,,False,
+COL7A1,1.115263913,2.23e-06,,unmapped,TCF/LEF dependent,,,,False,
+UQCRHL,1.056077359,3.31e-06,,unmapped,TCF/LEF dependent,,,,False,
+NEDD9,-1.082958875,4.29e-06,NEDD9,curated ortholog map,TCF/LEF dependent,-0.016022189,0.954092933,1688.551091,True,1.0
+ETV1,-1.303522056,5.75e-06,ETV1,curated ortholog map,TCF/LEF dependent,-0.015446301,0.948388454,207.2569616,True,1.0
+BCL11B,-1.030367343,8.95e-06,BCL11B,curated ortholog map,TCF/LEF dependent,-0.703304874,0.060255002,457.3046815,True,1.0
+HIST1H2AC,1.643623875,1.48e-05,,unmapped,TCF/LEF dependent,,,,False,
+BMPER,-1.186822813,0.000236574,BMPER,curated ortholog map,TCF/LEF dependent,-0.034044917,0.888643908,357.9977782,True,1.0
+RPL41,1.10314232,1.81e-05,,unmapped,TCF/LEF dependent,,,,False,
+ELMO3,1.334998345,3.18e-05,ELMO3,curated ortholog map,TCF/LEF dependent,-0.206895932,0.491902236,135.3153342,True,0.0
+CLDN1,1.30436825,3.45e-05,CLDN1,curated ortholog map,TCF/LEF dependent,-0.215680207,0.598142247,124.1152991,True,0.0
+MATN1-AS1,-1.511735278,0.005290741,,unmapped,TCF/LEF dependent,,,,False,
+CCDC87,-1.167224685,5.43e-05,CCDC87,curated ortholog map,TCF/LEF dependent,-4.412233706,0.006377375,11.30357717,True,1.0
+PIK3IP1,-1.055269869,6.82e-05,PIK3IP1,curated ortholog map,TCF/LEF dependent,-0.04824199,0.810931395,1688.398124,True,1.0
+SCUBE1,-1.021853109,0.003107765,SCUBE1,curated ortholog map,TCF/LEF dependent,0.260645698,0.368296762,361.0920331,True,0.0
+NMNAT3,1.421359846,0.000136506,NMNAT3,curated ortholog map,TCF/LEF dependent,0.025555103,0.931287433,150.3397031,True,1.0
+LOC100240735,1.264744476,0.01322283,,unmapped,TCF/LEF dependent,,,,False,
+SNORD45A,1.654514433,0.000161355,,unmapped,TCF/LEF dependent,,,,False,
+BHLHE22,1.234655355,0.000181159,BHLHE22,curated ortholog map,TCF/LEF dependent,0.160284385,0.786189583,10.47627122,True,1.0
+KCNB2,-1.075146593,0.000243541,,unmapped,TCF/LEF dependent,,,,False,
+C10ORF131,1.581621942,0.000248583,,unmapped,TCF/LEF dependent,,,,False,
+CACNA1D,-1.235765335,0.000262519,CACNA1D,curated ortholog map,TCF/LEF dependent,-1.085678061,0.1517967,272.8592152,True,1.0
+TPI1P2,-1.390476925,0.00059581,,unmapped,TCF/LEF dependent,,,,False,
+DDX11-AS1,1.313308147,0.000288279,,unmapped,TCF/LEF dependent,,,,False,
+ZNF582-AS1,1.015767697,0.00038008,,unmapped,TCF/LEF dependent,,,,False,
+ANKRD24,-1.048390723,0.024180384,ANKRD24,curated ortholog map,TCF/LEF dependent,-0.58220076,0.025583807,431.8175658,True,1.0
+FIBIN,-1.187233829,0.000589605,FIBIN,curated ortholog map,TCF/LEF dependent,-0.25905726,0.378841594,746.4793232,True,1.0
+ANKLE1,1.085356618,0.004126018,ANKLE1,curated ortholog map,TCF/LEF dependent,0.008307403,0.984146505,171.8671484,True,1.0
+RGS4,1.084960438,0.000689204,RGS4,curated ortholog map,TCF/LEF dependent,-0.030574144,0.940479677,251.9338243,True,0.0
+KLLN,-1.255077683,0.00082516,,unmapped,TCF/LEF dependent,,,,False,
+IFI44L,1.026709941,0.000924148,IFI44L,curated ortholog map,TCF/LEF dependent,,,,False,
+PRPH,-1.354473357,0.000930016,PRPH,curated ortholog map,TCF/LEF dependent,-3.41459669,0.000230045,98.75091143,True,1.0
+JAK3,-1.09566406,0.00106841,JAK3,curated ortholog map,TCF/LEF dependent,0.106835736,0.588834793,691.7551727,True,0.0
+LOC654342,1.433341632,0.001173631,,unmapped,TCF/LEF dependent,,,,False,
+ST8SIA2,-1.353772738,0.001180396,ST8SIA2,curated ortholog map,TCF/LEF dependent,-0.20731758,0.677056683,76.92949336,True,1.0
+LOC100130987,1.075819937,0.001267296,,unmapped,TCF/LEF dependent,,,,False,
+C19ORF73,-1.217083882,0.018070086,,unmapped,TCF/LEF dependent,,,,False,
+MYLK3,-1.736033512,0.001511542,MYLK3,curated ortholog map,TCF/LEF dependent,0.364148598,0.530129658,75.83899279,True,0.0
+SNAI3,-1.082351185,0.001511542,SNAI3,curated ortholog map,TCF/LEF dependent,-1.314569014,0.12879605,22.64163073,True,1.0
+NKX2-3,-1.062036655,0.001678621,NKX2-3,curated ortholog map,TCF/LEF dependent,2.299726466,0.508228315,0.43809973,True,0.0
+CCDC64B,-1.487809963,0.040838774,,unmapped,TCF/LEF dependent,,,,False,
+SLC7A5P1,1.039257417,0.002974052,,unmapped,TCF/LEF dependent,,,,False,
+TSPY26P,-1.760566619,0.003914048,TSPYL3,curated ortholog map,TCF/LEF dependent,0.105642089,0.671864559,161.3166053,True,0.0
+HIST1H2BJ,1.142820229,0.003665774,,unmapped,TCF/LEF dependent,,,,False,
+DDX60,-1.006356066,0.028229245,DDX60,curated ortholog map,TCF/LEF dependent,-0.137035608,0.796949993,69.74495789,True,1.0
+PYGM,1.123561874,0.004510613,PYGM,curated ortholog map,TCF/LEF dependent,-0.933008034,0.167717595,9559.110286,True,0.0
+CCDC85A,-1.810554514,0.004593945,CCDC85A,curated ortholog map,TCF/LEF dependent,-0.539885794,0.294973446,196.6045494,True,1.0
+SOCS2-AS1,1.189953027,0.005184602,,unmapped,TCF/LEF dependent,,,,False,
+LCMT1-AS2,-1.960209888,0.006247135,,unmapped,TCF/LEF dependent,,,,False,
+CYP4X1,-1.155012126,0.006445232,CYP4X1,curated ortholog map,TCF/LEF dependent,-0.290671381,0.405412671,35.35749969,True,1.0
+PAX2,-1.091750833,0.007194367,PAX2,curated ortholog map,TCF/LEF dependent,,,,False,
+PIP5KL1,1.001587583,0.031252896,PIP5KL1,curated ortholog map,TCF/LEF dependent,-0.005269205,0.995537749,3.447701596,True,0.0
+IGSF21,-1.18454279,0.007721782,IGSF21,curated ortholog map,TCF/LEF dependent,1.060793556,0.330743295,48.2221267,True,0.0
+SNORA26,1.257976762,0.00870687,,unmapped,TCF/LEF dependent,,,,False,
+P2RX5,-1.569967162,0.009985434,P2RX5,curated ortholog map,TCF/LEF dependent,-0.651619736,0.209067642,139.7418428,True,1.0
+CBLN3,-1.611258126,0.010907563,CBLN3,curated ortholog map,TCF/LEF dependent,-0.178838431,0.643526,23.61223784,True,1.0
+HIST1H2BN,1.091331758,0.011150278,,unmapped,TCF/LEF dependent,,,,False,
+THSD7A,-1.148136267,0.036809421,THSD7A,curated ortholog map,TCF/LEF dependent,-0.535895013,0.110427739,151.499093,True,1.0
+GPR83,-1.389829427,0.013132847,GPR83,curated ortholog map,TCF/LEF dependent,0.028731864,0.97199173,8.058441521,True,0.0
+HRH1,-1.007298105,0.013153529,HRH1,curated ortholog map,TCF/LEF dependent,-1.409063058,0.087011691,9.3722135,True,1.0
+SERINC4,1.118797524,0.022192737,SERINC4,curated ortholog map,TCF/LEF dependent,0.474149247,0.576316061,16.03807301,True,1.0
+LRIT3,1.077273321,0.01395866,LRIT3,curated ortholog map,TCF/LEF dependent,1.305930541,0.55394748,12.59046593,True,1.0
+ENTPD3,1.425031871,0.01832633,ENTPD3,curated ortholog map,TCF/LEF dependent,0.666265685,0.036751557,875.3177123,True,1.0
+CYP2D7,1.021359511,0.041759324,,unmapped,TCF/LEF dependent,,,,False,
+FAM86HP,1.008336782,0.020447014,,unmapped,TCF/LEF dependent,,,,False,
+ITGA10,1.007717685,0.020744814,ITGA10,curated ortholog map,TCF/LEF dependent,0.474886708,0.146796845,3373.952552,True,1.0
+SNORD88B,1.393385966,0.024362382,,unmapped,TCF/LEF dependent,,,,False,
+LINC00312,1.147408315,0.026796297,,unmapped,TCF/LEF dependent,,,,False,
+FERMT3,1.324916138,0.027329223,FERMT3,curated ortholog map,TCF/LEF dependent,0.56903627,0.109470975,573.913208,True,1.0
+B3GNT3,-1.564952693,0.0306928,B3GNT3,curated ortholog map,TCF/LEF dependent,-0.393176767,0.102895531,164.6689408,True,1.0
+ZNF229,1.037417484,0.03378695,,unmapped,TCF/LEF dependent,,,,False,
+LYNX1,-1.040685548,0.035218056,,unmapped,TCF/LEF dependent,,,,False,
+RRH,1.095014059,0.03594254,RRH,curated ortholog map,TCF/LEF dependent,-0.136633563,0.942503015,2.55503489,True,0.0
+MSTN,-1.256370566,0.036008483,MSTN,curated ortholog map,TCF/LEF dependent,-0.302101477,0.63491196,172.732948,True,1.0
+SNORD32A,1.069216817,0.036199053,,unmapped,TCF/LEF dependent,,,,False,
+MYH11,-1.051480206,0.040647684,MYH11,curated ortholog map,TCF/LEF dependent,-0.900158781,0.00789145,997.2723377,True,1.0
+B3GNT7,-1.376613786,0.041563949,B3GNT7,curated ortholog map,TCF/LEF dependent,0.421816697,0.197283891,33.33021252,True,0.0
+GRM4,-1.167184931,0.041592518,GRM4,curated ortholog map,TCF/LEF dependent,0.237357238,0.60008652,29.85143734,True,0.0
+TEX19,-1.237312389,0.042666892,,unmapped,TCF/LEF dependent,,,,False,
+DNAH2,-1.156537078,0.045510859,DNAH2,curated ortholog map,TCF/LEF dependent,-0.188896588,0.676072315,146.6173987,True,1.0
+APCDD1,1.517704295,6.68e-16,APCDD1,curated ortholog map,TCF/LEF dependent,-0.652134933,0.156891848,646.2751895,True,0.0
