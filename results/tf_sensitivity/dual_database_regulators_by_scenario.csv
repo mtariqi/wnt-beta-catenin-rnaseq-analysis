@@ -1,0 +1,10 @@
+scenario,direction,regulator,significant_database_count,significant_databases
+p010,upregulated,CEBPA,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,CEBPA,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,GATA1,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,RELA,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,RUNX2,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,SMAD1,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,SPI1,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,STAT3,2,ChEA_2022;TRRUST_Transcription_Factors_2019
+top5000,upregulated,STAT6,2,ChEA_2022;TRRUST_Transcription_Factors_2019

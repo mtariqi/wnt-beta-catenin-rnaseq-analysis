@@ -213,7 +213,7 @@ upregulated,TRRUST_Transcription_Factors_2019,E2F1,4,0,0.0728434687095061,,False
 upregulated,TRRUST_Transcription_Factors_2019,FOXO1,4,0,0.0728434687095061,,False
 upregulated,ChEA_2022,NERF2,4,0,0.0746959791606546,,False
 upregulated,ChEA_2022,EGR1,4,0,0.0754558758824914,,False
-downregulated,ChEA_2022,SMAD2/3,4,0,0.0755528663639605,,False
+downregulated,ChEA_2022,SMAD2,4,0,0.0755528663639605,,False
 downregulated,ChEA_2022,SOX9,4,0,0.0755528663639605,,False
 upregulated,ChEA_2022,MTF2,4,0,0.0757306661086285,,False
 downregulated,ChEA_2022,SRY,4,0,0.0783823087884942,,False
@@ -314,7 +314,6 @@ downregulated,ChEA_2022,GATA1,4,0,0.1454691924544643,,False
 upregulated,TRRUST_Transcription_Factors_2019,MAX,4,0,0.1456378963724994,,False
 upregulated,TRRUST_Transcription_Factors_2019,AHR,4,0,0.1457742324782289,,False
 upregulated,ChEA_2022,MEIS1,4,0,0.1463553693748991,,False
-downregulated,ChEA_2022,SMAD2,4,0,0.1464556280728226,,False
 upregulated,TRRUST_Transcription_Factors_2019,FOXO3,4,0,0.1483913760369462,,False
 upregulated,TRRUST_Transcription_Factors_2019,SMARCA4,4,0,0.1483913760369462,,False
 upregulated,ChEA_2022,DMRT1,4,0,0.1494935913811116,,False
@@ -326,7 +325,7 @@ downregulated,ChEA_2022,ZFP57,4,0,0.1554734882471786,,False
 upregulated,ChEA_2022,ASXL1,4,0,0.1555524010185284,,False
 upregulated,ChEA_2022,ELF1,4,0,0.1580427343876616,,False
 downregulated,ChEA_2022,HOXA2,4,0,0.1582129027835541,,False
-upregulated,ChEA_2022,UBF1/2,4,0,0.1585687104256005,,False
+upregulated,ChEA_2022,UBF1,4,0,0.1585687104256005,,False
 upregulated,ChEA_2022,TCF21,4,0,0.1590157031771298,,False
 upregulated,TRRUST_Transcription_Factors_2019,CREBBP,4,0,0.1592659575029913,,False
 upregulated,TRRUST_Transcription_Factors_2019,NFE2,4,0,0.1617992982000107,,False
@@ -345,7 +344,7 @@ upregulated,TRRUST_Transcription_Factors_2019,SMAD4,4,0,0.1722027359120963,,Fals
 upregulated,TRRUST_Transcription_Factors_2019,STAT4,4,0,0.1722027359120963,,False
 downregulated,ChEA_2022,CREB1,4,0,0.1726300409348073,,False
 downregulated,ChEA_2022,IGF1R,4,0,0.1726300409348073,,False
-downregulated,ChEA_2022,TCF12/HEB,4,0,0.1727189819132678,,False
+downregulated,ChEA_2022,TCF12,4,0,0.1727189819132678,,False
 downregulated,ChEA_2022,TBX3,4,0,0.1736145094365977,,False
 upregulated,TRRUST_Transcription_Factors_2019,PPARD,4,0,0.17464001539529,,False
 upregulated,TRRUST_Transcription_Factors_2019,SMAD5,4,0,0.17464001539529,,False
@@ -383,7 +382,7 @@ upregulated,TRRUST_Transcription_Factors_2019,SIRT1,4,0,0.2067740549326016,,Fals
 downregulated,ChEA_2022,ZIC3,4,0,0.2108829893136956,,False
 upregulated,TRRUST_Transcription_Factors_2019,BMI1,4,0,0.2123301337769728,,False
 upregulated,ChEA_2022,RAD21,4,0,0.216120494913839,,False
-upregulated,ChEA_2022,TCF12/HEB,4,0,0.2176385858152312,,False
+upregulated,ChEA_2022,TCF12,4,0,0.2176385858152312,,False
 upregulated,ChEA_2022,TBX5,4,0,0.2182956967062773,,False
 downregulated,ChEA_2022,GF1,4,0,0.2193226822633208,,False
 downregulated,ChEA_2022,KLF6,4,0,0.2196425900506788,,False
@@ -583,7 +582,6 @@ downregulated,ChEA_2022,SPI1,4,0,0.4066274837306214,,False
 downregulated,ChEA_2022,NR1I2,4,0,0.408210154863342,,False
 upregulated,ChEA_2022,CRX,4,0,0.4095255560872711,,False
 upregulated,ChEA_2022,FOSL1,4,0,0.4097384557090645,,False
-downregulated,ChEA_2022,TCF3/E2A,4,0,0.4101193022239304,,False
 upregulated,ChEA_2022,ILF3,4,0,0.4101512526361162,,False
 upregulated,TRRUST_Transcription_Factors_2019,POU5F1,4,0,0.410954569196899,,False
 upregulated,TRRUST_Transcription_Factors_2019,PBX1,3,0,0.4126959216736059,,False
@@ -598,7 +596,6 @@ upregulated,ChEA_2022,GABP,4,0,0.4180072436453599,,False
 upregulated,ChEA_2022,ZFP322A,4,0,0.4185633334599747,,False
 upregulated,ChEA_2022,MITF,4,0,0.4231654893540407,,False
 upregulated,ChEA_2022,SMAD4,4,0,0.4231654893540407,,False
-upregulated,ChEA_2022,TCF3/E2A,4,0,0.4231654893540407,,False
 upregulated,ChEA_2022,TFAP2A,4,0,0.4231654893540407,,False
 upregulated,ChEA_2022,NEUROD2,4,0,0.425197105362004,,False
 upregulated,TRRUST_Transcription_Factors_2019,ERG,4,0,0.425764674607252,,False
@@ -701,7 +698,7 @@ upregulated,ChEA_2022,DNAJC2,4,0,0.5583960457114716,,False
 upregulated,ChEA_2022,NKX2-5,4,0,0.5583960457114716,,False
 upregulated,TRRUST_Transcription_Factors_2019,MYOD1,4,0,0.5614359118388542,,False
 upregulated,ChEA_2022,CBX2,4,0,0.5643618091634721,,False
-downregulated,ChEA_2022,UBF1/2,4,0,0.564931588867995,,False
+downregulated,ChEA_2022,UBF1,4,0,0.564931588867995,,False
 downregulated,ChEA_2022,CTBP1,4,0,0.5697822935780701,,False
 upregulated,ChEA_2022,NFI,4,0,0.5745784683359731,,False
 downregulated,ChEA_2022,EWS-FLI1,4,0,0.575017181824196,,False
@@ -731,7 +728,6 @@ downregulated,ChEA_2022,MEF2A,4,0,0.6151770896866323,,False
 downregulated,ChEA_2022,ATF3,4,0,0.6169222783860353,,False
 downregulated,ChEA_2022,SMC3,4,0,0.6222135442223267,,False
 upregulated,TRRUST_Transcription_Factors_2019,CDX2,3,0,0.6225039914104317,,False
-upregulated,ChEA_2022,SMAD2/3,4,0,0.6232918691461444,,False
 downregulated,ChEA_2022,BP1,4,0,0.628955828550041,,False
 downregulated,ChEA_2022,SCL,4,0,0.628955828550041,,False
 downregulated,ChEA_2022,CHD1,4,0,0.6374264340655963,,False

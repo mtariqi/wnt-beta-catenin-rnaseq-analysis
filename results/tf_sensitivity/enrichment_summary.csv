@@ -1,0 +1,17 @@
+scenario,direction,Gene_set,tested_records,significant_records,minimum_adjusted_p
+p005,downregulated,ChEA_2022,750,70,9.0538910380967e-17
+p005,downregulated,TRRUST_Transcription_Factors_2019,290,2,0.0027324190596393
+p005,upregulated,ChEA_2022,738,3,0.0040863716684609
+p005,upregulated,TRRUST_Transcription_Factors_2019,235,2,0.0016947016482572
+p010,downregulated,ChEA_2022,754,98,8.277191979633252e-21
+p010,downregulated,TRRUST_Transcription_Factors_2019,352,0,0.0985323071271529
+p010,upregulated,ChEA_2022,749,12,1.6000500170218892e-08
+p010,upregulated,TRRUST_Transcription_Factors_2019,348,18,0.0002796298986847624
+top2000,downregulated,ChEA_2022,753,99,1.396149723602654e-20
+top2000,downregulated,TRRUST_Transcription_Factors_2019,335,1,0.0486483606123506
+top2000,upregulated,ChEA_2022,747,10,1.4612646363886652e-06
+top2000,upregulated,TRRUST_Transcription_Factors_2019,323,7,7.387223368591444e-05
+top5000,downregulated,ChEA_2022,757,37,9.60836492769995e-10
+top5000,downregulated,TRRUST_Transcription_Factors_2019,449,0,0.9999750226312256
+top5000,upregulated,ChEA_2022,754,71,1.8349869784493154e-11
+top5000,upregulated,TRRUST_Transcription_Factors_2019,466,36,0.0001949519990698041

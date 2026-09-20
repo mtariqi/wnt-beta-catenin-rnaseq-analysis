@@ -1,0 +1,23 @@
+{
+  "run_started": "2026-09-16T17:33:00.511344+00:00",
+  "run_completed": "2026-09-16T17:33:33.501842+00:00",
+  "libraries": [
+    "ChEA_2022",
+    "TRRUST_Transcription_Factors_2019"
+  ],
+  "organism": "mouse",
+  "fdr_cutoff": 0.05,
+  "gseapy_version": "1.3.1",
+  "input_gene_counts_by_scenario_direction": {
+    "p005_downregulated": 994,
+    "p005_upregulated": 340,
+    "p010_downregulated": 1608,
+    "p010_upregulated": 689,
+    "top2000_downregulated": 1428,
+    "top2000_upregulated": 572,
+    "top5000_downregulated": 3250,
+    "top5000_upregulated": 1750
+  },
+  "total_enrichment_records_returned": 8800,
+  "status": "OK"
+}

@@ -1,0 +1,16 @@
+Subject: TF target-set enrichment sensitivity and cross-database robustness update
+
+Dear Professor Hsu,
+
+I completed the requested sensitivity analysis using four input definitions: nominal p < 0.05, nominal p < 0.10, the 2,000 smallest nominal p-values, and the 5,000 smallest nominal p-values, without an absolute fold-change cutoff. These definitions contained 1,334, 2,297, 2,000, and 5,000 unique gene symbols, respectively.
+
+The original nominal p < 0.05 result remains correctly scoped: it contained 0 scenario-direction-regulator combinations significant in both ChEA 2022 and TRRUST 2019. The broader input definitions yielded 9 additional cross-database combinations. Across all scenarios, 9 dual-database combinations were identified, involving: CEBPA, GATA1, RELA, RUNX2, SMAD1, SPI1, STAT3, STAT6.
+
+Several associations also remained significant across all four input definitions, including stable Wnt-related and osteogenic target-set patterns. I have separated three forms of support in the updated report: cross-threshold stability, cross-database agreement, and literature verification. These layers are complementary but not interchangeable.
+
+RUNX2- and SMAD1-associated target sets are reported as enrichment findings only. I have not added them to the literature network pending a dedicated audit of their exact database terms, overlapping genes, enrichment FDR values, and citation-supported pathway relationships. Likewise, enrichment does not establish TF expression, activation, direct binding, regulatory direction, or causality.
+
+I have attached the updated report, audited result tables, and threshold-stability heatmap for review.
+
+Best regards,
+Tariqul Islam

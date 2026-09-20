@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-18T14:33:04.299540+00:00",
+  "ensembl_rest_base": "https://rest.ensembl.org",
+  "mgi_report_url": "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt",
+  "mgi_report_sha256": "3d4bc89e71e57e10adf0139ba033786cb02e2e24e8d49cf0c357d1c2924afa0a",
+  "acceptance_rule": "exactly one Ensembl ortholog_one2one target; exactly one human and one mouse in MGI class; mouse symbols agree",
+  "signature_workbook": "data/reference/Wnt_beta_catenin_LEFTCF_signatures.xlsx",
+  "unique_human_genes": 231,
+  "accepted_unique_pairs": 163,
+  "excluded_unique_human_genes": 68
+}

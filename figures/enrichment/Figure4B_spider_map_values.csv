@@ -1,0 +1,10 @@
+Mechanistic group,Minimum FDR q,FDR evidence index,Label
+Epithelial,0.108508,0.7413651064906569,q=0.109
+"Junction and
+adhesion",0.14825,0.6371915334208852,q=0.148
+Wnt beta catenin,0.504098,0.2286534719457965,q=0.504
+"Cytoskeleton and
+migration",0.555109,0.19647643192903824,q=0.555
+"Stress and
+interferon",0.580603,0.18148753316043223,q=0.581
+PCP and polarity,0.895737,0.03675509886259371,q=0.896
