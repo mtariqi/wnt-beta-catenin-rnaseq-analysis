@@ -1,6 +1,6 @@
 <div align="center">
 
-![Wnt beta catenin analysis banner](https://capsule-render.vercel.app/api?type=waving&color=0:0B3C5D,50:15616D,100:D97706&height=235&section=header&text=Wnt%20%2F%20%CE%B2-Catenin%20RNA-seq%20Analysis&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Orthology-verified%20transcriptomics%20and%20audited%20regulator-target%20overlap%20analysis&descAlignY=57&descSize=16)
+![Canonical Wnt beta-catenin pathway and transcriptomic network illustration](assets/wnt-pathway-network-banner.png)
 
 # Wnt/β-Catenin Transcriptomic Analysis in Mouse Mutant Tissue
 
@@ -317,6 +317,5 @@ No license has been selected. Until a license is added, standard copyright restr
 
 **Orthology verified · Source audited · Reproducible · Interpretation aware**
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:D97706,50:15616D,100:0B3C5D&height=110&section=footer)
 
 </div>
