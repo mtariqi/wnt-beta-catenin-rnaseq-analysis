@@ -1,0 +1,22 @@
+[BASIC]
+# Numbered scripts (01_parse_degs.py, 02_volcano_plot.py, ...) are an
+# intentional convention for a reproducibility pipeline where execution
+# order matters. Standard snake_case module-name rules cannot be satisfied
+# by any name starting with a digit, so only the MODULE naming pattern is
+# relaxed here -- constant, variable, and function naming checks below
+# remain fully active, since several of the real hits (e.g. "library_name",
+# "y_title", "pattern" not being UPPER_CASE) are genuine, easy fixes worth
+# keeping visible rather than silencing along with the module-name issue.
+module-rgx=[a-z0-9_]+$
+
+[FORMAT]
+max-line-length=120
+
+[SIMILARITIES]
+# Sibling analysis scripts (04/05, 05/07, 06/09, etc.) intentionally share
+# similar DESeq2-loading and GSEA-invocation boilerplate. This is a
+# standalone-scripts-directory pattern, not a packaged library where
+# shared code would normally be factored into a common module -- raising
+# the minimum similarity threshold reduces noise from this expected
+# pattern without disabling duplicate-code detection outright.
+min-similarity-lines=15
