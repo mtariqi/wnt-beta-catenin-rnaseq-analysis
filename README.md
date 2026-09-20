@@ -98,6 +98,22 @@ Published human Wnt/β-catenin signatures were mapped to mouse using a consensus
 | β-catenin dependent | 166 | 120 | 116 | 96.7% |
 | β-catenin independent | 65 | 43 | 42 | 97.7% |
 
+```mermaid
+flowchart LR
+    A["Published human signatures\n231 unique genes across 4 classes"] --> B["Consensus Ensembl-MGI\none-to-one mapping"]
+    B --> C["163 unique human-mouse\northolog pairs retained"]
+    C --> D1["TCF/LEF dependent\n139 to 101"]
+    C --> D2["TCF/LEF independent\n27 to 19"]
+    C --> D3["β-catenin dependent\n166 to 120"]
+    C --> D4["β-catenin independent\n65 to 43"]
+    D1 --> E1["97 represented\nin DESeq2 (96.0%)"]
+    D2 --> E2["19 represented\nin DESeq2 (100.0%)"]
+    D3 --> E3["116 represented\nin DESeq2 (96.7%)"]
+    D4 --> E4["42 represented\nin DESeq2 (97.7%)"]
+```
+
+*Signature classes overlap at the gene level, so the per-class counts above are not additive to the 163-pair total.*
+
 <div align="center">
 
 ![Orthology-verified Wnt signatures](results/wnt_signature_ranked_validation_verified_orthologs/nature_style/doumpas_signatures_orthology_verified_2x2.png)
@@ -143,6 +159,18 @@ Target-set enrichment used ChEA 2022 and TRRUST Transcription Factors 2019. The 
 | Displayed peripheral spokes | 178 |
 
 The displayed spokes are traceable to the enrichment evidence and selection manifest. Term-level adjusted p-values apply to enriched regulator terms, not to individual spokes. Regulator self-overlaps explain the reconciled SP7 and SOX2 count differences, and `RING1B` is retained as the display alias for the source term `RNF2`.
+
+```mermaid
+flowchart TD
+    A["Nominal p < 0.05 candidate pools\n994 downregulated / 340 upregulated"] --> B["ChEA 2022 +\nTRRUST Transcription Factors 2019"]
+    B --> C["Complete regulator-gene\noverlap records: 1,725"]
+    C --> D["Selection manifest\none best record per regulator,\nranked by smallest FDR"]
+    D --> E["13 regulator-centered maps\n8 downregulated-list, 5 upregulated-list"]
+    E --> F["178 displayed peripheral spokes\ncapped per map, traceable to source records"]
+    F --> G["SVG / PNG / PDF\nregulator spider maps"]
+```
+
+*Every spoke in the figures above traces back through this chain to a specific enrichment record in the selection manifest; term-level FDR values describe the regulator's overall target-set enrichment, not any individual spoke.*
 
 | Downregulated target-set example | Upregulated target-set example |
 |---|---|
