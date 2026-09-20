@@ -82,3 +82,17 @@ ppt/
 # Duplicate root-level evidence table
 /tf_edge_evidence_table.csv
 results/wnt_signature_ranked_validation/
+
+# Superseded orthology analysis
+results/wnt_signature_ranked_validation_94_orthologs/
+
+# Professor-review packages
+Professor_Package/
+*.zip.sha256
+
+# Current-study RNA-seq data
+data/processed/DESeq2*.csv
+
+# Superseded local Doumpas figure drafts
+/doumpas_signatures_2x2.*
+/scripts/plot_doumpas_nature_style_final.py
