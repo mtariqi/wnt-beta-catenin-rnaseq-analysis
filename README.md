@@ -176,6 +176,57 @@ flowchart TD
 |---|---|
 | ![LEF1 spider map](results/tf_target_spider_maps/individual_maps/downregulated_LEF1_ChEA_2022.svg) | ![SP7 spider map](results/tf_target_spider_maps/individual_maps/upregulated_SP7_TRRUST_Transcription_Factors_2019.svg) |
 
+## TF–Wnt/osteogenesis regulatory-association networks
+
+A complementary pathway-focused analysis intersects direction-specific nominal DEGs with significantly enriched TF target sets and Wnt/osteogenesis annotations.
+
+Two distinct statistical thresholds are used:
+
+- **DEG selection:** nominal `p < 0.05`, without a fold-change cutoff.
+- **TF target-set enrichment:** Benjamini–Hochberg **FDR < 0.05**.
+
+These thresholds represent different statistical operations and should not be interpreted as equivalent.
+
+| Network-analysis measure | Result |
+|---|---:|
+| Unique genes in testing universe | 21,715 |
+| Nominal `p < 0.05` genes | 1,334 |
+| Downregulated nominal DEGs | 994 |
+| Upregulated nominal DEGs | 340 |
+| Wnt annotation genes in universe | 412 |
+| Osteogenesis annotation genes in universe | 319 |
+| Wnt TF–DEG edges plotted | 48 |
+| Osteogenesis TF–DEG edges plotted | 23 |
+| TFs shared between maps | 2 |
+
+<div align="center">
+
+![Downregulated TF programs intersect Wnt signaling genes](results/tf_networks/wnt_tf_spider_map.png)
+
+**Figure 2.** TF target-set programs intersecting downregulated Wnt-associated nominal DEGs.
+
+![Upregulated TF programs intersect osteogenesis genes](results/tf_networks/osteogenesis_tf_spider_map.png)
+
+**Figure 3.** TF target-set programs intersecting upregulated osteogenesis-associated nominal DEGs.
+
+</div>
+
+### Network interpretation
+
+These figures are **regulatory-association networks**, not causal regulatory models.
+
+- Squares represent enriched TF target sets.
+- Circles represent pathway-associated nominal DEGs.
+- Node size is proportional to network degree.
+- TF enrichment must pass BH FDR < 0.05 before inclusion.
+- Edges represent TF target-set membership together with pathway overlap.
+- Edge width is intentionally constant and does not encode interaction strength.
+- Polycomb coloring is a prespecified visual annotation only.
+
+An edge therefore does **not** establish direct TF–DNA binding, protein–protein interaction, regulatory direction, interaction strength, TF activity, or causal regulation in the studied tissue.
+
+The complete reproducibility package is available under `results/tf_networks/`, including TF-enrichment results, edge tables, node statistics, network summaries, and PNG/SVG figures.
+
 ## Analysis workflow
 
 ```mermaid
