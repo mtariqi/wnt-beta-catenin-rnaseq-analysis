@@ -7,7 +7,6 @@ libraries must already be present in --gene-set-dir.
 from __future__ import annotations
 
 import argparse
-import math
 import re
 from pathlib import Path
 
@@ -15,12 +14,24 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 import pandas as pd
+from matplotlib.lines import Line2D
 from scipy.stats import fisher_exact
 from statsmodels.stats.multitest import multipletests
 
 
 TF_LIBS = ["TRRUST_Transcription_Factors_2019", "ChEA_2022"]
 PUBLIC_LIBS = TF_LIBS + ["GO_Biological_Process_2023", "WikiPathways_2024_Mouse"]
+
+# Publication-quality palette
+TF_COLOR = "#CDB4DB"          # lavender
+POLYCOMB_COLOR = "#D4A5A5"    # muted rose
+UP_COLOR = "#B7E4C7"          # pastel green
+DOWN_COLOR = "#A8D8FF"        # pastel blue
+EDGE_COLOR = "#C8D0DA"
+TEXT_COLOR = "#2F3B4C"
+POLYCOMB = {"BMI1", "EZH2", "JARID2", "RING1B", "SUZ12"}
+TF_FDR_CUTOFF = 0.05
+EDGE_WIDTH = 1.2  # constant: edge thickness does not encode biological evidence strength
 
 
 def args():
@@ -135,14 +146,21 @@ def build_edges(top: pd.DataFrame, tf_sets: dict[tuple[str, str], set[str]],
     return pd.DataFrame(rows)
 
 
-def draw_spider(edges: pd.DataFrame, title: str, output: Path):
-    fig, ax = plt.subplots(figsize=(13.33, 7.5))
+def draw_spider(edges: pd.DataFrame, title: str, output: Path, caption: str):
+    """Draw and export a publication-oriented TF–DEG overlap network."""
+    fig, ax = plt.subplots(figsize=(14, 12))
     if edges.empty:
-        ax.text(.5, .5, "No TF–pathway DEG intersections met the selected criteria",
-                ha="center", va="center", fontsize=18)
+        ax.text(.5, .5, "No FDR-significant TF–pathway DEG intersections met the selected criteria",
+                ha="center", va="center", fontsize=16, color=TEXT_COLOR)
         ax.axis("off")
-        fig.savefig(output, dpi=300, bbox_inches="tight", facecolor="white")
-        plt.close(fig); return
+        fig.savefig(output, dpi=600, bbox_inches="tight", facecolor="white")
+        fig.savefig(output.with_suffix(".svg"), format="svg", bbox_inches="tight", facecolor="white")
+        plt.close(fig)
+        return pd.DataFrame(columns=["node", "label", "node_type", "degree", "log2FoldChange", "polycomb"]), pd.DataFrame(
+            {"metric": ["Number of TFs", "Number of Genes", "Number of Edges", "Network Density"],
+             "value": [0, 0, 0, 0.0]}
+        )
+
     G = nx.Graph()
     tfs = sorted(edges.tf.unique())
     genes = sorted(edges.gene.unique())
@@ -150,37 +168,106 @@ def draw_spider(edges: pd.DataFrame, title: str, output: Path):
     gene_nodes = [f"GENE::{x}" for x in genes]
     G.add_nodes_from(tf_nodes, kind="tf")
     for _, r in edges.iterrows():
-        G.add_node(f"GENE::{r.gene}", kind="gene", lfc=r.log2FoldChange)
+        G.add_node(f"GENE::{r.gene}", kind="gene", lfc=float(r.log2FoldChange))
         G.add_edge(f"TF::{r.tf}", f"GENE::{r.gene}")
+
     # TFs form an inner ring; target genes form an outer ring.
     pos = {}
     for i, n in enumerate(tf_nodes):
-        a = 2*np.pi*i/max(len(tfs),1) + np.pi/2
-        pos[n] = (0.42*np.cos(a), 0.42*np.sin(a))
+        angle = 2 * np.pi * i / max(len(tfs), 1) + np.pi / 2
+        pos[n] = (0.42 * np.cos(angle), 0.42 * np.sin(angle))
     for i, n in enumerate(gene_nodes):
-        a = 2*np.pi*i/max(len(genes),1) + np.pi/2
-        pos[n] = (1.0*np.cos(a), 1.0*np.sin(a))
-    nx.draw_networkx_edges(G, pos, ax=ax, edge_color="#B7C0CC", width=.9, alpha=.65)
+        angle = 2 * np.pi * i / max(len(genes), 1) + np.pi / 2
+        pos[n] = (1.0 * np.cos(angle), 1.0 * np.sin(angle))
+
+    # Use a constant edge width. Degree-dependent edge widths can be mistaken for
+    # evidence strength, although degree is only a topological property here.
+    nx.draw_networkx_edges(G, pos, ax=ax, width=EDGE_WIDTH,
+                           edge_color=EDGE_COLOR, alpha=0.75)
+
+    tf_colors = [POLYCOMB_COLOR if n.split("::", 1)[1] in POLYCOMB else TF_COLOR
+                 for n in tf_nodes]
+    # Larger nodes improve label containment.  Matplotlib node_size is marker area
+    # in points^2, so these values enlarge the visible radius without changing
+    # the network topology or the degree-based visual encoding.
+    tf_sizes = [1550 + 210 * G.degree(n) for n in tf_nodes]
+    gene_sizes = [900 + 150 * G.degree(n) for n in gene_nodes]
+
     nx.draw_networkx_nodes(G, pos, nodelist=tf_nodes, ax=ax, node_shape="s",
-                           node_color="#7030A0", edgecolors="white", linewidths=1.5, node_size=1350)
+                           node_color=tf_colors, edgecolors="white", linewidths=1.5,
+                           node_size=tf_sizes)
     up = [g for g in gene_nodes if G.nodes[g]["lfc"] > 0]
     down = [g for g in gene_nodes if G.nodes[g]["lfc"] < 0]
-    nx.draw_networkx_nodes(G, pos, nodelist=up, ax=ax, node_color="#2E8B57",
-                           edgecolors="white", linewidths=1, node_size=660)
-    nx.draw_networkx_nodes(G, pos, nodelist=down, ax=ax, node_color="#4C78A8",
-                           edgecolors="white", linewidths=1, node_size=660)
-    nx.draw_networkx_labels(G, pos, labels={n:n.split("::",1)[1] for n in tf_nodes}, ax=ax,
-                            font_size=9, font_weight="bold", font_color="white")
-    nx.draw_networkx_labels(G, pos, labels={n:n.split("::",1)[1].title() for n in gene_nodes}, ax=ax,
-                            font_size=7.5, font_color="#172B4D")
-    ax.set_title(title, fontsize=21, weight="bold", color="#15345B", pad=18)
-    ax.text(.5, .02, "Squares: enriched TF target sets   Green: upregulated DEG   Blue: downregulated DEG",
-            transform=ax.transAxes, ha="center", fontsize=10, color="#475467")
-    ax.axis("off"); ax.set_aspect("equal")
-    fig.tight_layout()
-    fig.savefig(output, dpi=300, bbox_inches="tight", facecolor="white")
-    fig.savefig(output.with_suffix('.svg'), bbox_inches="tight", facecolor="white")
+    size_by_node = dict(zip(gene_nodes, gene_sizes))
+    if up:
+        nx.draw_networkx_nodes(G, pos, nodelist=up, ax=ax, node_color=UP_COLOR,
+                               edgecolors="white", linewidths=1.0,
+                               node_size=[size_by_node[n] for n in up])
+    if down:
+        nx.draw_networkx_nodes(G, pos, nodelist=down, ax=ax, node_color=DOWN_COLOR,
+                               edgecolors="white", linewidths=1.0,
+                               node_size=[size_by_node[n] for n in down])
+
+    tf_labels = {n: n.split("::", 1)[1] for n in tf_nodes}
+    gene_labels = {n: n.split("::", 1)[1] for n in gene_nodes}
+    nx.draw_networkx_labels(G, pos, labels=tf_labels, ax=ax, font_size=11,
+                            font_weight="bold", font_color=TEXT_COLOR)
+    nx.draw_networkx_labels(G, pos, labels=gene_labels, ax=ax, font_size=11,
+                            font_weight="bold", font_color=TEXT_COLOR)
+    ax.set_title(title, fontsize=21, weight="bold", color=TEXT_COLOR, pad=18)
+
+    legend_handles = [
+        Line2D([0], [0], marker="s", linestyle="none", label="Enriched TF target set",
+               markerfacecolor=TF_COLOR, markeredgecolor="white", markersize=13),
+        Line2D([0], [0], marker="s", linestyle="none", label="Polycomb-associated TF",
+               markerfacecolor=POLYCOMB_COLOR, markeredgecolor="white", markersize=13),
+    ]
+    if down:
+        legend_handles.append(Line2D([0], [0], marker="o", linestyle="none",
+            label="Downregulated pathway DEG", markerfacecolor=DOWN_COLOR,
+            markeredgecolor="white", markersize=11))
+    if up:
+        legend_handles.append(Line2D([0], [0], marker="o", linestyle="none",
+            label="Upregulated pathway DEG", markerfacecolor=UP_COLOR,
+            markeredgecolor="white", markersize=11))
+
+    # Reserve a dedicated footer band so the outer-ring nodes cannot overlap
+    # either the legend or the interpretive caption.
+    fig.subplots_adjust(left=0.035, right=0.965, top=0.90, bottom=0.22)
+    fig.legend(handles=legend_handles, loc="lower center", bbox_to_anchor=(0.5, 0.080),
+               ncol=min(len(legend_handles), 4), frameon=False, fontsize=10,
+               handletextpad=0.6, columnspacing=1.8)
+    fig.text(0.5, 0.030, caption, ha="center", va="bottom", fontsize=9,
+             color="#555555", wrap=True)
+    ax.axis("off")
+    ax.set_aspect("equal")
+    # Add a small amount of whitespace around the outer ring so larger gene
+    # nodes and longer labels remain fully inside the plotting region.
+    ax.set_xlim(-1.14, 1.14)
+    ax.set_ylim(-1.14, 1.14)
+
+    fig.savefig(output, dpi=600, bbox_inches="tight", pad_inches=0.12, facecolor="white")
+    fig.savefig(output.with_suffix(".svg"), format="svg", bbox_inches="tight", pad_inches=0.12, facecolor="white")
+
+    node_rows = []
+    for n in G.nodes():
+        is_tf = G.nodes[n].get("kind") == "tf"
+        label = n.split("::", 1)[1]
+        node_rows.append({
+            "node": n,
+            "label": label,
+            "node_type": "TF" if is_tf else "gene",
+            "degree": G.degree(n),
+            "log2FoldChange": np.nan if is_tf else G.nodes[n].get("lfc", np.nan),
+            "polycomb": bool(is_tf and label in POLYCOMB),
+        })
+    node_stats = pd.DataFrame(node_rows).sort_values(["degree", "node_type", "label"], ascending=[False, True, True])
+    network_summary = pd.DataFrame({
+        "metric": ["Number of TFs", "Number of Genes", "Number of Edges", "Network Density"],
+        "value": [len(tf_nodes), len(gene_nodes), G.number_of_edges(), nx.density(G)],
+    })
     plt.close(fig)
+    return node_stats, network_summary
 
 
 def main():
@@ -202,6 +289,8 @@ def main():
         for direction, query in (("downregulated", down), ("upregulated", up)):
             e = enrich(query, universe, sets, lib)
             if not e.empty: e["direction"] = direction; all_enr.append(e)
+    if not all_enr:
+        raise RuntimeError("No TF enrichment results were produced for either DEG direction.")
     enr = pd.concat(all_enr, ignore_index=True).sort_values(["direction", "fdr", "p_value"])
     enr.to_csv(a.outdir / "tf_enrichment_all_local.csv", index=False)
 
@@ -211,8 +300,11 @@ def main():
     wnt = union(wnt_terms) & universe
     osteo = union(osteo_terms) & universe
 
-    down_top = collapse_tf(enr[enr.direction.eq("downregulated")], a.top_tfs)
-    up_top = collapse_tf(enr[enr.direction.eq("upregulated")], a.top_tfs)
+    # Publication network: retain only statistically significant TF programs.
+    enr_sig = enr[enr["fdr"] < TF_FDR_CUTOFF].copy()
+    enr_sig.to_csv(a.outdir / "tf_enrichment_fdr05_local.csv", index=False)
+    down_top = collapse_tf(enr_sig[enr_sig.direction.eq("downregulated")], a.top_tfs)
+    up_top = collapse_tf(enr_sig[enr_sig.direction.eq("upregulated")], a.top_tfs)
     # Preserve directionality: the Wnt map uses only downregulated nominal
     # DEGs and the osteogenesis map uses only upregulated nominal DEGs.
     down_df = sig[sig.log2FoldChange < 0].copy()
@@ -221,10 +313,21 @@ def main():
     osteo_edges = build_edges(up_top, tf_sets, osteo, up_df, a.genes_per_tf)
     wnt_edges.to_csv(a.outdir / "wnt_tf_deg_edges.csv", index=False)
     osteo_edges.to_csv(a.outdir / "osteogenesis_tf_deg_edges.csv", index=False)
-    draw_spider(wnt_edges, "Downregulated TF programs intersect Wnt signaling genes",
-                a.outdir / "wnt_tf_spider_map.png")
-    draw_spider(osteo_edges, "Upregulated TF programs intersect osteogenesis genes",
-                a.outdir / "osteogenesis_tf_spider_map.png")
+    common_caption = (
+        "Edges indicate overlap between enriched transcription-factor target sets and "
+        "pathway-specific differentially expressed genes. Edges do not imply direct "
+        "TF-DNA binding or protein-protein interaction."
+    )
+    wnt_node_stats, wnt_net_summary = draw_spider(
+        wnt_edges, "Downregulated TF programs intersect Wnt signaling genes",
+        a.outdir / "wnt_tf_spider_map.png", common_caption)
+    osteo_node_stats, osteo_net_summary = draw_spider(
+        osteo_edges, "Upregulated TF programs intersect osteogenesis genes",
+        a.outdir / "osteogenesis_tf_spider_map.png", common_caption)
+    wnt_node_stats.to_csv(a.outdir / "wnt_network_node_statistics.csv", index=False)
+    osteo_node_stats.to_csv(a.outdir / "osteogenesis_network_node_statistics.csv", index=False)
+    wnt_net_summary.to_csv(a.outdir / "wnt_network_summary.csv", index=False)
+    osteo_net_summary.to_csv(a.outdir / "osteogenesis_network_summary.csv", index=False)
 
     shared = sorted(set(wnt_edges.tf) & set(osteo_edges.tf)) if not wnt_edges.empty and not osteo_edges.empty else []
     pd.DataFrame({"shared_tf": shared}).to_csv(a.outdir / "shared_wnt_osteogenesis_tfs.csv", index=False)
@@ -237,8 +340,34 @@ def main():
     summary.to_csv(a.outdir / "network_analysis_summary.csv", index=False)
     with (a.outdir / "README.md").open("w") as f:
         f.write("# TF–Wnt–osteogenesis network analysis\n\n")
-        f.write("All study-gene calculations were performed locally. TF edges denote membership in public TRRUST/ChEA target sets and overlap with nominal DEGs; they do not establish direct regulation in this tissue. Pathway membership came from GO Biological Process 2023 and WikiPathways 2024 Mouse.\n\n")
-        f.write(summary.to_markdown(index=False) + "\n")
+        f.write("All study-gene calculations were performed locally. TF edges denote membership in public TRRUST/ChEA target sets that pass FDR < 0.05 and overlap with nominal DEGs; they do not establish direct regulation in this tissue. Pathway membership came from GO Biological Process 2023 and WikiPathways 2024 Mouse.\n\n")
+        f.write(summary.to_markdown(index=False) + "\n\n")
+        f.write("## Methodological basis and interpretation\n\n")
+        f.write(
+            "This is a custom implementation for the present dataset, not a reproduction "
+            "of a single published network-analysis pipeline. TF-target over-representation "
+            "is evaluated with one-sided Fisher exact tests and Benjamini-Hochberg FDR "
+            "correction. TF target sets are obtained from TRRUST and ChEA; pathway "
+            "annotations are obtained from GO Biological Process and WikiPathways. "
+            "Network construction and graph statistics use NetworkX. Node degree is encoded "
+            "by node size. Edge width is intentionally constant and does not encode binding "
+            "strength, confidence, causality, or interaction strength. Polycomb coloring is "
+            "a prespecified visual annotation only.\n\n"
+        )
+        f.write("## Suggested references\n\n")
+        f.write(
+            "- Benjamini Y, Hochberg Y. 1995. Controlling the false discovery rate. "
+            "Journal of the Royal Statistical Society Series B 57:289-300.\n"
+            "- Lachmann A, et al. 2010. ChEA: transcription factor regulation inferred "
+            "from integrating genome-wide ChIP-X experiments. Bioinformatics 26:2438-2444.\n"
+            "- Han H, et al. 2018. TRRUST v2: an expanded reference database of human and "
+            "mouse transcriptional regulatory interactions. Nucleic Acids Research 46:D380-D386.\n"
+            "- The Gene Ontology Consortium. Cite the current GO resource paper used by the manuscript.\n"
+            "- Agrawal A, et al. 2024. WikiPathways 2024: next generation pathway database. "
+            "Nucleic Acids Research 52:D679-D689.\n"
+            "- Hagberg AA, Schult DA, Swart PJ. 2008. Exploring network structure, dynamics, "
+            "and function using NetworkX. Proceedings of the 7th Python in Science Conference.\n"
+        )
     print(summary.to_string(index=False))
 
 

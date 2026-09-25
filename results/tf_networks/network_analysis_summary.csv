@@ -1,0 +1,10 @@
+metric,value
+All tested unique genes,21715
+Nominal p < 0.05,1334
+Upregulated nominal DEGs,340
+Downregulated nominal DEGs,994
+Wnt annotation genes in universe,412
+Osteogenesis annotation genes in universe,319
+Wnt TF–DEG edges plotted,48
+Osteogenesis TF–DEG edges plotted,23
+TFs shared between maps,2
