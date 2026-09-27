@@ -16,6 +16,7 @@ RUN apt-get update \
         ca-certificates \
         fontconfig \
         fonts-dejavu-core \
+        procps \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/wnt-analysis

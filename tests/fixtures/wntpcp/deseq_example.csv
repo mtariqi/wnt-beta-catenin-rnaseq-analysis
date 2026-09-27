@@ -1,0 +1,4 @@
+gene_id,symbol,baseMean,log2FoldChange,pvalue
+m1,Wnt5a,100,1.2,0.01
+m2,Ror2,80,0.8,0.04
+m3,Dsp,120,-2.1,0.001
