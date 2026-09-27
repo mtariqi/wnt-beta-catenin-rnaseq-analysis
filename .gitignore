@@ -106,3 +106,7 @@ data/processed/DESeq2*.csv
 work/
 results/nextflow_smoke/
 results/nextflow_metadata/
+
+# Snakemake runtime state and smoke-test outputs
+.snakemake/
+results/snakemake_smoke/

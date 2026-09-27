@@ -1,0 +1,82 @@
+from pathlib import Path
+
+
+REPO_ROOT = Path(workflow.basedir).resolve().parents[1]
+
+OUTDIR = config["output_dir"]
+PREFIX = config["prefix"]
+
+OUTPUTS = {
+    "png": f"{OUTDIR}/{PREFIX}.png",
+    "pdf": f"{OUTDIR}/{PREFIX}.pdf",
+    "svg": f"{OUTDIR}/{PREFIX}.svg",
+    "edge_audit": f"{OUTDIR}/{PREFIX}_edge_audit.csv",
+    "node_audit": f"{OUTDIR}/{PREFIX}_node_audit.csv",
+    "provenance": f"{OUTDIR}/{PREFIX}_run_provenance.json",
+}
+
+
+rule all:
+    input:
+        list(OUTPUTS.values())
+
+
+rule wntpcp_funmap:
+    input:
+        deseq=config["inputs"]["deseq"],
+        orthology=config["inputs"]["orthology"],
+        funmap=config["inputs"]["funmap"],
+        string_file=config["inputs"]["string"],
+        literature=config["inputs"]["literature"],
+        gene_file=config["inputs"]["genes"],
+        pipeline="scripts/wntpcp_funmap_pipeline.py",
+    output:
+        png=OUTPUTS["png"],
+        pdf=OUTPUTS["pdf"],
+        svg=OUTPUTS["svg"],
+        edge_audit=OUTPUTS["edge_audit"],
+        node_audit=OUTPUTS["node_audit"],
+        provenance=OUTPUTS["provenance"],
+    params:
+        repo_root=str(REPO_ROOT),
+        image=config["container_image"],
+        outdir=OUTDIR,
+        prefix=PREFIX,
+        title=config["title"],
+        string_species=config["parameters"]["string_species"],
+        funmap_score_min=config["parameters"]["funmap_score_min"],
+        string_score_min=config["parameters"]["string_score_min"],
+        max_edges=config["parameters"]["max_edges"],
+        seed=config["parameters"]["seed"],
+    threads: 1
+    resources:
+        mem_mb=2048,
+        runtime=30
+    shell:
+        r"""
+        mkdir -p {params.outdir}
+
+        docker run --rm \
+            --user "$(id -u):$(id -g)" \
+            --env HOME=/tmp \
+            --env MPLCONFIGDIR=/tmp/matplotlib \
+            --volume "{params.repo_root}:/workspace" \
+            --workdir /workspace \
+            {params.image} \
+            python scripts/wntpcp_funmap_pipeline.py \
+                --deseq {input.deseq} \
+                --orthology {input.orthology} \
+                --funmap {input.funmap} \
+                --string {input.string_file} \
+                --string-species {params.string_species} \
+                --literature {input.literature} \
+                --gene-file {input.gene_file} \
+                --strict-orthology \
+                --funmap-score-min {params.funmap_score_min} \
+                --string-score-min {params.string_score_min} \
+                --max-edges {params.max_edges} \
+                --seed {params.seed} \
+                --outdir {params.outdir} \
+                --prefix {params.prefix} \
+                --title "{params.title}"
+        """
