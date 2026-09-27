@@ -1,0 +1,110 @@
+{
+  "generated_utc": "2026-09-22T04:35:28.966873+00:00",
+  "command": "code_package/wntpcp_funmap_pipeline.py --deseq data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv --orthology data/reference/human_mouse_consensus_one2one.csv --funmap /home/mtariq/Downloads/FunMap_Wnt_PCP_Only_Scores.csv --gene-file code_package/genes_default.txt --funmap-score-min 0.50 --outdir results/wntpcp_funmap_qc",
+  "python": "3.12.3",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.1",
+    "networkx": "3.6.1"
+  },
+  "inputs": [
+    {
+      "path": "/home/mtariq/wnt-beta-catenin-rnaseq-analysis/data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv",
+      "sha256": "eb522a3462c03ddec1efd02eaa5caad64c885a812e54b716f3cbab529ca4f46d"
+    },
+    {
+      "path": "/home/mtariq/wnt-beta-catenin-rnaseq-analysis/data/reference/human_mouse_consensus_one2one.csv",
+      "sha256": "80f437bf81108bedfa1c3076c6864d591801764e96523911d0bdcac4f5d97e14"
+    },
+    {
+      "path": "/home/mtariq/Downloads/FunMap_Wnt_PCP_Only_Scores.csv",
+      "sha256": "7213d9cd2d77ff3990587bb11ebe7f35ce81c6849a8efd5d3c579387e9281098"
+    }
+  ],
+  "parameters": {
+    "genes": [
+      "Wnt5a",
+      "Vangl2",
+      "Celsr1",
+      "Ror2",
+      "Rac1",
+      "Prickle1",
+      "Egr3",
+      "Dsp",
+      "Cdh1",
+      "Krt14",
+      "Krt5",
+      "Bmp6",
+      "Lama5",
+      "Gm6565",
+      "Il31ra",
+      "Pkp1",
+      "Dsg2",
+      "Jup",
+      "Krt17",
+      "Bpifb3",
+      "Ano9",
+      "Aqp3"
+    ],
+    "funmap_score_min": 0.5,
+    "string_score_min": 0.0,
+    "max_edges": 80,
+    "strict_orthology": false,
+    "seed": 101
+  },
+  "deseq": {
+    "input_rows": 22444,
+    "valid_testing_rows": 21730,
+    "unique_display_symbols": 21715,
+    "padj_plot_definition": "BH recomputed over all valid p-values before symbol deduplication"
+  },
+  "orthology": {
+    "mapping_rows": 163,
+    "requested": 22,
+    "mapped": 0,
+    "unmapped_genes": [
+      "Wnt5a",
+      "Vangl2",
+      "Celsr1",
+      "Ror2",
+      "Rac1",
+      "Prickle1",
+      "Egr3",
+      "Dsp",
+      "Cdh1",
+      "Krt14",
+      "Krt5",
+      "Bmp6",
+      "Lama5",
+      "Gm6565",
+      "Il31ra",
+      "Pkp1",
+      "Dsg2",
+      "Jup",
+      "Krt17",
+      "Bpifb3",
+      "Ano9",
+      "Aqp3"
+    ]
+  },
+  "funmap": {
+    "source_format": "derived_funmap_probability_table",
+    "score_column": "Probability",
+    "score_interpretation": "imported predicted functional-association score/probability; not a p-value",
+    "input_edges": 55,
+    "valid_unique_edges": 55
+  },
+  "outputs": {
+    "candidate_edges": 0,
+    "displayed_edges": 0,
+    "represented_nodes": 22
+  },
+  "interpretation_constraints": [
+    "FunMap scores are imported functional-association predictions, not gene-level p-values.",
+    "STRING scores are association confidence scores, not p-values.",
+    "Literature edges are curated claims and remain distinct from FunMap and STRING.",
+    "No edge demonstrates direct binding, regulator activity, directionality, or causality.",
+    "Current-study tissue specificity applies to node differential expression, not imported FunMap edges."
+  ]
+}
