@@ -4,14 +4,16 @@
 
 # Wnt/β-Catenin Transcriptomic Analysis in Mouse Mutant Tissue
 
-**A reproducible, orthology-audited analysis of mutant-versus-control bulk RNA-seq data**
+**Orthology-audited Wnt-signature analysis, evidence-separated functional networks, and reproducible mutant-versus-control RNA-seq workflows**
 
+[![Reproducibility](https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis/actions/workflows/reproducibility.yml/badge.svg)](https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis/actions/workflows/reproducibility.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![R](https://img.shields.io/badge/R-4.x-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
 [![DESeq2](https://img.shields.io/badge/RNA--seq-DESeq2-198754)](https://bioconductor.org/packages/DESeq2/)
+[![Nextflow](https://img.shields.io/badge/Nextflow-25.10.0-23B5AF?logo=nextflow&logoColor=white)](https://www.nextflow.io/)
+[![Snakemake](https://img.shields.io/badge/Snakemake-9.27.0-039475)](https://snakemake.github.io/)
+[![Docker](https://img.shields.io/badge/Docker-reproducible%20image-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Tests](https://img.shields.io/badge/pytest-11%20passed-2EA44F?logo=pytest&logoColor=white)](#validation-and-continuous-integration)
 [![Orthology](https://img.shields.io/badge/consensus%20orthologs-163-6F42C1)](#orthology-verified-wnt-signatures)
-[![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-10%2C000%20simulations-D97706)](#ranked-signature-validation)
-[![Tests](https://img.shields.io/badge/pytest-7%20passed-2EA44F?logo=pytest&logoColor=white)](#quality-control-and-reproducibility)
 [![Status](https://img.shields.io/badge/status-validated%20exploratory%20analysis-F59E0B)](#interpretation-boundaries)
 [![License](https://img.shields.io/badge/license-not%20yet%20specified-lightgrey)](#license)
 
@@ -27,20 +29,47 @@
 
 ---
 
-## Overview
+## Contents
 
-This repository evaluates transcriptional changes in mouse mutant tissue with emphasis on:
+- [Project overview](#project-overview)
+- [Study design and input universe](#study-design-and-input-universe)
+- [Principal findings](#principal-findings)
+- [Orthology-verified Wnt signatures](#orthology-verified-wnt-signatures)
+- [TF and functional-association analyses](#tf-and-functional-association-analyses)
+- [Reproducibility architecture](#reproducibility-architecture)
+- [Quick start](#quick-start)
+- [Running the workflows](#running-the-workflows)
+- [Inputs and outputs](#inputs-and-outputs)
+- [Validation and continuous integration](#validation-and-continuous-integration)
+- [Repository structure](#repository-structure)
+- [Interpretation boundaries](#interpretation-boundaries)
+- [Data governance](#data-governance)
+- [Citation and references](#citation-and-references)
+- [Collaboration and acknowledgments](#collaboration-and-acknowledgments)
+- [License](#license)
+
+## Project overview
+
+This repository evaluates transcriptional changes in mouse mutant tissue, with emphasis on:
 
 - epithelial integrity and cell-junction programs;
 - craniofacial and skeletal development;
 - published Wnt/β-catenin target-gene signatures;
-- consensus human-to-mouse orthology;
-- transcription-factor target-set enrichment; and
-- source-audited regulator-target overlap visualization.
+- consensus human-to-mouse one-to-one orthology;
+- transcription-factor target-set enrichment;
+- FunMap, STRING, and curated-literature association evidence; and
+- source-audited, reproducible figure generation.
 
-The project is intentionally conservative. High cross-species gene representation is treated as **coverage**, not evidence of pathway activation or repression. Regulator-centered spider-map edges represent database-supported target-set memberships intersecting current-study candidate genes; they do not establish direct binding, regulator activity, regulatory direction, or causality.
+The project deliberately separates four evidence layers:
 
-## Study design
+1. current-study mouse differential expression;
+2. consensus human–mouse orthology;
+3. imported functional-association evidence; and
+4. regulator target-set enrichment and curated literature evidence.
+
+High cross-species representation is interpreted as **coverage**, not pathway enrichment. Network edges are treated as external association evidence and do not establish direct binding, regulator activity, directionality, or causality in the current experiment.
+
+## Study design and input universe
 
 | Group | Biological replicates |
 |---|---:|
@@ -59,7 +88,9 @@ data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv
 | Rows with usable symbol, fold change, and p-value | 21,730 |
 | Unique analyzed gene symbols | 21,715 |
 
-The analysis uses gene identifiers, symbols, normalized abundance, log2 fold changes, and nominal p-values. Project-side gene-level BH values used for plotting are calculated across the complete valid testing universe before gene-symbol deduplication.
+Required DESeq2-summary columns include `symbol`, `log2FoldChange`, and `pvalue`. Additional columns such as `gene_id`, `baseMean`, and `padj` are retained when available.
+
+For project-side plotting, Benjamini–Hochberg adjustment is applied across the complete valid gene-level testing universe **before** display-oriented symbol deduplication. Existing DESeq2 `padj` values are retained where present; missing adjusted values are recomputed from valid p-values.
 
 ## Principal findings
 
@@ -73,11 +104,11 @@ Using nominal `p < 0.05` and `|log2FoldChange| >= 1`:
 | Downregulated | 661 |
 | Total | 745 |
 
-An additional exploratory filter of nominal `p < 0.01` and `|log2FoldChange| > 2` identified 249 genes: 10 upregulated and 239 downregulated.
+An exploratory filter of nominal `p < 0.01` and `|log2FoldChange| > 2` identified 249 genes: 10 upregulated and 239 downregulated.
 
 ### Epithelial-junction program
 
-Custom preranked GSEA identified negative enrichment of the exploratory epithelial-junction core set:
+Custom preranked analysis identified negative enrichment of an exploratory epithelial-junction core set:
 
 | Statistic | Result |
 |---|---:|
@@ -87,9 +118,13 @@ Custom preranked GSEA identified negative enrichment of the exploratory epitheli
 
 Leading-edge genes included epithelial keratins, desmosomal genes, claudins, and other junction-associated genes.
 
+### Craniofacial and skeletal screen
+
+An ontology-guided framework selected 44 GO terms and a 496-gene candidate universe, of which 453 genes were represented in the RNA-seq analysis. `Bmp6` and `Lama5` passed the project’s audit-derived gene-level BH threshold. Canonical Wnt reference genes such as `Axin2`, `Dkk1`, `Nkd1`, `Tcf7`, `Apcdd1`, and `Sp5` were not significant.
+
 ## Orthology-verified Wnt signatures
 
-Published human Wnt/β-catenin signatures were mapped to mouse using a consensus one-to-one Ensembl-MGI acceptance rule. The finalized audit retained **163 unique human-mouse ortholog pairs from 231 unique published human genes**. Signature classes overlap and their counts must not be summed.
+Published human Wnt/β-catenin signatures were mapped to mouse using a consensus one-to-one Ensembl–MGI acceptance rule. The finalized audit retained **163 unique human–mouse ortholog pairs from 231 unique published human genes**. Signature classes overlap and their counts must not be summed.
 
 | Published signature | Published | Mapped | Represented in DESeq2 | Coverage |
 |---|---:|---:|---:|---:|
@@ -99,20 +134,12 @@ Published human Wnt/β-catenin signatures were mapped to mouse using a consensus
 | β-catenin independent | 65 | 43 | 42 | 97.7% |
 
 ```mermaid
-flowchart LR
-    A["Published human signatures\n231 unique genes across 4 classes"] --> B["Consensus Ensembl-MGI\none-to-one mapping"]
-    B --> C["163 unique human-mouse\northolog pairs retained"]
-    C --> D1["TCF/LEF dependent\n139 to 101"]
-    C --> D2["TCF/LEF independent\n27 to 19"]
-    C --> D3["β-catenin dependent\n166 to 120"]
-    C --> D4["β-catenin independent\n65 to 43"]
-    D1 --> E1["97 represented\nin DESeq2 (96.0%)"]
-    D2 --> E2["19 represented\nin DESeq2 (100.0%)"]
-    D3 --> E3["116 represented\nin DESeq2 (96.7%)"]
-    D4 --> E4["42 represented\nin DESeq2 (97.7%)"]
+flowchart TD
+    A["Published human signatures<br/>231 unique genes"] --> B["Consensus Ensembl–MGI<br/>one-to-one mapping"]
+    B --> C["163 unique human–mouse<br/>ortholog pairs"]
+    C --> D["Four overlapping<br/>signature classes"]
+    D --> E["96.0%–100.0% representation<br/>among mapped orthologs"]
 ```
-
-*Signature classes overlap at the gene level, so the per-class counts above are not additive to the 163-pair total.*
 
 <div align="center">
 
@@ -124,7 +151,7 @@ flowchart LR
 
 ### Ranked signature validation
 
-The four orthology-verified signatures were tested using 10,000 expression-matched Monte Carlo simulations with a fixed random seed.
+The four orthology-verified signatures were evaluated using 10,000 expression-matched Monte Carlo simulations with a fixed random seed.
 
 | Signature | Represented | NES | Empirical two-sided p | BH FDR |
 |---|---:|---:|---:|---:|
@@ -133,15 +160,13 @@ The four orthology-verified signatures were tested using 10,000 expression-match
 | β-catenin independent | 42 | −0.853 | 0.368 | 0.491 |
 | TCF/LEF dependent | 97 | −0.660 | 0.502 | 0.502 |
 
-All four normalized enrichment scores were negative, but none of the ranked signature tests was statistically significant after BH correction. The minimum **signature-level** FDR was 0.491.
+All four normalized enrichment scores were negative, but none of the ranked signature tests remained statistically significant after BH correction. The minimum **signature-level** FDR was 0.491.
 
-> **Statistical distinction:** `padj_plot` is a gene-level BH-adjusted value used in figure construction. The FDR values above belong to four signature-level Monte Carlo tests. They are different statistical objects.
+> **Statistical distinction:** `padj_plot` is a gene-level BH-adjusted value used for displayed gene-level inference. The FDR values in the table above belong to four signature-level Monte Carlo tests. They are different statistical objects.
 
-## Craniofacial and skeletal screen
+## TF and functional-association analyses
 
-An ontology-guided framework selected 44 GO terms and a 496-gene candidate universe, of which 453 genes were represented in the RNA-seq analysis. `Bmp6` and `Lama5` passed the project's audit-derived gene-level BH threshold. Canonical Wnt reference genes such as `Axin2`, `Dkk1`, `Nkd1`, `Tcf7`, `Apcdd1`, and `Sp5` were not significant.
-
-## Audited TF target-set analysis
+### Audited TF target-set analysis
 
 Nominally selected genes (`p < 0.05`, no fold-change cutoff) were separated by direction:
 
@@ -150,42 +175,23 @@ Nominally selected genes (`p < 0.05`, no fold-change cutoff) were separated by d
 | Downregulated | 994 |
 | Upregulated | 340 |
 
-Target-set enrichment used ChEA 2022 and TRRUST Transcription Factors 2019. The source audit currently contains:
+Target-set enrichment used ChEA 2022 and TRRUST Transcription Factors 2019.
 
 | Audit component | Records |
 |---|---:|
 | Regulator-centered maps | 13 |
-| Complete regulator-gene overlap records | 1,725 |
+| Complete regulator–gene overlap records | 1,725 |
 | Displayed peripheral spokes | 178 |
 
-The displayed spokes are traceable to the enrichment evidence and selection manifest. Term-level adjusted p-values apply to enriched regulator terms, not to individual spokes. Regulator self-overlaps explain the reconciled SP7 and SOX2 count differences, and `RING1B` is retained as the display alias for the source term `RNF2`.
-
-```mermaid
-flowchart TD
-    A["Nominal p < 0.05 candidate pools\n994 downregulated / 340 upregulated"] --> B["ChEA 2022 +\nTRRUST Transcription Factors 2019"]
-    B --> C["Complete regulator-gene\noverlap records: 1,725"]
-    C --> D["Selection manifest\none best record per regulator,\nranked by smallest FDR"]
-    D --> E["13 regulator-centered maps\n8 downregulated-list, 5 upregulated-list"]
-    E --> F["178 displayed peripheral spokes\ncapped per map, traceable to source records"]
-    F --> G["SVG / PNG / PDF\nregulator spider maps"]
-```
-
-*Every spoke in the figures above traces back through this chain to a specific enrichment record in the selection manifest; term-level FDR values describe the regulator's overall target-set enrichment, not any individual spoke.*
+Displayed spokes are traceable to the source enrichment evidence and selection manifest. Term-level adjusted p-values apply to complete regulator terms, not individual spokes. Regulator self-overlaps explain the reconciled SP7 and SOX2 count differences. `RING1B` is retained as a display alias for the source term `RNF2`.
 
 | Downregulated target-set example | Upregulated target-set example |
 |---|---|
 | ![LEF1 spider map](results/tf_target_spider_maps/individual_maps/downregulated_LEF1_ChEA_2022.svg) | ![SP7 spider map](results/tf_target_spider_maps/individual_maps/upregulated_SP7_TRRUST_Transcription_Factors_2019.svg) |
 
-## TF–Wnt/osteogenesis regulatory-association networks
+### TF–Wnt and osteogenesis association networks
 
-A complementary pathway-focused analysis intersects direction-specific nominal DEGs with significantly enriched TF target sets and Wnt/osteogenesis annotations.
-
-Two distinct statistical thresholds are used:
-
-- **DEG selection:** nominal `p < 0.05`, without a fold-change cutoff.
-- **TF target-set enrichment:** Benjamini–Hochberg **FDR < 0.05**.
-
-These thresholds represent different statistical operations and should not be interpreted as equivalent.
+The pathway-focused analysis intersects direction-specific nominal DEGs with BH-significant TF target sets and Wnt/osteogenesis annotations.
 
 | Network-analysis measure | Result |
 |---|---:|
@@ -199,202 +205,346 @@ These thresholds represent different statistical operations and should not be in
 | Osteogenesis TF–DEG edges plotted | 23 |
 | TFs shared between maps | 2 |
 
-<div align="center">
+Edges represent enriched TF target-set membership together with pathway overlap. Edge width is intentionally constant and does not encode evidence strength.
 
-![Downregulated TF programs intersect Wnt signaling genes](results/tf_networks/wnt_tf_spider_map.png)
+### Evidence-separated FunMap overlay
 
-**Figure 2.** TF target-set programs intersecting downregulated Wnt-associated nominal DEGs.
+The auditable Wnt/PCP pipeline reads genuine imported scores and preserves evidence provenance:
 
-![Upregulated TF programs intersect osteogenesis genes](results/tf_networks/osteogenesis_tf_spider_map.png)
+| Code | Evidence layer | Interpretation |
+|---|---|---|
+| `F` | FunMap | Predicted functional association; score is not a p-value |
+| `S` | STRING | Functional-association confidence; score is not a p-value |
+| `L` | Curated literature | Manually supplied claim with traceable citation |
+| Multiple | More than one layer | Convergent external association evidence |
 
-**Figure 3.** TF target-set programs intersecting upregulated osteogenesis-associated nominal DEGs.
+FunMap scores are never reconstructed from DESeq2 summary statistics. Current-study tissue specificity applies to node differential expression, not imported external edges.
 
-</div>
+## Reproducibility architecture
 
-### Network interpretation
-
-These figures are **regulatory-association networks**, not causal regulatory models.
-
-- Squares represent enriched TF target sets.
-- Circles represent pathway-associated nominal DEGs.
-- Node size is proportional to network degree.
-- TF enrichment must pass BH FDR < 0.05 before inclusion.
-- Edges represent TF target-set membership together with pathway overlap.
-- Edge width is intentionally constant and does not encode interaction strength.
-- Polycomb coloring is a prespecified visual annotation only.
-
-An edge therefore does **not** establish direct TF–DNA binding, protein–protein interaction, regulatory direction, interaction strength, TF activity, or causal regulation in the studied tissue.
-
-The complete reproducibility package is available under `results/tf_networks/`, including TF-enrichment results, edge tables, node statistics, network summaries, and PNG/SVG figures.
-
-## Analysis workflow
+Nextflow plus Docker is the authoritative portable workflow. Snakemake provides an independently tested orchestration layer with the same six-output contract.
 
 ```mermaid
 flowchart TD
-    A[DESeq2 differential-expression results] --> B[Quality control and ranked gene universe]
-    C[Published human Wnt signatures] --> D[Consensus Ensembl-MGI mapping]
-    D --> E[Orthology-verified mouse signatures]
-    B --> F[Gene-level and pathway analyses]
-    B --> G[Expression-matched Monte Carlo tests]
-    E --> G
-    B --> H[ChEA and TRRUST enrichment]
-    H --> I[Audited spider-map evidence]
-    F --> J[Figures and result tables]
-    G --> J
-    I --> J
+    A["Synthetic or authorized inputs"] --> B["Pinned Docker image"]
+    B --> C["Nextflow 25.10.0<br/>authoritative orchestration"]
+    B --> D["Snakemake 9.27.0<br/>compatibility orchestration"]
+    C --> E["Six auditable outputs"]
+    D --> E
+    E --> F["Byte-identical node and edge audit tables"]
+    F --> G["GitHub Actions validation"]
 ```
 
-### Core scripts
+Validated environment components:
 
-| Script | Purpose |
+| Component | Version or artifact |
 |---|---|
-| `01_parse_degs.py` | Create direction-specific DEG tables |
-| `02_volcano_plot.py` | Generate the transcriptome volcano plot |
-| `04_wnt_signature_analysis.py` | Evaluate four published Wnt/TCF signatures |
-| `05_wnt_ranked_gsea.py` | Run custom Wnt and epithelial preranked GSEA |
-| `07_pathway_preranked_gsea.py` | Run GO, Reactome, and KEGG preranked GSEA |
-| `11_craniofacial_skeletal_extraction.py` | Build the developmental gene screen |
-| `13_upstream_tf_target_enrichment.py` | Run TF target-set enrichment |
-| `17_tf_target_deg_spider_maps.py` | Create evidence-linked regulator spider maps |
-| `21_wnt_signature_ranked_validation.py` | Run expression-matched Monte Carlo validation |
-| `22_verify_human_mouse_orthology.py` | Audit consensus human-mouse orthology |
-| `plot_doumpas_nature_style_finalized.py` | Generate the authoritative Wnt signature figure |
+| Host Python | 3.12.3 |
+| Docker base | `python:3.12.3-slim-bookworm` |
+| Nextflow | 25.10.0 |
+| Java | 21 |
+| Snakemake | 9.27.0 |
+| Snakemake environment Python | 3.12.14 |
+| Analysis dependency lock | `requirements-workflow-lock.txt` |
+| Snakemake explicit Linux lock | `workflow/snakemake/conda-linux-64.lock` |
 
-## Reproduction
+## Quick start
 
-Run all commands from the repository root.
+### Prerequisites
 
-### Environment setup
+- Git
+- Docker
+- Java 21 and Nextflow 25.10.0 for the authoritative workflow
+- Mamba/Conda for the Snakemake compatibility workflow
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-Fish shell:
-
-```fish
-python3 -m venv .venv
-source .venv/bin/activate.fish
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-### Orthology verification
+Clone the repository and enter it:
 
 ```bash
-python scripts/22_verify_human_mouse_orthology.py \
-  --signatures data/reference/Wnt_beta_catenin_LEFTCF_signatures.xlsx \
-  --outdir results/wnt_orthology_verification \
-  --workers 2 \
-  --timeout 90 \
-  --retries 5
+git clone https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis.git
+cd wnt-beta-catenin-rnaseq-analysis
 ```
 
-### Ranked Wnt validation
+Build the locked analysis image:
 
 ```bash
-python scripts/21_wnt_signature_ranked_validation.py \
-  --deseq2 data/processed/DESeq2_results_RECALCULATE_4control_4mutant-20251023_TM.csv \
-  --signatures data/reference/Wnt_beta_catenin_LEFTCF_signatures.xlsx \
-  --ortholog-map data/reference/human_mouse_consensus_one2one.csv \
-  --outdir results/wnt_signature_ranked_validation_verified_orthologs \
-  --n-sim 10000 \
-  --seed 20260917
+docker build \
+  -f containers/Dockerfile \
+  -t wnt-rnaseq-analysis:workflow \
+  .
 ```
 
-### Final Wnt figure
+Run the portable container tests:
 
 ```bash
-python scripts/plot_doumpas_nature_style_finalized.py
+docker run --rm \
+  wnt-rnaseq-analysis:workflow \
+  python -m pytest -q \
+  tests/workflow/test_wntpcp_funmap_pipeline.py
 ```
 
-The production figure must be generated without `--allow-count-mismatch`.
+Expected result: **2 passed**.
 
-### TF spider maps
+## Running the workflows
+
+### Nextflow synthetic smoke test
+
+The default Nextflow parameters use only non-sensitive synthetic fixtures.
 
 ```bash
-python scripts/17_tf_target_deg_spider_maps.py
+mkdir -p results/nextflow_metadata
+nextflow run main.nf -profile docker
 ```
 
-## Quality control and reproducibility
+Resume a prior run:
+
+```bash
+nextflow run main.nf -profile docker -resume
+```
+
+Expected analysis outputs are published to `results/nextflow_smoke/`; execution metadata are written to `results/nextflow_metadata/`.
+
+### Nextflow with authorized study inputs
+
+Provide every input explicitly rather than changing the committed smoke-test defaults:
+
+```bash
+mkdir -p results/nextflow_metadata
+
+nextflow run main.nf \
+  -profile docker \
+  --deseq /path/to/authorized_deseq_results.csv \
+  --orthology /path/to/human_mouse_consensus_one2one.csv \
+  --funmap /path/to/official_or_documented_funmap_scores.tsv \
+  --string_file /path/to/string_edges.tsv \
+  --literature /path/to/curated_literature_edges.csv \
+  --gene_file /path/to/mouse_gene_symbols.txt \
+  --string_species mouse \
+  --funmap_score_min 0.50 \
+  --string_score_min 0.70 \
+  --outdir results/wntpcp_funmap \
+  --prefix wntpcp_funmap_network \
+  --title "Wnt/PCP functional-association network"
+```
+
+### Snakemake synthetic smoke test
+
+Create the pinned environment:
+
+```bash
+mamba env create \
+  --file workflow/snakemake/environment.yml
+```
+
+Run the workflow:
+
+```bash
+mamba run \
+  --name wnt-snakemake \
+  snakemake \
+  --snakefile workflow/snakemake/Snakefile \
+  --configfile workflow/snakemake/config.yaml \
+  --cores 1 \
+  --printshellcmds
+```
+
+For authorized inputs, copy `workflow/snakemake/config.yaml`, edit only the copied paths and parameters, and pass the copy using `--configfile`.
+
+### Direct Python execution
+
+```bash
+python scripts/wntpcp_funmap_pipeline.py \
+  --deseq /path/to/deseq.csv \
+  --orthology /path/to/orthology.csv \
+  --funmap /path/to/funmap.tsv \
+  --string /path/to/string.tsv \
+  --string-species mouse \
+  --literature /path/to/literature.csv \
+  --gene-file /path/to/genes.txt \
+  --strict-orthology \
+  --funmap-score-min 0.50 \
+  --string-score-min 0.70 \
+  --outdir results/wntpcp_funmap
+```
+
+## Inputs and outputs
+
+### Input contracts
+
+| Input | Required fields | Notes |
+|---|---|---|
+| DESeq2 summary | `symbol`, `log2FoldChange`, `pvalue` | Mouse gene symbols; `padj` and `baseMean` optional |
+| Orthology map | `human_symbol`, `mouse_symbol` | Must remain one-to-one after normalization |
+| FunMap table | `gene1`, `gene2`, `score` | Alternative documented names accepted by the loader |
+| STRING table | endpoint columns plus `score` or `combined_score` | Mouse or human symbols; human endpoints are orthology-mapped |
+| Literature table | `source`, `target`, `citation` | `species` and `relationship` recommended |
+| Gene panel | one mouse symbol per line | Overrides the default Wnt/PCP panel |
+
+### Six-output contract
+
+For prefix `wntpcp_funmap_network`, both workflow engines generate:
+
+```text
+wntpcp_funmap_network.png
+wntpcp_funmap_network.pdf
+wntpcp_funmap_network.svg
+wntpcp_funmap_network_edge_audit.csv
+wntpcp_funmap_network_node_audit.csv
+wntpcp_funmap_network_run_provenance.json
+```
+
+The provenance JSON records:
+
+- UTC generation time;
+- executed command;
+- Python and package versions;
+- SHA-256 hashes of inputs;
+- analysis parameters;
+- DESeq2 testing-universe metadata;
+- orthology mapping status;
+- FunMap source format and score interpretation;
+- candidate/displayed edge counts; and
+- interpretation constraints.
+
+## Validation and continuous integration
+
+Local validation:
 
 ```bash
 python -m pytest -q
 git diff --check
 ```
 
-Current validated test status: **7 passed**.
+Current validated status: **11 passed**.
 
-Reproducibility safeguards include:
+The portable Docker image runs two workflow-specific tests without incorporating the confidential study dataset or historical validated outputs.
 
-- version-controlled scripts and deterministic random seeds;
-- predefined orthology count assertions;
-- gene-level BH adjustment before symbol deduplication;
-- source-level evidence and selection manifests for spider maps;
-- SVG, PDF, and 600-dpi PNG figure exports; and
-- SHA-256 file-integrity manifests in professor-review packages.
+GitHub Actions performs:
+
+1. locked Python installation and regression testing;
+2. Docker image construction;
+3. confirmation that `data/processed/` is absent from the image;
+4. portable tests inside Docker;
+5. Nextflow synthetic execution;
+6. Snakemake synthetic execution;
+7. byte-level comparison of node and edge audit tables; and
+8. cross-engine provenance-summary validation.
+
+The synthetic baseline must reproduce:
+
+| Assertion | Expected value |
+|---|---:|
+| Candidate edges | 3 |
+| Displayed edges | 3 |
+| Represented nodes | 3 |
+| Unmapped requested genes | 0 |
+| Evidence layers | `FunMap`, `FunMap+STRING`, `literature` |
 
 ## Repository structure
 
 ```text
-data/
-├── processed/                 # Current-study DESeq2 summary
-└── reference/                 # Published signatures and orthology map
-figures/                       # Main analysis figures
-reports/                       # Reports, manuscripts, and presentations
-results/
-├── tf_target_spider_maps/     # TF figures, evidence table, and manifest
-├── wnt_orthology_verification/
-└── wnt_signature_ranked_validation_verified_orthologs/
-scripts/                       # Reproducible Python and R scripts
-tests/                         # Validation tests
-requirements.txt               # Direct dependencies
-requirements-lock.txt          # Frozen Python environment
+.
+├── .github/workflows/
+│   ├── pylint.yml
+│   └── reproducibility.yml
+├── config/
+│   ├── genes_wntpcp_default.txt
+│   └── templates/
+├── containers/
+│   └── Dockerfile
+├── data/
+│   ├── processed/                  # Authorized current-study summary data
+│   ├── public_gene_sets/           # Versioned GMT libraries and checksums
+│   └── reference/                  # Signature and orthology references
+├── docs/methods/
+├── results/                        # Analysis outputs and audits
+├── scripts/                        # Python and R analysis programs
+├── tests/
+│   ├── fixtures/wntpcp/            # Non-sensitive smoke-test inputs
+│   └── workflow/
+├── workflow/
+│   ├── modules/wntpcp_funmap.nf
+│   └── snakemake/
+├── main.nf
+├── nextflow.config
+├── requirements.txt
+├── requirements-lock.txt
+├── requirements-workflow.txt
+└── requirements-workflow-lock.txt
 ```
+
+Core method documentation:
+
+- `docs/methods/WNTPCP_FUNMAP_PIPELINE.md`
+- `docs/methods/FUNMAP_SOURCE_REFERENCES.md`
+- `data/public_gene_sets/README.md`
 
 ## Interpretation boundaries
 
 - Representation means presence in the valid DESeq2 testing universe; it does not indicate significant differential expression.
 - High orthology coverage does not establish pathway enrichment.
 - The four Wnt signatures overlap and their counts are not additive.
-- Negative NES values are exploratory directional tendencies; none of the four signature tests survived BH correction.
-- A spider-map spoke represents database-supported target-set membership, not direct TF binding, activity, regulatory direction, or causality.
-- Enrichment-term FDR values do not apply to individual regulator-gene edges.
+- Negative NES values are exploratory directional tendencies; none of the four orthology-verified signature tests survived BH correction.
+- The minimum signature-level FDR of 0.491 is not a gene-level DESeq2 FDR.
+- A TF spider-map spoke represents database-supported target-set overlap, not direct binding, activity, regulatory direction, or causality.
+- Enrichment-term FDR values do not apply to individual regulator–gene spokes.
+- FunMap and STRING scores are functional-association scores, not p-values.
+- Imported external edges are not tissue-specific merely because current-study DESeq2 values are overlaid on their nodes.
 - The study contains four samples per group and may have limited power for modest gene-set effects.
 - Independent biological validation remains necessary.
 
-## Collaboration and acknowledgments
+## Data governance
 
-This project is being developed by **Md Tariqul Islam**, a graduate researcher in bioinformatics at Northeastern University, in research collaboration with **Professor Wei Hsu and the Wei Hsu laboratory at the ADA Forsyth Institute**. Professor Hsu's broader academic and scientific affiliations include the Harvard research community and the Harvard Stem Cell Institute.
+The repository is currently private. Raw FASTQ and alignment files are not part of this repository. The current-study differential-expression summary and other controlled research artifacts must not be redistributed without authorization.
 
-The institutional badges above acknowledge the collaboration and the scientific environment of the project. They do **not** imply that the repository author holds an appointment, degree affiliation, or employment relationship with Harvard University or the Harvard Stem Cell Institute.
+Safeguards include:
+
+- `data/processed/` excluded from the Docker build context;
+- current-study DESeq2 summaries excluded from portable workflow commits;
+- synthetic fixtures used by CI;
+- generated professor packages and ZIP archives ignored by Git;
+- input hashes recorded in provenance files; and
+- repository visibility and sharing permissions reviewed before release.
 
 ## Research integrity and use of generative AI
 
-Generative AI and large language model tools assisted with portions of code drafting, troubleshooting, documentation organization, and language editing. The researcher reviewed the analytical design, executed the code, verified inputs and outputs, inspected the figures, evaluated the biological and statistical interpretations, and retains responsibility for the accuracy and integrity of the work. AI tools did not generate experimental data, determine authorship, or replace scientific judgment.
+Generative-AI and large-language-model tools assisted with portions of code drafting, troubleshooting, documentation organization, and language editing. The researcher reviewed the analytical design, executed the code, verified inputs and outputs, inspected figures, evaluated biological and statistical interpretations, and retains responsibility for the accuracy and integrity of the work. AI tools did not generate experimental data, determine authorship, or replace scientific judgment.
 
-## Data and privacy
+## Citation and references
 
-The repository is currently private. It contains a processed differential-expression summary rather than raw FASTQ or alignment files. Authorization should be reconfirmed before changing repository visibility or redistributing processed data, signature workbooks, presentations, or reports.
+### Citing this repository
 
-## Citation
+No Zenodo DOI has been assigned yet. Until a versioned archival release is created, cite the repository URL, commit identifier, and access date. After Zenodo deposition, replace this instruction with the archived release DOI and add a DOI badge.
 
-If you use this analysis, cite the repository and the underlying signature study:
+Suggested interim format:
 
-> Doumpas, N., Lampart, F., Robinson, M. D., Lentini, A., Nestor, C. E., Cantù, C., & Basler, K. (2019). TCF/LEF dependent and independent transcriptional regulation of Wnt/β-catenin target genes. *The EMBO Journal, 38*, e98873. https://doi.org/10.15252/embj.201798873
+> Islam, M. T. (2026). *Wnt/β-catenin transcriptomic analysis in mouse mutant tissue* [Computer software]. GitHub. https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis
+
+### Key references
+
+Doumpas, N., Lampart, F., Robinson, M. D., Lentini, A., Nestor, C. E., Cantù, C., & Basler, K. (2019). TCF/LEF dependent and independent transcriptional regulation of Wnt/β-catenin target genes. *The EMBO Journal, 38*, e98873. https://doi.org/10.15252/embj.201798873
+
+Di Tommaso, P., Chatzou, M., Floden, E. W., Barja, P. P., Palumbo, E., & Notredame, C. (2017). Nextflow enables reproducible computational workflows. *Nature Biotechnology, 35*, 316–319. https://doi.org/10.1038/nbt.3820
+
+Köster, J., & Rahmann, S. (2012). Snakemake—a scalable bioinformatics workflow engine. *Bioinformatics, 28*(19), 2520–2522. https://doi.org/10.1093/bioinformatics/bts480
+
+Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. *Genome Biology, 15*, 550. https://doi.org/10.1186/s13059-014-0550-8
+
+Database- and resource-specific references for FunMap, STRING, ChEA, TRRUST, Ensembl, MGI, GO, and WikiPathways are maintained in the method documentation and should accompany analyses using those evidence layers.
+
+## Collaboration and acknowledgments
+
+This project is developed by **Md Tariqul Islam**, a graduate researcher in bioinformatics at Northeastern University, in research collaboration with **Professor Wei Hsu and the Wei Hsu laboratory at the ADA Forsyth Institute**. Professor Hsu’s broader academic and scientific affiliations include the Harvard research community and the Harvard Stem Cell Institute.
+
+The institutional badges acknowledge the collaboration and scientific context. They do **not** imply that the repository author holds an appointment, degree affiliation, endorsement, or employment relationship with Harvard University or the Harvard Stem Cell Institute.
 
 ## License
 
-No license has been selected. Until a license is added, standard copyright restrictions apply.
+No software license has been selected. Until a license is added, standard copyright restrictions apply; public visibility alone does not grant permission to reuse, modify, or redistribute the code or data.
 
 ---
 
 <div align="center">
 
-**Orthology verified · Source audited · Reproducible · Interpretation aware**
-
+**Orthology audited · Evidence separated · Containerized · Workflow tested · Interpretation aware**
 
 </div>

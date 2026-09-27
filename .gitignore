@@ -99,3 +99,14 @@ data/processed/DESeq2*.csv
 
 # Local assembled delivery package
 /code_package/
+
+# Nextflow runtime state and smoke-test outputs
+.nextflow/
+.nextflow.log*
+work/
+results/nextflow_smoke/
+results/nextflow_metadata/
+
+# Snakemake runtime state and smoke-test outputs
+.snakemake/
+results/snakemake_smoke/

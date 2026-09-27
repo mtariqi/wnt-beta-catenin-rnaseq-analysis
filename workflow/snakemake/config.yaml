@@ -1,0 +1,21 @@
+container_image: "wnt-rnaseq-analysis:workflow"
+
+inputs:
+  deseq: "tests/fixtures/wntpcp/deseq_example.csv"
+  orthology: "tests/fixtures/wntpcp/orthology_example.csv"
+  funmap: "tests/fixtures/wntpcp/funmap_example.tsv"
+  string: "tests/fixtures/wntpcp/string_example.tsv"
+  literature: "tests/fixtures/wntpcp/literature_example.csv"
+  genes: "tests/fixtures/wntpcp/genes_example.txt"
+
+parameters:
+  string_species: "mouse"
+  funmap_score_min: 0.50
+  string_score_min: 0.70
+  max_edges: 80
+  seed: 101
+  strict_orthology: true
+
+output_dir: "results/snakemake_smoke"
+prefix: "wntpcp_funmap_network"
+title: "Synthetic Wnt/PCP workflow smoke test"
