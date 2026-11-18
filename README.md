@@ -6,6 +6,7 @@
 
 **Orthology-audited Wnt-signature analysis, evidence-separated functional networks, and reproducible mutant-versus-control RNA-seq workflows**
 
+<a href="https://doi.org/10.5281/zenodo.24355683"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24355683-1682D4?logo=zenodo&logoColor=white" alt="DOI"/></a>
 [![Reproducibility](https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis/actions/workflows/reproducibility.yml/badge.svg)](https://github.com/mtariqi/wnt-beta-catenin-rnaseq-analysis/actions/workflows/reproducibility.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DESeq2](https://img.shields.io/badge/RNA--seq-DESeq2-198754)](https://bioconductor.org/packages/DESeq2/)
